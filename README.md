@@ -2,7 +2,7 @@
 
 Next.js 16, React 19 e Node.js 22 ou superior.
 
-## Executar
+## Executarrrr
 
 Extraia este pacote em uma pasta nova. Encerre o servidor anterior com Ctrl+C antes de iniciar esta versão. A porta 3000 é explícita: caso já esteja ocupada, a execução informa o erro em vez de abrir outra porta e deixar o projeto antigo em localhost:3000.
 
