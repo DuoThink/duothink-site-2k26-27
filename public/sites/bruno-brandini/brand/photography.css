@@ -1,0 +1,87 @@
+@media (max-width: 767.98px) {
+  img[src*="/bruno-brandini/brand/facade."] {
+    content: url("/sites/bruno-brandini/brand/facade-mobile.png");
+    object-position: center;
+  }
+}
+
+/* Shared footer, testimonial and editorial alignment. */
+html[data-architecture="bruno-brandini"] [data-framer-name="Awards Tag Wrap"] { display: none !important; }
+html[data-architecture="bruno-brandini"] [data-framer-name="Footer Wrap"] {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(18px, 3vw, 44px) !important;
+  width: auto !important;
+  flex: 1 1 52% !important;
+  min-width: 0;
+  align-items: start !important;
+  overflow: visible !important;
+}
+html[data-architecture="bruno-brandini"] [data-framer-name="Footer Navigation"] { gap: clamp(24px, 5vw, 80px) !important; overflow: visible !important; }
+html[data-architecture="bruno-brandini"] [data-framer-name="Footer Menu"],
+html[data-architecture="bruno-brandini"] [data-framer-name="Footer Menu"] > div,
+html[data-architecture="bruno-brandini"] [data-framer-name="Footer Menu"] a,
+html[data-architecture="bruno-brandini"] [data-framer-name="Footer Menu"] .framer-gfsdsg {
+  width: auto !important; max-width: none !important; min-width: 0; height: auto !important; overflow: visible !important;
+}
+html[data-architecture="bruno-brandini"] [data-framer-name="Footer Menu"] a { display: flex !important; align-items: baseline !important; }
+html[data-architecture="bruno-brandini"] [data-framer-name="Footer Menu"] .framer-1dypw5g { display: none !important; }
+html[data-architecture="bruno-brandini"] [data-framer-name="Footer Menu"] p { white-space: normal !important; text-overflow: clip !important; overflow-wrap: normal; }
+html[data-architecture="bruno-brandini"] [data-framer-name="Footer Watermark"] {
+  width: 100% !important; aspect-ratio: 5.325 !important;
+  background: url('/sites/bruno-brandini/brand/panorama.png') center 55% / cover no-repeat;
+  -webkit-mask: url('/sites/bruno-brandini/brand/footer-wordmark-mask.svg') center / 100% 100% no-repeat;
+  mask: url('/sites/bruno-brandini/brand/footer-wordmark-mask.svg') center / 100% 100% no-repeat;
+}
+html[data-architecture="bruno-brandini"] [data-framer-name="Footer Watermark"] > div { visibility: hidden !important; }
+html[data-architecture="bruno-brandini"] [data-framer-name="Footer Copyright"] { display:flex !important; flex-direction:row !important; justify-content:space-between !important; align-items:baseline !important; gap:12px !important; }
+html[data-architecture="bruno-brandini"] [data-framer-name="Footer Copyright"] > div { flex:0 1 auto !important; width:auto !important; min-width:0; }
+html[data-architecture="bruno-brandini"] [data-framer-name="Footer Copyright"] .framer-a75b57 { margin-left:auto !important; text-align:right !important; }
+html[data-architecture="bruno-brandini"] [data-framer-name="Footer Copyright"] .framer-1isntdl { display:none !important; }
+html[data-architecture="bruno-brandini"] [data-framer-name="Client Card"] [data-framer-name="Text Wrap"] { align-items:center !important; justify-content:space-between !important; gap:24px !important; }
+html[data-architecture="bruno-brandini"] [data-framer-name="Client Card"] .framer-1k5rkdp p { display:flex; align-items:baseline; flex-wrap:wrap; gap:4px 10px; }
+@media (max-width: 1199px) {
+  html[data-architecture="bruno-brandini"] [data-framer-name="Footer Navigation"] { flex-direction:column !important; align-items:stretch !important; }
+  html[data-architecture="bruno-brandini"] [data-framer-name="Footer Wrap"] { width:100% !important; flex:auto !important; }
+}
+@media (max-width: 600px) {
+  html[data-architecture="bruno-brandini"] [data-framer-name="Footer Wrap"] { grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px 16px !important; }
+  html[data-architecture="bruno-brandini"] [data-framer-name="Footer Copyright"] { flex-wrap:wrap; }
+  html[data-architecture="bruno-brandini"] [data-framer-name="Client Card"] [data-framer-name="Text Wrap"] { gap:12px !important; }
+}
+
+/* Project details: original responsive document with independent, fail-open reveals. */
+html[data-brandini-project] [data-framer-name="Outer Overlay"],
+html[data-brandini-project] [data-framer-name="Inner Overlay"] { display:none !important; pointer-events:none !important; }
+html[data-brandini-project] [data-framer-name="Page Wrapper"] [style*="opacity:0"] { opacity:1 !important; }
+html[data-brandini-project] [data-framer-name="Header Menu"] { display:none !important; }
+html[data-brandini-project] .brandini-menu-open [data-framer-name="Header Menu"] { display:flex !important; height:auto !important; opacity:1 !important; visibility:visible !important; pointer-events:auto !important; overflow:auto !important; max-height:calc(100dvh - 84px); }
+html[data-brandini-project] .brandini-menu-open { background-color:#283229 !important; }
+html[data-brandini-project] [data-framer-name="Header Menu"] a { display:block; color:inherit; text-decoration:none; }
+html[data-brandini-project] [data-framer-name="Menu"] { cursor:pointer; }
+html[data-brandini-project] .brandini-menu-open [data-framer-name="Header Menu"] {
+  right:0 !important; top:100% !important; z-index:20 !important;
+  width:min(100%, 480px) !important; padding:36px clamp(24px,5vw,64px) !important;
+  gap:16px !important; max-height:calc(100dvh - 80px) !important;
+  box-shadow:0 12px 24px rgb(0 0 0 / 12%);
+}
+html[data-brandini-project] [data-framer-name="Header Menu"] a:hover { text-decoration:underline; }
+html[data-brandini-project] [data-framer-name="Header Menu"] a:focus-visible { outline:2px solid white; outline-offset:4px; }
+html[data-brandini-project] :is([data-framer-name="Approach Wrap"], [data-framer-name="Gallery Card"]) .framer-twIHD { display:none !important; pointer-events:none !important; }
+@media(max-width:767px) {
+  html[data-brandini-project] .brandini-menu-open [data-framer-name="Header Menu"] { width:100% !important; align-items:flex-start !important; }
+}
+
+/* Blend the complete phrase against the photograph and its existing overlay. */
+html[data-brandini-project] [data-framer-name="Our Work Section"] {
+  isolation: isolate;
+}
+html[data-brandini-project] [data-framer-name="Our Work Text"] {
+  transform: none !important;
+  opacity: 1 !important;
+  mix-blend-mode: difference;
+}
+html[data-brandini-project] [data-framer-name="Our Work Text"] .framer-text {
+  --framer-text-color: #fff !important;
+  color: #fff !important;
+}

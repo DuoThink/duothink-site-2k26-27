@@ -1,0 +1,7304 @@
+import { t as e } from "/sites/totnt/modules/79cb109f9ad6-rolldown-runtime.Bi-D_2cA.mjs";
+import {
+  B as t,
+  D as n,
+  E as r,
+  H as i,
+  I as a,
+  L as o,
+  N as s,
+  P as c,
+  R as l,
+  V as u,
+  a as d,
+  b as f,
+  c as p,
+  i as m,
+  j as h,
+  l as g,
+  o as _,
+  p as v,
+  s as y,
+  v as b,
+  x,
+} from "/sites/totnt/modules/1814c95a7e9f-react.BL5HemSn.mjs";
+import { E as S, i as ee, n as C, o as w, t as T } from "/sites/totnt/modules/6f3353d3e44b-motion.DkmSLraC.mjs";
+import {
+  A as E,
+  At as D,
+  Bt as O,
+  Ct as k,
+  D as A,
+  Dt as j,
+  Et as M,
+  Ft as N,
+  G as P,
+  Ht as te,
+  I as F,
+  It as ne,
+  J as re,
+  K as I,
+  L as ie,
+  Lt as ae,
+  Mt as L,
+  N as oe,
+  Nt as se,
+  O as ce,
+  P as le,
+  Pt as ue,
+  Q as R,
+  R as de,
+  Rt as fe,
+  T as z,
+  Tt as pe,
+  W as B,
+  _ as me,
+  _t as he,
+  a as V,
+  at as ge,
+  b as _e,
+  d as ve,
+  f as ye,
+  g as be,
+  gt as xe,
+  ht as Se,
+  i as H,
+  j as Ce,
+  jt as we,
+  k as U,
+  lt as Te,
+  m as Ee,
+  o as W,
+  p as De,
+  u as Oe,
+  v as ke,
+  vt as Ae,
+  wt as je,
+  x as Me,
+  xt as Ne,
+  zt as Pe,
+} from "/sites/totnt/modules/b571b3923fd0-framer.OM8dBXRr.mjs";
+import {
+  a as Fe,
+  d as Ie,
+  f as Le,
+  i as Re,
+  l as ze,
+  o as Be,
+  r as Ve,
+  u as He,
+} from "/sites/totnt/modules/73f1aa4469b7-toplevel-deps.RD5PWOLi.mjs";
+import { n as Ue, t as We } from "/sites/totnt/modules/517788af3717-Lenis.Cw8j_PDO.mjs";
+import {
+  h as Ge,
+  i as Ke,
+  m as qe,
+  n as Je,
+  o as Ye,
+  p as Xe,
+} from "/sites/totnt/modules/40ad99e20e1b-OIjZRBmWDcIE2B6qgG1j.CUmC-xgJ.mjs";
+import { n as Ze, t as Qe } from "/sites/totnt/modules/1b9dd0f67274-Video.BSfBtAAa.mjs";
+import { n as $e, t as et } from "/sites/totnt/modules/09a890e45b59-ProgressiveBlur.BQj4ZmOb.mjs";
+import { a as tt, i as nt, o as rt } from "/sites/totnt/modules/2b1b0f80b64a-Isj8DX0_E.CBgNNVxk.mjs";
+import {
+  a as it,
+  c as at,
+  i as ot,
+  n as st,
+  o as ct,
+  r as lt,
+  s as ut,
+  t as dt,
+} from "/sites/totnt/modules/e34d91743417-UeureKQ4f.ROipM80O.mjs";
+import { n as ft, t as pt } from "/sites/totnt/modules/1ec76ac22150-h2EuG5Bgd.C7eWrSiw.mjs";
+import { n as mt, t as ht } from "/sites/totnt/modules/e2e6dbcf146e-OaDr2bVVf.Db7zEUjG.mjs";
+import { n as gt, t as _t } from "/sites/totnt/modules/2d7519ebabf4-udkDbYBvm.DMEdbvE4.mjs";
+import { n as vt, t as yt } from "/sites/totnt/modules/74fc6e71c03a-xky20HGw1.eUWvDWcg.mjs";
+import { i as bt, n as xt, r as St, t as Ct } from "/sites/totnt/modules/62ad24372b68-E8uaRWkXj.DO2R_Afz.mjs";
+import { i as wt, n as G, r as Tt, t as Et } from "/sites/totnt/modules/718578e64535-shared-lib.OX01p-mH.mjs";
+import { i as Dt, n as Ot, r as kt, t as At } from "/sites/totnt/modules/dd295ff8eb2e-AJRoHZliM.iYc4b7Wr.mjs";
+import { i as K, n as jt, r as Mt, t as Nt } from "/sites/totnt/modules/84cd2f5ff218-pubCB5Xgq.CBOUA_iC.mjs";
+import { i as Pt, n as Ft, r as It, t as Lt } from "/sites/totnt/modules/e0b7a6eb9e8a-T5wWIkYl9.Cp7Cbenc.mjs";
+import { t as Rt } from "/sites/totnt/modules/7e98c157880f-default-utils.js@_0.45.ClZ6Cjdi.mjs";
+import { n as zt, t as Bt } from "/sites/totnt/modules/416dfe334453-Klm3rr_KS.DKNDphBF.mjs";
+import { i as Vt, n as Ht, r as Ut, t as Wt } from "/sites/totnt/modules/4a20bb53af6c-KHnXZsf9G.CGiP4Bzk.mjs";
+import { a as Gt, i as Kt } from "/sites/totnt/modules/6d2a00e8a8bb-YpTYVyu2F.C5DZMv9L.mjs";
+function qt({
+  url: e,
+  play: t,
+  shouldMute: n,
+  thumbnail: r,
+  isRed: i,
+  onClick: a,
+  border: o,
+  boxShadow: s,
+  onMouseEnter: c,
+  onMouseLeave: u,
+  onMouseDown: d,
+  onMouseUp: f,
+  title: m,
+  ...h
+}) {
+  let v = Ye(),
+    y = t !== `Off`,
+    x = v || (r !== `Off` && !y),
+    [S, ee] = l(() => !0, !1),
+    [C, w] = l(() => !0, !x),
+    [T, E] = b(!1),
+    D = Ke(h),
+    O = D !== `0px 0px 0px 0px` && D !== `0px`;
+  if (e === ``) return /*#__PURE__*/ _(Zt, {});
+  let k = Jt(e);
+  if (k === void 0)
+    return /*#__PURE__*/ _(Qt, { message: `Invalid Youtube URL.` });
+  let [A, j, M] = k,
+    N = j.searchParams;
+  if (M) for (let [e, t] of M) (N.set(e, t), e === `t` && N.set(`start`, t));
+  (N.set(`iv_load_policy`, `3`),
+    N.set(`rel`, `0`),
+    N.set(`modestbranding`, `1`),
+    N.set(`playsinline`, `1`),
+    C ? (y || (x && C)) && N.set(`autoplay`, `1`) : N.set(`autoplay`, `0`),
+    y && n && N.set(`mute`, `1`),
+    t === `Loop` && (N.set(`loop`, `1`), N.set(`playlist`, A)),
+    i || N.set(`color`, `white`));
+  let P = {
+    title: m || `Youtube Video`,
+    allow: `presentation; fullscreen; accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture`,
+    src: j.href,
+    frameBorder: `0`,
+    onClick: a,
+    onMouseEnter: c,
+    onMouseLeave: u,
+    onMouseDown: d,
+    onMouseUp: f,
+  };
+  return /*#__PURE__*/ g(`article`, {
+    onPointerEnter: () => E(!0),
+    onPointerLeave: () => E(!1),
+    onPointerOver: ee,
+    onKeyDown: w,
+    onClick: w,
+    style: {
+      ...rn,
+      borderRadius: D,
+      boxShadow: s,
+      transform: O && (C || v) ? `translateZ(0.000001px)` : `unset`,
+      cursor: `pointer`,
+      overflow: `hidden`,
+    },
+    role: `presentation`,
+    children: [
+      x &&
+        /*#__PURE__*/ g(p, {
+          children: [
+            /*#__PURE__*/ _(`link`, {
+              rel: `preconnect`,
+              href: `https://i.ytimg.com`,
+            }),
+            /*#__PURE__*/ _(`img`, {
+              decoding: `async`,
+              src: Xt(A, r),
+              style: { ...on, objectFit: `cover` },
+            }),
+          ],
+        }),
+      S &&
+        /*#__PURE__*/ g(p, {
+          children: [
+            /*#__PURE__*/ _(`link`, {
+              rel: `dns-prefetch`,
+              href: `https://i.ytimg.com`,
+            }),
+            /*#__PURE__*/ _(`link`, {
+              rel: `preconnect`,
+              href: `https://www.youtube.com`,
+            }),
+            /*#__PURE__*/ _(`link`, {
+              rel: `dns-prefetch`,
+              href: `https://www.google.com`,
+            }),
+          ],
+        }),
+      v
+        ? null
+        : /*#__PURE__*/ _(`iframe`, {
+            loading: C ? void 0 : `lazy`,
+            style: C ? on : { ...on, display: `none` },
+            ...P,
+          }),
+      o &&
+        /*#__PURE__*/ _(`div`, {
+          style: {
+            position: `absolute`,
+            inset: 0,
+            pointerEvents: `none`,
+            boxSizing: `border-box`,
+            borderRadius: D,
+            ...o,
+          },
+        }),
+      C ? null : /*#__PURE__*/ _($t, { onClick: w, isHovered: T, isRed: i }),
+    ],
+  });
+}
+function Jt(e) {
+  let t;
+  try {
+    t = new URL(e);
+  } catch {
+    return [e, Yt(e), null];
+  }
+  let n = t.searchParams;
+  if (
+    t.hostname === `youtube.com` ||
+    t.hostname === `www.youtube.com` ||
+    t.hostname === `youtube-nocookie.com` ||
+    t.hostname === `www.youtube-nocookie.com`
+  ) {
+    let e = t.pathname.slice(1).split(`/`),
+      r = e[0];
+    if (r === `watch`) {
+      let e = t.searchParams.get(`v`);
+      return [e, Yt(e), n];
+    }
+    if (r === `embed`) return [e[1], t, n];
+    if (r === `shorts` || r === `live`) {
+      let t = e[1];
+      return [t, Yt(t), n];
+    }
+  }
+  if (t.hostname === `youtu.be`) {
+    let e = t.pathname.slice(1);
+    return [e, Yt(e), n];
+  }
+}
+function Yt(e) {
+  return new URL(`https://www.youtube.com/embed/${e}`);
+}
+function Xt(e, t) {
+  let n = `https://i.ytimg.com/vi_webp/`,
+    r = `webp`;
+  switch (t) {
+    case `Low Quality`:
+      return `${n}${e}/hqdefault.${r}`;
+    case `Medium Quality`:
+      return `${n}${e}/sddefault.${r}`;
+    case `High Quality`:
+      return `${n}${e}/maxresdefault.${r}`;
+    default:
+      return `${n}${e}/0.${r}`;
+  }
+}
+function Zt() {
+  return /*#__PURE__*/ _(`div`, {
+    style: { ...Ge, overflow: `hidden` },
+    children: /*#__PURE__*/ _(`div`, {
+      style: an,
+      children: `To embed a Youtube video, add the URL to the properties\xA0panel.`,
+    }),
+  });
+}
+function Qt({ message: e }) {
+  return /*#__PURE__*/ _(`div`, {
+    className: `framerInternalUI-errorPlaceholder`,
+    style: { ...Xe, overflow: `hidden` },
+    children: /*#__PURE__*/ g(`div`, { style: an, children: [`Error: `, e] }),
+  });
+}
+function $t({ onClick: e, isHovered: t, isRed: n }) {
+  return /*#__PURE__*/ _(`button`, {
+    onClick: e,
+    "aria-label": "Reproduzir",
+    style: nn,
+    children: /*#__PURE__*/ g(`svg`, {
+      height: `100%`,
+      version: `1.1`,
+      viewBox: `0 0 68 48`,
+      width: `100%`,
+      children: [
+        /*#__PURE__*/ _(`path`, {
+          d: `M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z`,
+          fill: t ? (n ? `#f00` : `#000`) : `#212121`,
+          fillOpacity: t && n ? 1 : 0.8,
+          style: {
+            transition: `fill .1s cubic-bezier(0.4, 0, 1, 1), fill-opacity .1s cubic-bezier(0.4, 0, 1, 1)`,
+          },
+        }),
+        /*#__PURE__*/ _(`path`, { d: `M 45,24 27,14 27,34`, fill: `#fff` }),
+      ],
+    }),
+  });
+}
+var en, tn, nn, rn, an, on;
+function sn() {
+  return (sn = e(() => {
+    (y(),
+      n(),
+      R(),
+      Rt(),
+      (function (e) {
+        ((e.Normal = `Off`), (e.Auto = `On`), (e.Loop = `Loop`));
+      })((en ||= {})),
+      (function (e) {
+        ((e.High = `High Quality`),
+          (e.Medium = `Medium Quality`),
+          (e.Low = `Low Quality`),
+          (e.Off = `Off`));
+      })((tn ||= {})),
+      (qt.displayName = `YouTube`),
+      le(qt, {
+        url: { type: W.String, title: `Video` },
+        play: { type: W.Enum, title: `Autoplay`, options: Object.values(en) },
+        shouldMute: {
+          title: `Mute`,
+          type: W.Boolean,
+          enabledTitle: `Yes`,
+          disabledTitle: `No`,
+          hidden(e) {
+            return e.play === `Off`;
+          },
+        },
+        thumbnail: {
+          title: `Thumbnail`,
+          description: `Showing a thumbnail improves performance.`,
+          type: W.Enum,
+          options: Object.values(tn),
+          hidden(e) {
+            return e.play !== `Off`;
+          },
+        },
+        isRed: {
+          title: `Color`,
+          type: W.Boolean,
+          enabledTitle: `Red`,
+          disabledTitle: `White`,
+        },
+        ...Je,
+        border: { type: W.Border, optional: !0 },
+        boxShadow: { type: W.BoxShadow, optional: !0, title: `Shadows` },
+        ...qe,
+      }),
+      (qt.defaultProps = {
+        url: "",
+        play: `Off`,
+        shouldMute: !0,
+        thumbnail: `Medium Quality`,
+        isRed: !0,
+        boxShadow: null,
+        border: null,
+      }),
+      (nn = {
+        position: `absolute`,
+        top: `50%`,
+        left: `50%`,
+        transform: `translate(-50%, -50%)`,
+        width: 68,
+        height: 48,
+        padding: 0,
+        border: `none`,
+        background: `transparent`,
+        cursor: `pointer`,
+      }),
+      (rn = { position: `relative`, width: `100%`, height: `100%` }),
+      (an = { textAlign: `center`, minWidth: 140 }),
+      (on = {
+        position: `absolute`,
+        top: 0,
+        left: 0,
+        height: `100%`,
+        width: `100%`,
+      }));
+  }))();
+}
+var cn, ln, un, dn, fn, pn, mn;
+function hn() {
+  return (hn = e(() => {
+    (y(),
+      R(),
+      n(),
+      (cn = `var(--framer-icon-mask)`),
+      (ln = /*#__PURE__*/ v(function (e, t) {
+        return /*#__PURE__*/ _(`svg`, { ...e, ref: t, children: e.children });
+      })),
+      (un = S.create(ln)),
+      (dn = /*#__PURE__*/ v((e, t) => {
+        let { animated: n, layoutId: r, children: i, ...a } = e;
+        return n
+          ? /*#__PURE__*/ _(un, { ...a, layoutId: r, ref: t, children: i })
+          : /*#__PURE__*/ _(`svg`, { ...a, ref: t, children: i });
+      })),
+      (fn = `<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M 1.5 16.5 C 0.672 16.5 0 15.828 0 15 L 0 1.5 C 0 0.672 0.672 0 1.5 0 L 15 0 C 15.828 0 16.5 0.672 16.5 1.5 L 16.5 15 C 16.5 15.828 15.828 16.5 15 16.5 Z" fill-opacity="var(--1m6trwb, 0)" fill="var(--21h8s6, rgb(0, 0, 0))" height="16.5px" id="LjE0Ycn76" transform="translate(3.75 3.75)" width="16.5px"/><path d="M 13.5 0 L 0 13.5" fill="var(--21h8s6, rgb(0, 0, 0))" height="13.5px" id="oSDwjLCvX" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--pgex8v, 1.5)" stroke="var(--21h8s6, rgb(0, 0, 0))" transform="translate(5.25 5.25)" width="13.5px"/><path d="M 13.5 13.5 L 0 0" fill="var(--21h8s6, rgb(0, 0, 0))" height="13.5px" id="H9XwXWiXU" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--pgex8v, 1.5)" stroke="var(--21h8s6, rgb(0, 0, 0))" transform="translate(5.25 5.25)" width="13.5px"/></svg>`),
+      (pn = ({
+        alpha: e,
+        color: t,
+        height: n,
+        id: r,
+        width: i,
+        width1: a,
+        ...o
+      }) => ({
+        ...o,
+        ezTt3ayMo: t ?? o.ezTt3ayMo ?? `rgb(0, 0, 0)`,
+        lschgej4H: a ?? o.lschgej4H ?? 1.5,
+        qxTvv_EBh: e ?? o.qxTvv_EBh,
+      })),
+      (mn = ae(
+        /* @__PURE__ */ v(function (e, t) {
+          let {
+              style: n,
+              className: r,
+              layoutId: i,
+              variant: a,
+              ezTt3ayMo: o,
+              lschgej4H: s,
+              qxTvv_EBh: c,
+              ...l
+            } = pn(e),
+            u = ue(`2202960551`, fn);
+          return /*#__PURE__*/ _(dn, {
+            ...l,
+            className: F(`framer-AhL2C`, r),
+            layoutId: i,
+            ref: t,
+            role: `presentation`,
+            style: { "--1m6trwb": c, "--21h8s6": o, "--pgex8v": s, ...n },
+            viewBox: `0 0 24 24`,
+            children: /*#__PURE__*/ _(`use`, { href: u }),
+          });
+        }),
+        [
+          `.framer-AhL2C { -webkit-mask: ${cn}; aspect-ratio: 1; display: block; mask: ${cn}; width: 24px; }`,
+        ],
+        `framer-AhL2C`,
+      )),
+      (mn.displayName = `X`),
+      le(mn, {
+        ezTt3ayMo: {
+          defaultValue: `rgb(0, 0, 0)`,
+          hidden: !1,
+          title: `Color`,
+          type: W.Color,
+        },
+        lschgej4H: {
+          defaultValue: 1.5,
+          displayStepper: !0,
+          hidden: !1,
+          max: 6,
+          min: 0,
+          step: 0.5,
+          title: `Width`,
+          type: W.Number,
+        },
+        qxTvv_EBh: {
+          defaultValue: 0,
+          displayStepper: !0,
+          hidden: !1,
+          max: 1,
+          min: 0,
+          step: 0.1,
+          title: `Alpha`,
+          type: W.Number,
+        },
+      }));
+  }))();
+}
+function gn(e, ...t) {
+  let n = {};
+  return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
+}
+var _n, vn, yn, bn, xn, Sn, Cn, wn, Tn, En, Dn, On, kn, An;
+function jn() {
+  return (jn = e(() => {
+    (y(),
+      R(),
+      T(),
+      n(),
+      Ze(),
+      (_n = B(Qe)),
+      (vn = { rMHCtt2DB: { hover: !0 } }),
+      (yn = [`rMHCtt2DB`, `JR9q2jpn0`]),
+      (bn = `framer-SKiMD`),
+      (xn = { JR9q2jpn0: `framer-v-18xeoip`, rMHCtt2DB: `framer-v-ofgs0s` }),
+      (Sn = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (Cn = (e, t) => `translate(-50%, -50%) ${t}`),
+      (wn = (e) =>
+        typeof e == `object` && e && typeof e.src == `string`
+          ? e.src
+          : typeof e == `string`
+            ? e
+            : void 0),
+      (Tn = ({ value: e, children: t }) => {
+        let n = s(w),
+          r = e ?? n.transition,
+          i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
+        return /*#__PURE__*/ _(w.Provider, { value: i, children: t });
+      }),
+      (En = { Desktop: `rMHCtt2DB`, Mobile: `JR9q2jpn0` }),
+      (Dn = S.create(o)),
+      (On = ({
+        click: e,
+        height: t,
+        id: n,
+        linkDoV_deoConceito: r,
+        thumb: i,
+        width: a,
+        ...o
+      }) => ({
+        ...o,
+        EPWnEQaJt: i ?? o.EPWnEQaJt,
+        SH6NFE0gb: r ?? o.SH6NFE0gb ?? ``,
+        U6H5W491P: e ?? o.U6H5W491P,
+        variant: En[o.variant] ?? o.variant ?? `rMHCtt2DB`,
+      })),
+      (kn = (e, t) =>
+        e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`)),
+      (An = ae(
+        /* @__PURE__ */ v(function (e, t) {
+          let n = x(null),
+            i = t ?? n,
+            a = r(),
+            { activeLocale: s, setLocale: c } = M(),
+            l = xe(),
+            {
+              style: u,
+              className: d,
+              layoutId: f,
+              variant: p,
+              SH6NFE0gb: m,
+              EPWnEQaJt: h,
+              U6H5W491P: v,
+              ...y
+            } = On(e),
+            {
+              baseVariant: b,
+              classNames: C,
+              clearLoadingGesture: w,
+              gestureHandlers: T,
+              gestureVariant: D,
+              isLoading: O,
+              setGestureState: k,
+              setVariant: A,
+              variants: j,
+            } = ne({
+              cycleOrder: yn,
+              defaultVariant: `rMHCtt2DB`,
+              enabledGestures: vn,
+              ref: i,
+              variant: p,
+              variantClassNames: xn,
+            }),
+            N = kn(e, j),
+            P = [],
+            { activeVariantCallback: te, delay: re } = Se(b),
+            ie = te(async (...e) => {
+              if ((k({ isPressed: !1 }), v && (await v(...e)) === !1))
+                return !1;
+            }),
+            ae = F(bn, ...P);
+          return /*#__PURE__*/ _(ee, {
+            id: f ?? a,
+            children: /*#__PURE__*/ _(Dn, {
+              animate: j,
+              initial: !1,
+              children: /*#__PURE__*/ _(Tn, {
+                value: Sn,
+                children: /*#__PURE__*/ g(S.div, {
+                  ...y,
+                  ...T,
+                  className: F(ae, `framer-ofgs0s`, d, C),
+                  "data-framer-name": `Desktop`,
+                  "data-highlight": !0,
+                  layoutDependency: N,
+                  layoutId: `rMHCtt2DB`,
+                  onTap: ie,
+                  ref: i,
+                  style: {
+                    borderBottomLeftRadius: 12,
+                    borderBottomRightRadius: 12,
+                    borderTopLeftRadius: 12,
+                    borderTopRightRadius: 12,
+                    ...u,
+                  },
+                  ...gn(
+                    {
+                      "rMHCtt2DB-hover": { "data-framer-name": void 0 },
+                      JR9q2jpn0: { "data-framer-name": `Mobile` },
+                    },
+                    b,
+                    D,
+                  ),
+                  children: [
+                    /*#__PURE__*/ g(S.div, {
+                      className: `framer-1v9bdws`,
+                      "data-framer-name": `Play`,
+                      layoutDependency: N,
+                      layoutId: `mS_FFPkYK`,
+                      transformTemplate: Cn,
+                      children: [
+                        /*#__PURE__*/ _(S.div, {
+                          className: `framer-7kkdb`,
+                          "data-border": !0,
+                          "data-framer-name": `Frame 8124`,
+                          layoutDependency: N,
+                          layoutId: `VOsOwu6Zi`,
+                          style: {
+                            "--border-bottom-width": `1.5555555820465088px`,
+                            "--border-color": `rgba(255, 255, 255, 0.15)`,
+                            "--border-left-width": `1.5555555820465088px`,
+                            "--border-right-width": `1.5555555820465088px`,
+                            "--border-style": `solid`,
+                            "--border-top-width": `1.5555555820465088px`,
+                            backdropFilter: `blur(10px)`,
+                            backgroundColor: `rgba(255, 255, 255, 0.15)`,
+                            borderBottomLeftRadius: 1312.5,
+                            borderBottomRightRadius: 1312.5,
+                            borderTopLeftRadius: 1312.5,
+                            borderTopRightRadius: 1312.5,
+                            scale: 1,
+                            WebkitBackdropFilter: `blur(10px)`,
+                          },
+                          variants: { "rMHCtt2DB-hover": { scale: 1.1 } },
+                          children: /*#__PURE__*/ g(S.div, {
+                            className: `framer-1v22bf0`,
+                            "data-framer-name": `Play`,
+                            layoutDependency: N,
+                            layoutId: `oRzKyJVX_`,
+                            children: [
+                              /*#__PURE__*/ _(S.div, {
+                                className: `framer-1034uk2`,
+                                "data-framer-name": `Vector`,
+                                layoutDependency: N,
+                                layoutId: `Wk231Eqbv`,
+                              }),
+                              /*#__PURE__*/ _(E, {
+                                className: `framer-amt82b`,
+                                "data-framer-name": `Vector`,
+                                fill: `rgba(0,0,0,1)`,
+                                intrinsicHeight: 34,
+                                intrinsicWidth: 29,
+                                layoutDependency: N,
+                                layoutId: `WFaR8quY0`,
+                                svg: `<svg width="29" height="34" viewBox="-1 -1 29 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 1.28813V30.2025C0.00428574 30.4332 0.0693315 30.6588 0.188578 30.8563C0.307825 31.0539 0.477056 31.2165 0.67921 31.3279C0.881364 31.4392 1.10929 31.4952 1.34001 31.4903C1.57073 31.4855 1.79609 31.4198 1.99336 31.3001L25.6315 16.8429C25.8203 16.7286 25.9764 16.5675 26.0848 16.3753C26.1932 16.183 26.2501 15.966 26.2501 15.7453C26.2501 15.5246 26.1932 15.3076 26.0848 15.1154C25.9764 14.9231 25.8203 14.762 25.6315 14.6477L1.99336 0.190547C1.79609 0.0707939 1.57073 0.00517058 1.34001 0.000293235C1.10929 -0.00458411 0.881364 0.0514574 0.67921 0.162767C0.477056 0.274076 0.307825 0.436718 0.188578 0.634293C0.0693315 0.831868 0.00428574 1.05739 0 1.28813Z" fill="white"/>
+</svg>
+`,
+                                withExternalLayout: !0,
+                              }),
+                              /*#__PURE__*/ g(S.div, {
+                                className: `framer-rmu99u`,
+                                "data-framer-name": `Frame 8096`,
+                                layoutDependency: N,
+                                layoutId: `H856kn51M`,
+                                children: [
+                                  /*#__PURE__*/ _(be, {
+                                    background: {
+                                      alt: ``,
+                                      fit: `stretch`,
+                                      loading: I(
+                                        (l?.y || 0) +
+                                          ((l?.height || 620) *
+                                            0.4997645786830357 -
+                                            74.2) +
+                                          0 +
+                                          0 +
+                                          20 +
+                                          361.9248 +
+                                          0,
+                                      ),
+                                      pixelHeight: 1636,
+                                      pixelWidth: 3824,
+                                      positionX: `center`,
+                                      positionY: `center`,
+                                      sizes: `955.5px`,
+                                      src: `https://framerusercontent.com/images/UWbVPbKrip66AgpUQkDET1vfmyE.png?width=3824&height=1636`,
+                                      srcSet: `https://framerusercontent.com/images/UWbVPbKrip66AgpUQkDET1vfmyE.png?scale-down-to=512&width=3824&height=1636 512w,https://framerusercontent.com/images/UWbVPbKrip66AgpUQkDET1vfmyE.png?scale-down-to=1024&width=3824&height=1636 1024w,https://framerusercontent.com/images/UWbVPbKrip66AgpUQkDET1vfmyE.png?scale-down-to=2048&width=3824&height=1636 2048w,https://framerusercontent.com/images/UWbVPbKrip66AgpUQkDET1vfmyE.png?width=3824&height=1636 3824w`,
+                                    },
+                                    className: `framer-1syxg7r`,
+                                    "data-framer-name": `image 70`,
+                                    layoutDependency: N,
+                                    layoutId: `cXXuqOzoG`,
+                                    ...gn(
+                                      {
+                                        JR9q2jpn0: {
+                                          background: {
+                                            alt: ``,
+                                            fit: `stretch`,
+                                            loading: I(
+                                              (l?.y || 0) +
+                                                ((l?.height || 480) *
+                                                  0.4997645786830357 -
+                                                  74.2) +
+                                                0 +
+                                                0 +
+                                                20 +
+                                                361.9248 +
+                                                0,
+                                            ),
+                                            pixelHeight: 1636,
+                                            pixelWidth: 3824,
+                                            positionX: `center`,
+                                            positionY: `center`,
+                                            sizes: `955.5px`,
+                                            src: `https://framerusercontent.com/images/UWbVPbKrip66AgpUQkDET1vfmyE.png?width=3824&height=1636`,
+                                            srcSet: `https://framerusercontent.com/images/UWbVPbKrip66AgpUQkDET1vfmyE.png?scale-down-to=512&width=3824&height=1636 512w,https://framerusercontent.com/images/UWbVPbKrip66AgpUQkDET1vfmyE.png?scale-down-to=1024&width=3824&height=1636 1024w,https://framerusercontent.com/images/UWbVPbKrip66AgpUQkDET1vfmyE.png?scale-down-to=2048&width=3824&height=1636 2048w,https://framerusercontent.com/images/UWbVPbKrip66AgpUQkDET1vfmyE.png?width=3824&height=1636 3824w`,
+                                          },
+                                        },
+                                      },
+                                      b,
+                                      D,
+                                    ),
+                                  }),
+                                  /*#__PURE__*/ g(S.div, {
+                                    className: `framer-1j1ooil`,
+                                    "data-framer-name": `Frame 8098`,
+                                    layoutDependency: N,
+                                    layoutId: `C_tpzJYxm`,
+                                    children: [
+                                      /*#__PURE__*/ _(U, {
+                                        __fromCanvasComponent: !0,
+                                        children: /*#__PURE__*/ _(o, {
+                                          children: /*#__PURE__*/ g(S.p, {
+                                            style: {
+                                              "--framer-font-size": `15.75px`,
+                                              "--framer-line-height": `150%`,
+                                            },
+                                            children: [
+                                              /*#__PURE__*/ _(S.span, {
+                                                style: {
+                                                  "--font-selector": `R0Y7VGl0aWxsaXVtIFdlYi02MDA=`,
+                                                  "--framer-font-family": `"Titillium Web"`,
+                                                  "--framer-font-size": `15.75px`,
+                                                  "--framer-font-weight": `600`,
+                                                  "--framer-text-color": `var(--extracted-1w3ko1f, rgba(255, 255, 255, 1))`,
+                                                },
+                                                children: `02 `,
+                                              }),
+                                              /*#__PURE__*/ _(S.span, {
+                                                style: {
+                                                  "--font-selector": `R0Y7VGl0aWxsaXVtIFdlYi02MDA=`,
+                                                  "--framer-font-family": `"Titillium Web"`,
+                                                  "--framer-font-size": `15.75px`,
+                                                  "--framer-font-weight": `600`,
+                                                  "--framer-text-color": `var(--extracted-3sq8v0, rgba(156, 163, 175, 1))`,
+                                                },
+                                                children: `/ 06`,
+                                              }),
+                                            ],
+                                          }),
+                                        }),
+                                        className: `framer-d8q58y`,
+                                        "data-framer-name": `02 / 06`,
+                                        fonts: [`GF;Titillium Web-600`],
+                                        layoutDependency: N,
+                                        layoutId: `ZMoGyCe1q`,
+                                        style: {
+                                          "--extracted-1w3ko1f": `rgba(255, 255, 255, 1)`,
+                                          "--extracted-3sq8v0": `rgba(156, 163, 175, 1)`,
+                                          "--framer-paragraph-spacing": `0px`,
+                                        },
+                                        verticalAlignment: `top`,
+                                        withExternalLayout: !0,
+                                      }),
+                                      /*#__PURE__*/ g(S.div, {
+                                        className: `framer-zqzvwl`,
+                                        "data-framer-name": `Frame 8097`,
+                                        layoutDependency: N,
+                                        layoutId: `utlCcdkPa`,
+                                        children: [
+                                          /*#__PURE__*/ g(S.div, {
+                                            className: `framer-a3gfpk`,
+                                            "data-framer-name": `bar`,
+                                            layoutDependency: N,
+                                            layoutId: `mLaTVM9PL`,
+                                            children: [
+                                              /*#__PURE__*/ _(S.div, {
+                                                className: `framer-1c6xdzc`,
+                                                "data-framer-name": `fundo`,
+                                                layoutDependency: N,
+                                                layoutId: `d4ElGgaxW`,
+                                                style: {
+                                                  backgroundColor: `rgba(255, 255, 255, 0.4)`,
+                                                },
+                                              }),
+                                              /*#__PURE__*/ _(S.div, {
+                                                className: `framer-1c3ylax`,
+                                                "data-framer-name": `progress`,
+                                                layoutDependency: N,
+                                                layoutId: `yNpvD2cFX`,
+                                                style: {
+                                                  backgroundColor: `rgb(255, 255, 255)`,
+                                                },
+                                              }),
+                                            ],
+                                          }),
+                                          /*#__PURE__*/ g(S.div, {
+                                            className: `framer-c53uw`,
+                                            "data-framer-name": `bar`,
+                                            layoutDependency: N,
+                                            layoutId: `VNvCeTiAI`,
+                                            children: [
+                                              /*#__PURE__*/ _(S.div, {
+                                                className: `framer-apwydb`,
+                                                "data-framer-name": `fundo`,
+                                                layoutDependency: N,
+                                                layoutId: `eTiCWX_gk`,
+                                                style: {
+                                                  backgroundColor: `rgba(255, 255, 255, 0.4)`,
+                                                },
+                                              }),
+                                              /*#__PURE__*/ _(S.div, {
+                                                className: `framer-191q00z`,
+                                                "data-framer-name": `progress`,
+                                                layoutDependency: N,
+                                                layoutId: `BfKeWKEZh`,
+                                                style: {
+                                                  backgroundColor: `rgb(255, 255, 255)`,
+                                                },
+                                              }),
+                                            ],
+                                          }),
+                                          /*#__PURE__*/ _(S.div, {
+                                            className: `framer-q26yor`,
+                                            "data-framer-name": `bar`,
+                                            layoutDependency: N,
+                                            layoutId: `yo2m_Wd3Y`,
+                                            children: /*#__PURE__*/ _(S.div, {
+                                              className: `framer-1bruvce`,
+                                              "data-framer-name": `fundo`,
+                                              layoutDependency: N,
+                                              layoutId: `fwpRSvG4K`,
+                                              style: {
+                                                backgroundColor: `rgba(255, 255, 255, 0.4)`,
+                                              },
+                                            }),
+                                          }),
+                                          /*#__PURE__*/ _(S.div, {
+                                            className: `framer-14oyi7v`,
+                                            "data-framer-name": `bar`,
+                                            layoutDependency: N,
+                                            layoutId: `niMXvxz5l`,
+                                            children: /*#__PURE__*/ _(S.div, {
+                                              className: `framer-1hyiy1t`,
+                                              "data-framer-name": `fundo`,
+                                              layoutDependency: N,
+                                              layoutId: `PtBhxEnzo`,
+                                              style: {
+                                                backgroundColor: `rgba(255, 255, 255, 0.4)`,
+                                              },
+                                            }),
+                                          }),
+                                          /*#__PURE__*/ _(S.div, {
+                                            className: `framer-4jvv6g`,
+                                            "data-framer-name": `bar`,
+                                            layoutDependency: N,
+                                            layoutId: `Z5bheXIBx`,
+                                            children: /*#__PURE__*/ _(S.div, {
+                                              className: `framer-q9bzrm`,
+                                              "data-framer-name": `fundo`,
+                                              layoutDependency: N,
+                                              layoutId: `NA49ReLqb`,
+                                              style: {
+                                                backgroundColor: `rgba(255, 255, 255, 0.4)`,
+                                              },
+                                            }),
+                                          }),
+                                          /*#__PURE__*/ _(S.div, {
+                                            className: `framer-z0g4yf`,
+                                            "data-framer-name": `bar`,
+                                            layoutDependency: N,
+                                            layoutId: `t4vL0YsAv`,
+                                            children: /*#__PURE__*/ _(S.div, {
+                                              className: `framer-10lk1ks`,
+                                              "data-framer-name": `fundo`,
+                                              layoutDependency: N,
+                                              layoutId: `BzpZwR79E`,
+                                              style: {
+                                                backgroundColor: `rgba(255, 255, 255, 0.4)`,
+                                              },
+                                            }),
+                                          }),
+                                        ],
+                                      }),
+                                    ],
+                                  }),
+                                ],
+                              }),
+                            ],
+                          }),
+                        }),
+                        /*#__PURE__*/ _(U, {
+                          __fromCanvasComponent: !0,
+                          children: /*#__PURE__*/ g(o, {
+                            children: [
+                              /*#__PURE__*/ _(S.p, {
+                                dir: `auto`,
+                                style: {
+                                  "--font-selector": `RlM7TWFucm9wZS1zZW1pYm9sZA==`,
+                                  "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                  "--framer-font-size": `24px`,
+                                  "--framer-font-weight": `600`,
+                                  "--framer-line-height": `105%`,
+                                  "--framer-text-alignment": `center`,
+                                  "--framer-text-color": `var(--extracted-r6o4lv, rgb(255, 255, 255))`,
+                                },
+                                children: `Assista`,
+                              }),
+                              /*#__PURE__*/ _(S.p, {
+                                dir: `auto`,
+                                style: {
+                                  "--font-selector": `RlM7TWFucm9wZS1zZW1pYm9sZA==`,
+                                  "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                  "--framer-font-size": `24px`,
+                                  "--framer-font-weight": `600`,
+                                  "--framer-line-height": `105%`,
+                                  "--framer-text-alignment": `center`,
+                                  "--framer-text-color": `var(--extracted-2gxw0f, rgb(255, 255, 255))`,
+                                },
+                                children: `ao vídeo`,
+                              }),
+                            ],
+                          }),
+                          className: `framer-1nper5x`,
+                          "data-framer-name": `Assista ao vídeo`,
+                          fonts: [`FS;Manrope-semibold`],
+                          layoutDependency: N,
+                          layoutId: `BQHjSInRl`,
+                          style: {
+                            "--extracted-2gxw0f": `rgb(255, 255, 255)`,
+                            "--extracted-r6o4lv": `rgb(255, 255, 255)`,
+                            "--framer-paragraph-spacing": `0px`,
+                          },
+                          verticalAlignment: `top`,
+                          withExternalLayout: !0,
+                        }),
+                      ],
+                    }),
+                    /*#__PURE__*/ g(S.div, {
+                      className: `framer-x0uc8l`,
+                      "data-framer-name": `BG`,
+                      layoutDependency: N,
+                      layoutId: `cCWnG6wRt`,
+                      children: [
+                        /*#__PURE__*/ _(H, {
+                          children: /*#__PURE__*/ _(Ce, {
+                            className: `framer-1oqk4wq-container`,
+                            isAuthoredByUser: !0,
+                            isModuleExternal: !0,
+                            layoutDependency: N,
+                            layoutId: `N3AFiTFPj-container`,
+                            nodeId: `N3AFiTFPj`,
+                            rendersWithMotion: !0,
+                            scopeId: `guRYxR2BK`,
+                            children: /*#__PURE__*/ _(Qe, {
+                              backgroundColor: `rgba(0, 0, 0, 0)`,
+                              borderRadius: 0,
+                              bottomLeftRadius: 0,
+                              bottomRightRadius: 0,
+                              controls: !1,
+                              height: `100%`,
+                              id: `N3AFiTFPj`,
+                              isMixedBorderRadius: !1,
+                              layoutId: `N3AFiTFPj`,
+                              loop: !1,
+                              muted: !0,
+                              objectFit: `cover`,
+                              playing: !0,
+                              poster: wn(h),
+                              posterEnabled: !0,
+                              srcType: `URL`,
+                              srcUrl: m,
+                              startTime: 0,
+                              style: { height: `100%`, width: `100%` },
+                              topLeftRadius: 0,
+                              topRightRadius: 0,
+                              volume: 25,
+                              width: `100%`,
+                            }),
+                          }),
+                        }),
+                        /*#__PURE__*/ _(S.div, {
+                          className: `framer-7h8qh8`,
+                          "data-framer-name": `overlay`,
+                          layoutDependency: N,
+                          layoutId: `UdiCnZaff`,
+                          style: { backgroundColor: `rgba(0, 0, 0, 0.1)` },
+                          variants: {
+                            "rMHCtt2DB-hover": {
+                              backgroundColor: `rgba(0, 0, 0, 0.3)`,
+                            },
+                          },
+                        }),
+                        /*#__PURE__*/ _(E, {
+                          className: `framer-k4u680`,
+                          "data-framer-name": `SVG`,
+                          fill: `rgba(0,0,0,1)`,
+                          intrinsicHeight: 218,
+                          intrinsicWidth: 220,
+                          layoutDependency: N,
+                          layoutId: `zmTw9M01N`,
+                          svg: `<svg width="220" height="218" viewBox="0 0 220 218" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M219.315 9.58655e-06L219.315 143.78L147.511 143.818C147.402 120.134 146.882 93.6175 147.572 70.1302C123.432 69.6222 97.9734 70.007 73.735 70.0125L73.7208 3.22244e-06L219.315 9.58655e-06Z" fill="#D7CEC6"/>
+<path d="M73.7301 70.0195L73.6914 143.833L0.0221926 143.794L0.000123942 70.1032L73.7301 70.0195Z" fill="#D7CEC6"/>
+<path d="M147.503 143.812C146.997 167.396 147.282 193.74 147.457 217.428L73.6644 217.441L73.6883 143.82L147.503 143.812Z" fill="#D7CEC6"/>
+</svg>
+`,
+                          withExternalLayout: !0,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+              }),
+            }),
+          });
+        }),
+        [
+          `.framer-SKiMD.framer-1y0cnx7, .framer-SKiMD .framer-1y0cnx7 { display: block; }`,
+          `.framer-SKiMD.framer-ofgs0s { cursor: pointer; gap: 0px; height: 620px; overflow: var(--overflow-clip-fallback, clip); position: relative; width: 540px; will-change: var(--framer-will-change-override, transform); }`,
+          `.framer-SKiMD .framer-1v9bdws { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: center; left: 50%; overflow: visible; padding: 0px; position: absolute; top: 50%; width: min-content; z-index: 2; }`,
+          `.framer-SKiMD .framer-7kkdb { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: visible; padding: 20px; position: relative; width: min-content; }`,
+          `.framer-SKiMD .framer-1v22bf0 { flex: none; gap: 0px; height: 42px; overflow: var(--overflow-clip-fallback, clip); position: relative; width: 42px; }`,
+          `.framer-SKiMD .framer-1034uk2, .framer-SKiMD .framer-1oqk4wq-container { bottom: 0px; flex: none; left: 0px; position: absolute; right: 0px; top: 0px; }`,
+          `.framer-SKiMD .framer-amt82b { bottom: 7px; flex: none; left: 10px; position: absolute; right: 5px; top: 4px; }`,
+          `.framer-SKiMD .framer-rmu99u { bottom: -728px; flex: none; gap: 0px; left: 0px; overflow: visible; position: absolute; right: -913px; top: 362px; }`,
+          `.framer-SKiMD .framer-1syxg7r { flex: none; height: 408px; left: 0px; position: absolute; top: 0px; width: 956px; }`,
+          `.framer-SKiMD .framer-1j1ooil { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10.500000953674316px; height: min-content; justify-content: flex-start; left: 21px; overflow: visible; padding: 0px; position: absolute; top: 349px; width: min-content; }`,
+          `.framer-SKiMD .framer-d8q58y, .framer-SKiMD .framer-1nper5x { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
+          `.framer-SKiMD .framer-zqzvwl { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; height: min-content; justify-content: space-between; overflow: visible; padding: 0px; position: relative; width: 914px; }`,
+          `.framer-SKiMD .framer-a3gfpk, .framer-SKiMD .framer-c53uw, .framer-SKiMD .framer-q26yor, .framer-SKiMD .framer-14oyi7v, .framer-SKiMD .framer-4jvv6g, .framer-SKiMD .framer-z0g4yf { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 140px; }`,
+          `.framer-SKiMD .framer-1c6xdzc, .framer-SKiMD .framer-apwydb, .framer-SKiMD .framer-1bruvce, .framer-SKiMD .framer-1hyiy1t, .framer-SKiMD .framer-q9bzrm, .framer-SKiMD .framer-10lk1ks { flex: none; height: 3px; position: relative; width: 100%; }`,
+          `.framer-SKiMD .framer-1c3ylax { flex: none; height: 3px; position: relative; width: 140px; }`,
+          `.framer-SKiMD .framer-191q00z { flex: none; height: 3px; position: relative; width: 46px; }`,
+          `.framer-SKiMD .framer-x0uc8l, .framer-SKiMD .framer-7h8qh8 { bottom: 0px; flex: none; left: 0px; overflow: var(--overflow-clip-fallback, clip); position: absolute; right: 0px; top: 0px; z-index: 1; }`,
+          `.framer-SKiMD .framer-k4u680 { bottom: -1px; flex: none; height: 218px; position: absolute; right: -1px; width: 220px; z-index: 1; }`,
+          `.framer-SKiMD.framer-v-18xeoip.framer-ofgs0s { height: 480px; width: 358px; }`,
+          `.framer-SKiMD.framer-v-18xeoip .framer-k4u680 { aspect-ratio: 1.0091743119266054 / 1; height: auto; width: 136px; }`,
+          `.framer-SKiMD[data-border="true"]::after, .framer-SKiMD [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
+        ],
+        `framer-SKiMD`,
+      )),
+      (An.displayName = `Video - Conceito`),
+      (An.defaultProps = { height: 620, width: 540 }),
+      le(An, {
+        variant: {
+          options: [`rMHCtt2DB`, `JR9q2jpn0`],
+          optionTitles: [`Desktop`, `Mobile`],
+          title: `Variant`,
+          type: W.Enum,
+        },
+        SH6NFE0gb: {
+          defaultValue: ``,
+          title: `Link do Vídeo - Conceito`,
+          type: W.String,
+        },
+        onSH6NFE0gbChange: { changes: `SH6NFE0gb`, type: W.ChangeHandler },
+        EPWnEQaJt: { title: `Thumb`, type: W.ResponsiveImage },
+        U6H5W491P: { title: `Click`, type: W.EventHandler },
+      }),
+      oe(
+        An,
+        [
+          {
+            explicitInter: !0,
+            fonts: [
+              {
+                cssFamilyName: `Titillium Web`,
+                source: `google`,
+                style: `normal`,
+                uiFamilyName: `Titillium Web`,
+                url: `https://fonts.gstatic.com/s/titilliumweb/v19/NaPDcZTIAOhVxoMyOr9n_E7ffBzCKIl5YrSYqWM.woff2`,
+                weight: `600`,
+              },
+              {
+                cssFamilyName: `Manrope`,
+                source: `fontshare`,
+                style: `normal`,
+                uiFamilyName: `Manrope`,
+                url: `https://framerusercontent.com/third-party-assets/fontshare/wf/6U2SGH566NSNERG6RGEV3DSNEK7DL2RF/JRDYRKMSAW2H35IWEQIPL67HAJQ35MG5/JNU3GNMUBPWW6V6JTED3S27XL5HN7NM5.woff2`,
+                weight: `600`,
+              },
+            ],
+          },
+          ..._n,
+        ],
+        { supportsExplicitInterCodegen: !0 },
+      ));
+  }))();
+}
+function Mn(e) {
+  let t = Math.min(Math.max(e.progress ?? 0, 0), 100),
+    n = e.barColor ?? `#00895E`,
+    r = e.trackColor ?? `#EDE3DE`;
+  return /*#__PURE__*/ _(De, {
+    width: `100%`,
+    height: `100%`,
+    background: r,
+    radius: 999,
+    overflow: `hidden`,
+    children: /*#__PURE__*/ _(De, {
+      width: `${t}%`,
+      height: `100%`,
+      background: n,
+      radius: 999,
+      style: { transition: `width 0.6s ease, background 0.3s ease` },
+    }),
+  });
+}
+function Nn() {
+  return (Nn = e(() => {
+    (y(),
+      R(),
+      (Mn.defaultProps = {
+        width: 400,
+        height: 12,
+        progress: 23,
+        barColor: `#00895E`,
+        trackColor: `#EDE3DE`,
+      }),
+      le(Mn, {
+        progress: {
+          type: W.Number,
+          title: `Progress`,
+          min: 0,
+          max: 100,
+          defaultValue: 23,
+        },
+        barColor: {
+          type: W.Color,
+          title: `Cor da barra`,
+          defaultValue: `#00895E`,
+        },
+        trackColor: {
+          type: W.Color,
+          title: `Cor do fundo`,
+          defaultValue: `#EDE3DE`,
+        },
+      }));
+  }))();
+}
+function Pn({ name: e, size: t = 16 }) {
+  let n = {
+      fill: `none`,
+      stroke: `currentColor`,
+      strokeWidth: 1.5,
+      strokeLinecap: `round`,
+      strokeLinejoin: `round`,
+    },
+    r = {
+      x: /*#__PURE__*/ g(p, {
+        children: [
+          /*#__PURE__*/ _(`line`, {
+            x1: `18`,
+            y1: `6`,
+            x2: `6`,
+            y2: `18`,
+            ...n,
+          }),
+          /*#__PURE__*/ _(`line`, {
+            x1: `6`,
+            y1: `6`,
+            x2: `18`,
+            y2: `18`,
+            ...n,
+          }),
+        ],
+      }),
+      left: /*#__PURE__*/ _(`polyline`, { points: `15 18 9 12 15 6`, ...n }),
+      right: /*#__PURE__*/ _(`polyline`, { points: `9 18 15 12 9 6`, ...n }),
+      share: /*#__PURE__*/ g(p, {
+        children: [
+          /*#__PURE__*/ _(`circle`, { cx: `18`, cy: `5`, r: `3`, ...n }),
+          /*#__PURE__*/ _(`circle`, { cx: `6`, cy: `12`, r: `3`, ...n }),
+          /*#__PURE__*/ _(`circle`, { cx: `18`, cy: `19`, r: `3`, ...n }),
+          /*#__PURE__*/ _(`line`, {
+            x1: `8.59`,
+            y1: `13.51`,
+            x2: `15.42`,
+            y2: `17.49`,
+            ...n,
+          }),
+          /*#__PURE__*/ _(`line`, {
+            x1: `15.41`,
+            y1: `6.51`,
+            x2: `8.59`,
+            y2: `10.49`,
+            ...n,
+          }),
+        ],
+      }),
+      zoomIn: /*#__PURE__*/ g(p, {
+        children: [
+          /*#__PURE__*/ _(`circle`, { cx: `11`, cy: `11`, r: `7`, ...n }),
+          /*#__PURE__*/ _(`line`, {
+            x1: `21`,
+            y1: `21`,
+            x2: `16`,
+            y2: `16`,
+            ...n,
+          }),
+          /*#__PURE__*/ _(`line`, {
+            x1: `11`,
+            y1: `8`,
+            x2: `11`,
+            y2: `14`,
+            ...n,
+          }),
+          /*#__PURE__*/ _(`line`, {
+            x1: `8`,
+            y1: `11`,
+            x2: `14`,
+            y2: `11`,
+            ...n,
+          }),
+        ],
+      }),
+      zoomOut: /*#__PURE__*/ g(p, {
+        children: [
+          /*#__PURE__*/ _(`circle`, { cx: `11`, cy: `11`, r: `7`, ...n }),
+          /*#__PURE__*/ _(`line`, {
+            x1: `21`,
+            y1: `21`,
+            x2: `16`,
+            y2: `16`,
+            ...n,
+          }),
+          /*#__PURE__*/ _(`line`, {
+            x1: `8`,
+            y1: `11`,
+            x2: `14`,
+            y2: `11`,
+            ...n,
+          }),
+        ],
+      }),
+    };
+  return /*#__PURE__*/ _(`svg`, {
+    width: t,
+    height: t,
+    viewBox: `0 0 24 24`,
+    "aria-hidden": `true`,
+    style: { display: `block`, flex: `0 0 auto` },
+    children: r[e],
+  });
+}
+function Fn({
+  label: e,
+  onClick: t,
+  children: n,
+  size: r = 36,
+  color: i,
+  style: a,
+}) {
+  return /*#__PURE__*/ _(`button`, {
+    type: `button`,
+    "aria-label": e,
+    title: e,
+    onClick: (e) => {
+      (e.stopPropagation(), t());
+    },
+    onPointerDown: (e) => e.stopPropagation(),
+    onPointerUp: (e) => e.stopPropagation(),
+    style: {
+      width: r,
+      height: r,
+      display: `flex`,
+      alignItems: `center`,
+      justifyContent: `center`,
+      borderRadius: `50%`,
+      border: `1px solid rgba(255, 255, 255, 0.2)`,
+      background: `rgba(255, 255, 255, 0.04)`,
+      color: i,
+      cursor: `pointer`,
+      padding: 0,
+      ...a,
+    },
+    children: n,
+  });
+}
+function In(e) {
+  let {
+      images: t,
+      title: n = `Florencia Bairro Planejado`,
+      startIndex: r = 0,
+      background: a = `rgba(12, 12, 11, 0.96)`,
+      textColor: o = `#FFFFFF`,
+      mutedColor: s = `rgba(255, 255, 255, 0.55)`,
+      showArrows: c = !0,
+      showThumbs: l = !0,
+      showCounter: d = !0,
+      showShare: m = !0,
+      showClose: v = !0,
+      enableZoom: y = !0,
+      sidePadding: ee = 128,
+      closeWithEscape: w = !0,
+      onCloseClick: T,
+      onChange: E,
+    } = e,
+    D = (t && t.length ? t : Vn).filter((e) => e?.image?.src),
+    O = D.length,
+    k = Math.min(Math.max(0, r), Math.max(0, O - 1)),
+    A = x(null),
+    j = x(null),
+    [M, N] = b(k),
+    [P, te] = b(1440),
+    [F, ne] = b(!1),
+    [re, I] = b(`50% 50%`),
+    [ie, ae] = b(!1),
+    L = P < 720,
+    oe = D[M] ?? D[0];
+  (f(() => N(k), [k]),
+    f(() => {
+      (ne(!1), I(`50% 50%`), E?.(M));
+    }, [M]),
+    f(() => {
+      let e = A.current;
+      if (!e || typeof ResizeObserver > `u`) return;
+      let t = new ResizeObserver(([e]) => te(e.contentRect.width));
+      return (t.observe(e), () => t.disconnect());
+    }, []));
+  let se = h(
+      (e) => {
+        O < 2 || N((t) => (t + e + O) % O);
+      },
+      [O],
+    ),
+    ce = async () => {
+      let e = i.location.href;
+      try {
+        if (u.share) {
+          await u.share({ title: n, url: e });
+          return;
+        }
+        (await u.clipboard.writeText(e),
+          ae(!0),
+          i.setTimeout(() => ae(!1), 1800));
+      } catch {}
+    },
+    le = (e) => {
+      let t = e.currentTarget.getBoundingClientRect(),
+        n = ((e.clientX - t.left) / t.width) * 100,
+        r = ((e.clientY - t.top) / t.height) * 100;
+      I(`${n}% ${r}%`);
+    },
+    ue = (e) => {
+      if ((T?.(e), w && typeof document < `u`)) {
+        let e = {
+          key: `Escape`,
+          code: `Escape`,
+          keyCode: 27,
+          which: 27,
+          bubbles: !0,
+          cancelable: !0,
+        };
+        (document.dispatchEvent(new KeyboardEvent(`keydown`, e)),
+          i.dispatchEvent(new KeyboardEvent(`keydown`, e)));
+      }
+    },
+    R = L ? 16 : ee;
+  return /*#__PURE__*/ g(`div`, {
+    ref: A,
+    tabIndex: 0,
+    role: `region`,
+    "aria-label": `${n} — galeria`,
+    onKeyDown: (e) => {
+      (e.key === `ArrowRight` && se(1),
+        e.key === `ArrowLeft` && se(-1),
+        e.key === `Escape` && T?.(e));
+    },
+    onPointerDown: (e) => {
+      F || (j.current = e.clientX);
+    },
+    onPointerUp: (e) => {
+      if (j.current === null) return;
+      let t = e.clientX - j.current;
+      ((j.current = null), Math.abs(t) > 60 && se(t < 0 ? 1 : -1));
+    },
+    style: {
+      ...e.style,
+      position: `relative`,
+      width: `100%`,
+      height: `100%`,
+      display: `flex`,
+      flexDirection: `column`,
+      overflow: `hidden`,
+      background: a,
+      color: o,
+      fontFamily: Bn,
+      outline: `none`,
+      touchAction: F ? `none` : `pan-y`,
+    },
+    children: [
+      /*#__PURE__*/ g(`div`, {
+        style: {
+          display: `flex`,
+          alignItems: `center`,
+          justifyContent: `space-between`,
+          gap: 16,
+          padding: L ? `16px` : `28px 32px`,
+        },
+        children: [
+          /*#__PURE__*/ g(`div`, {
+            style: {
+              display: `flex`,
+              alignItems: `baseline`,
+              gap: 10,
+              minWidth: 0,
+              fontSize: 14,
+              lineHeight: `20px`,
+              whiteSpace: `nowrap`,
+              overflow: `hidden`,
+            },
+            children: [
+              /*#__PURE__*/ _(`span`, {
+                style: {
+                  fontWeight: 500,
+                  overflow: `hidden`,
+                  textOverflow: `ellipsis`,
+                },
+                children: n,
+              }),
+              oe?.caption
+                ? /*#__PURE__*/ _(`span`, {
+                    style: { color: s },
+                    children: oe.caption,
+                  })
+                : null,
+              d && O > 1
+                ? /*#__PURE__*/ g(`span`, {
+                    style: { color: s },
+                    children: [`· `, M + 1, ` / `, O],
+                  })
+                : null,
+            ],
+          }),
+          /*#__PURE__*/ g(`div`, {
+            style: { display: `flex`, gap: 8 },
+            children: [
+              y
+                ? /*#__PURE__*/ _(Fn, {
+                    label: F ? `Diminuir zoom` : `Ampliar`,
+                    color: o,
+                    onClick: () => {
+                      (I(`50% 50%`), ne((e) => !e));
+                    },
+                    children: /*#__PURE__*/ _(Pn, {
+                      name: F ? `zoomOut` : `zoomIn`,
+                      size: 15,
+                    }),
+                  })
+                : null,
+              m
+                ? /*#__PURE__*/ _(Fn, {
+                    label: ie ? `Link copiado` : `Compartilhar`,
+                    color: o,
+                    onClick: ce,
+                    children: /*#__PURE__*/ _(Pn, { name: `share`, size: 15 }),
+                  })
+                : null,
+              v
+                ? /*#__PURE__*/ _(`button`, {
+                    type: `button`,
+                    "aria-label": `Fechar`,
+                    title: `Fechar`,
+                    onPointerDown: (e) => {
+                      j.current = null;
+                    },
+                    onClick: (e) => ue(e),
+                    style: {
+                      width: 36,
+                      height: 36,
+                      display: `flex`,
+                      alignItems: `center`,
+                      justifyContent: `center`,
+                      borderRadius: `50%`,
+                      border: `1px solid rgba(255, 255, 255, 0.2)`,
+                      background: `rgba(255, 255, 255, 0.04)`,
+                      color: o,
+                      cursor: `pointer`,
+                      padding: 0,
+                    },
+                    children: /*#__PURE__*/ _(Pn, { name: `x`, size: 15 }),
+                  })
+                : null,
+            ],
+          }),
+        ],
+      }),
+      /*#__PURE__*/ g(`div`, {
+        style: {
+          position: `relative`,
+          flex: 1,
+          minHeight: 0,
+          display: `flex`,
+          alignItems: `center`,
+          justifyContent: `center`,
+          padding: `0 ${R}px`,
+          overflow: `hidden`,
+        },
+        children: [
+          /*#__PURE__*/ _(C, {
+            mode: `popLayout`,
+            initial: !1,
+            children: /*#__PURE__*/ _(
+              S.img,
+              {
+                src: oe?.image?.src,
+                srcSet: oe?.image?.srcSet,
+                alt: oe?.image?.alt ?? ``,
+                draggable: !1,
+                initial: { opacity: 0, scale: 0.985 },
+                animate: { opacity: 1, scale: F ? zn : 1 },
+                exit: { opacity: 0, transition: { duration: 0.15, ease: Ln } },
+                transition: {
+                  opacity: { duration: 0.22, ease: Ln },
+                  scale: Rn,
+                },
+                onClick: (e) => {
+                  y && (e.stopPropagation(), le(e), ne((e) => !e));
+                },
+                onPointerMove: (e) => {
+                  F && le(e);
+                },
+                style: {
+                  maxWidth: `100%`,
+                  maxHeight: `100%`,
+                  objectFit: `contain`,
+                  userSelect: `none`,
+                  display: `block`,
+                  transformOrigin: re,
+                  cursor: y ? (F ? `zoom-out` : `zoom-in`) : `default`,
+                },
+              },
+              M,
+            ),
+          }),
+          c && !L && O > 1
+            ? /*#__PURE__*/ g(p, {
+                children: [
+                  /*#__PURE__*/ _(Fn, {
+                    label: `Imagem anterior`,
+                    color: o,
+                    onClick: () => se(-1),
+                    size: 44,
+                    style: {
+                      position: `absolute`,
+                      left: 32,
+                      top: `50%`,
+                      marginTop: -22,
+                      zIndex: 2,
+                    },
+                    children: /*#__PURE__*/ _(Pn, { name: `left`, size: 18 }),
+                  }),
+                  /*#__PURE__*/ _(Fn, {
+                    label: `Próxima imagem`,
+                    color: o,
+                    onClick: () => se(1),
+                    size: 44,
+                    style: {
+                      position: `absolute`,
+                      right: 32,
+                      top: `50%`,
+                      marginTop: -22,
+                      zIndex: 2,
+                    },
+                    children: /*#__PURE__*/ _(Pn, { name: `right`, size: 18 }),
+                  }),
+                ],
+              })
+            : null,
+        ],
+      }),
+      l && O > 1
+        ? /*#__PURE__*/ _(`div`, {
+            style: {
+              display: `flex`,
+              justifyContent: L ? `flex-start` : `center`,
+              gap: 6,
+              padding: L ? `16px` : `24px 32px 28px`,
+              overflowX: `auto`,
+            },
+            children: D.map((e, t) =>
+              /*#__PURE__*/ _(
+                `button`,
+                {
+                  type: `button`,
+                  "aria-label": `Mostrar imagem ${t + 1}`,
+                  "aria-current": t === M,
+                  onPointerDown: (e) => e.stopPropagation(),
+                  onPointerUp: (e) => e.stopPropagation(),
+                  onClick: () => N(t),
+                  style: {
+                    flex: `0 0 auto`,
+                    width: 64,
+                    height: 44,
+                    padding: 0,
+                    overflow: `hidden`,
+                    cursor: `pointer`,
+                    background: `transparent`,
+                    border:
+                      t === M ? `1.5px solid ${o}` : `1.5px solid transparent`,
+                    opacity: t === M ? 1 : 0.5,
+                    transition: `opacity 0.18s ease`,
+                  },
+                  children: /*#__PURE__*/ _(`img`, {
+                    src: e.image?.src,
+                    alt: ``,
+                    style: {
+                      width: `100%`,
+                      height: `100%`,
+                      objectFit: `cover`,
+                      display: `block`,
+                    },
+                  }),
+                },
+                t,
+              ),
+            ),
+          })
+        : /*#__PURE__*/ _(`div`, { style: { height: L ? 16 : 28 } }),
+    ],
+  });
+}
+var Ln, Rn, zn, Bn, Vn;
+function Hn() {
+  return (Hn = e(() => {
+    (t(),
+      y(),
+      R(),
+      T(),
+      n(),
+      (Ln = [0.22, 1, 0.36, 1]),
+      (Rn = { type: `spring`, stiffness: 420, damping: 38, mass: 0.8 }),
+      (zn = 2.2),
+      (Bn = `"Geist", "Geist Placeholder", sans-serif`),
+      (Vn = [
+        {
+          image: {
+            src: `https://framerusercontent.com/images/yNC8RAIxalRjYhcCvk9KRAQqeU.jpg`,
+            alt: `Exterior`,
+          },
+        },
+        {
+          image: {
+            src: `https://framerusercontent.com/images/xV5CA4Iu6G67BxHH5JKSgLqt4HY.jpg`,
+            alt: `Living room`,
+          },
+        },
+        {
+          image: {
+            src: `https://framerusercontent.com/images/JURb7chho1x46jLcBJL7vKeEAUY.jpg`,
+            alt: `Kitchen`,
+          },
+        },
+      ]),
+      le(In, {
+        images: {
+          type: W.Array,
+          title: `Imagens`,
+          control: {
+            type: W.Object,
+            controls: {
+              image: { type: W.ResponsiveImage, title: `Imagem` },
+              caption: { type: W.String, title: `Legenda`, defaultValue: `` },
+            },
+          },
+        },
+        title: {
+          type: W.String,
+          title: `Título`,
+          defaultValue: `Florencia Bairro Planejado`,
+        },
+        startIndex: {
+          type: W.Number,
+          title: `Imagem inicial`,
+          defaultValue: 0,
+          min: 0,
+          max: 50,
+          step: 1,
+          displayStepper: !0,
+        },
+        background: {
+          type: W.Color,
+          title: `Fundo`,
+          defaultValue: `rgba(12, 12, 11, 0.96)`,
+        },
+        textColor: { type: W.Color, title: `Texto`, defaultValue: `#FFFFFF` },
+        mutedColor: {
+          type: W.Color,
+          title: `Texto apagado`,
+          defaultValue: `rgba(255, 255, 255, 0.55)`,
+        },
+        sidePadding: {
+          type: W.Number,
+          title: `Margem lateral`,
+          defaultValue: 128,
+          min: 0,
+          max: 300,
+          unit: `px`,
+        },
+        showArrows: { type: W.Boolean, title: `Setas`, defaultValue: !0 },
+        showThumbs: { type: W.Boolean, title: `Miniaturas`, defaultValue: !0 },
+        showCounter: { type: W.Boolean, title: `Contador`, defaultValue: !0 },
+        enableZoom: { type: W.Boolean, title: `Zoom`, defaultValue: !0 },
+        showShare: { type: W.Boolean, title: `Compartilhar`, defaultValue: !0 },
+        showClose: { type: W.Boolean, title: `Fechar`, defaultValue: !0 },
+        closeWithEscape: {
+          type: W.Boolean,
+          title: `Fechar via Esc`,
+          description: `Reforço: o X também simula a tecla Esc.`,
+          defaultValue: !0,
+          hidden: (e) => !e.showClose,
+        },
+        onCloseClick: { type: W.EventHandler, title: `Ao fechar` },
+      }));
+  }))();
+}
+function Un(e) {
+  return e instanceof Element && !!e.closest(`[data-framer-name="${Kn}"]`);
+}
+function Wn(e, t) {
+  let n = e.filter((e) => e instanceof Element),
+    r = n.indexOf(t),
+    i = r === -1 ? n : n.slice(0, r),
+    a = -1;
+  for (let e = i.length - 1; e >= 0; e--)
+    if (
+      i[e].getAttribute(`data-framer-component-type`) === `RichTextContainer`
+    ) {
+      a = e;
+      break;
+    }
+  if (a > 0) return i[a - 1];
+  let o = i.length - 3;
+  return o >= 0 ? i[o] : null;
+}
+function Gn(e) {
+  return (t) => {
+    let n = x(null),
+      a = `ooi-` + r().replace(/:/g, ``);
+    return (
+      f(() => {
+        let e = n.current;
+        if (!e) return;
+        let t = (t) => {
+          if (Un(t.target)) return;
+          let n = Wn(t.composedPath(), e);
+          if (!n) return;
+          let r = (e) => e.stopPropagation();
+          (n.addEventListener(t.type, r, { once: !0 }),
+            i.setTimeout(() => n.removeEventListener(t.type, r), 0));
+        };
+        return (
+          qn.forEach((n) => e.addEventListener(n, t, !0)),
+          () => qn.forEach((n) => e.removeEventListener(n, t, !0))
+        );
+      }, []),
+      /*#__PURE__*/ g(`div`, {
+        ref: n,
+        "data-ooi": a,
+        style: { display: `contents` },
+        children: [
+          /*#__PURE__*/ _(`style`, {
+            dangerouslySetInnerHTML: { __html: `
+                    [data-ooi="${a}"] [data-framer-component-type="RichTextContainer"] > * { cursor: auto; }
+                    [data-ooi="${a}"] :is(${`[data-framer-name="${Kn}"], [data-framer-name="${Kn}"] *`}) { cursor: zoom-in !important; }
+                ` },
+          }),
+          /*#__PURE__*/ _(e, { ...t }),
+        ],
+      })
+    );
+  };
+}
+var Kn, qn;
+function Jn() {
+  return (Jn = e(() => {
+    (t(),
+      y(),
+      n(),
+      (Kn = `Imagem Planta`),
+      (qn = [`pointerdown`, `mousedown`, `touchstart`]));
+  }))();
+}
+function Yn(e, t) {
+  switch (e) {
+    case `bottom-left`:
+      return { left: t, bottom: t };
+    case `bottom-center`:
+      return { left: `50%`, bottom: t, transform: `translateX(-50%)` };
+    case `top-right`:
+      return { right: t, top: t };
+    case `top-left`:
+      return { left: t, top: t };
+    default:
+      return { right: t, bottom: t };
+  }
+}
+function Xn({ name: e, size: t = 16, color: n = `currentColor` }) {
+  let r = {
+      fill: `none`,
+      stroke: n,
+      strokeWidth: 1.5,
+      strokeLinecap: `round`,
+      strokeLinejoin: `round`,
+    },
+    i = {
+      grid: /*#__PURE__*/ g(p, {
+        children: [
+          /*#__PURE__*/ _(`rect`, {
+            x: `3`,
+            y: `3`,
+            width: `7`,
+            height: `7`,
+            ...r,
+          }),
+          /*#__PURE__*/ _(`rect`, {
+            x: `14`,
+            y: `3`,
+            width: `7`,
+            height: `7`,
+            ...r,
+          }),
+          /*#__PURE__*/ _(`rect`, {
+            x: `14`,
+            y: `14`,
+            width: `7`,
+            height: `7`,
+            ...r,
+          }),
+          /*#__PURE__*/ _(`rect`, {
+            x: `3`,
+            y: `14`,
+            width: `7`,
+            height: `7`,
+            ...r,
+          }),
+        ],
+      }),
+      plus: /*#__PURE__*/ g(p, {
+        children: [
+          /*#__PURE__*/ _(`line`, {
+            x1: `12`,
+            y1: `5`,
+            x2: `12`,
+            y2: `19`,
+            ...r,
+          }),
+          /*#__PURE__*/ _(`line`, {
+            x1: `5`,
+            y1: `12`,
+            x2: `19`,
+            y2: `12`,
+            ...r,
+          }),
+        ],
+      }),
+      arrow: /*#__PURE__*/ g(p, {
+        children: [
+          /*#__PURE__*/ _(`line`, {
+            x1: `7`,
+            y1: `17`,
+            x2: `17`,
+            y2: `7`,
+            ...r,
+          }),
+          /*#__PURE__*/ _(`polyline`, { points: `8 7 17 7 17 16`, ...r }),
+        ],
+      }),
+      play: /*#__PURE__*/ _(`polygon`, {
+        points: `6 4 20 12 6 20 6 4`,
+        ...r,
+        fill: n,
+      }),
+      pause: /*#__PURE__*/ g(p, {
+        children: [
+          /*#__PURE__*/ _(`line`, {
+            x1: `8`,
+            y1: `5`,
+            x2: `8`,
+            y2: `19`,
+            ...r,
+          }),
+          /*#__PURE__*/ _(`line`, {
+            x1: `16`,
+            y1: `5`,
+            x2: `16`,
+            y2: `19`,
+            ...r,
+          }),
+        ],
+      }),
+      x: /*#__PURE__*/ g(p, {
+        children: [
+          /*#__PURE__*/ _(`line`, {
+            x1: `18`,
+            y1: `6`,
+            x2: `6`,
+            y2: `18`,
+            ...r,
+          }),
+          /*#__PURE__*/ _(`line`, {
+            x1: `6`,
+            y1: `6`,
+            x2: `18`,
+            y2: `18`,
+            ...r,
+          }),
+        ],
+      }),
+      left: /*#__PURE__*/ _(`polyline`, { points: `15 18 9 12 15 6`, ...r }),
+      right: /*#__PURE__*/ _(`polyline`, { points: `9 18 15 12 9 6`, ...r }),
+      share: /*#__PURE__*/ g(p, {
+        children: [
+          /*#__PURE__*/ _(`circle`, { cx: `18`, cy: `5`, r: `3`, ...r }),
+          /*#__PURE__*/ _(`circle`, { cx: `6`, cy: `12`, r: `3`, ...r }),
+          /*#__PURE__*/ _(`circle`, { cx: `18`, cy: `19`, r: `3`, ...r }),
+          /*#__PURE__*/ _(`line`, {
+            x1: `8.59`,
+            y1: `13.51`,
+            x2: `15.42`,
+            y2: `17.49`,
+            ...r,
+          }),
+          /*#__PURE__*/ _(`line`, {
+            x1: `15.41`,
+            y1: `6.51`,
+            x2: `8.59`,
+            y2: `10.49`,
+            ...r,
+          }),
+        ],
+      }),
+      zoomIn: /*#__PURE__*/ g(p, {
+        children: [
+          /*#__PURE__*/ _(`circle`, { cx: `11`, cy: `11`, r: `7`, ...r }),
+          /*#__PURE__*/ _(`line`, {
+            x1: `21`,
+            y1: `21`,
+            x2: `16`,
+            y2: `16`,
+            ...r,
+          }),
+          /*#__PURE__*/ _(`line`, {
+            x1: `11`,
+            y1: `8`,
+            x2: `11`,
+            y2: `14`,
+            ...r,
+          }),
+          /*#__PURE__*/ _(`line`, {
+            x1: `8`,
+            y1: `11`,
+            x2: `14`,
+            y2: `11`,
+            ...r,
+          }),
+        ],
+      }),
+      zoomOut: /*#__PURE__*/ g(p, {
+        children: [
+          /*#__PURE__*/ _(`circle`, { cx: `11`, cy: `11`, r: `7`, ...r }),
+          /*#__PURE__*/ _(`line`, {
+            x1: `21`,
+            y1: `21`,
+            x2: `16`,
+            y2: `16`,
+            ...r,
+          }),
+          /*#__PURE__*/ _(`line`, {
+            x1: `8`,
+            y1: `11`,
+            x2: `14`,
+            y2: `11`,
+            ...r,
+          }),
+        ],
+      }),
+    };
+  return /*#__PURE__*/ _(`svg`, {
+    width: t,
+    height: t,
+    viewBox: `0 0 24 24`,
+    "aria-hidden": `true`,
+    style: { display: `block`, flex: `0 0 auto` },
+    children: i[e],
+  });
+}
+function Zn({ item: e, onOpen: t, radius: n, style: r, children: i }) {
+  let [a, o] = b(!1);
+  return /*#__PURE__*/ g(`div`, {
+    role: `button`,
+    tabIndex: 0,
+    "aria-label": e?.image?.alt ? `Open photo: ${e.image.alt}` : `Open photo`,
+    onClick: t,
+    onKeyDown: (e) => {
+      (e.key === `Enter` || e.key === ` `) && (e.preventDefault(), t());
+    },
+    onMouseEnter: () => o(!0),
+    onMouseLeave: () => o(!1),
+    style: {
+      position: `relative`,
+      overflow: `hidden`,
+      borderRadius: n,
+      background: `#E8E5DF`,
+      cursor: `zoom-in`,
+      minWidth: 0,
+      minHeight: 0,
+      ...r,
+    },
+    children: [
+      e?.image?.src
+        ? /*#__PURE__*/ _(`img`, {
+            src: e.image.src,
+            srcSet: e.image.srcSet,
+            alt: e.image.alt ?? ``,
+            loading: `lazy`,
+            draggable: !1,
+            style: {
+              position: `absolute`,
+              inset: 0,
+              width: `100%`,
+              height: `100%`,
+              objectFit: `cover`,
+              transform: a ? `scale(1.04)` : `scale(1)`,
+              transition: `transform 0.6s cubic-bezier(0.22, 1, 0.36, 1)`,
+            },
+          })
+        : null,
+      i,
+    ],
+  });
+}
+function Qn({ icon: e, label: t, onClick: n, config: r, style: i }) {
+  let [a, o] = b(!1),
+    s = r.showIcon ? /*#__PURE__*/ _(Xn, { name: e, size: r.iconSize }) : null;
+  return /*#__PURE__*/ g(`button`, {
+    type: `button`,
+    onClick: n,
+    onMouseEnter: () => o(!0),
+    onMouseLeave: () => o(!1),
+    style: {
+      position: `absolute`,
+      display: `flex`,
+      alignItems: `center`,
+      gap: r.gap,
+      padding: r.padding,
+      border: r.borderWidth
+        ? `${r.borderWidth}px solid ${r.borderColor}`
+        : `none`,
+      borderRadius: r.radius,
+      background: a ? r.hoverBackground : r.background,
+      color: a ? r.hoverColor : r.color,
+      fontFamily: ar,
+      fontSize: 13,
+      fontWeight: 500,
+      lineHeight: `16px`,
+      ...r.font,
+      whiteSpace: `nowrap`,
+      cursor: `pointer`,
+      zIndex: 2,
+      boxShadow: r.shadow || `none`,
+      backdropFilter: r.blur ? `blur(${r.blur}px)` : void 0,
+      WebkitBackdropFilter: r.blur ? `blur(${r.blur}px)` : void 0,
+      transition: `background 0.15s ease, color 0.15s ease`,
+      ...i,
+    },
+    children: [
+      r.iconPosition === `left` ? s : null,
+      t,
+      r.iconPosition === `right` ? s : null,
+    ],
+  });
+}
+function $n({ label: e, onClick: t, children: n, size: r = 36, style: i }) {
+  return /*#__PURE__*/ _(`button`, {
+    type: `button`,
+    "aria-label": e,
+    title: e,
+    onClick: (e) => {
+      (e.stopPropagation(), t());
+    },
+    onPointerDown: (e) => e.stopPropagation(),
+    onPointerUp: (e) => e.stopPropagation(),
+    style: {
+      width: r,
+      height: r,
+      display: `flex`,
+      alignItems: `center`,
+      justifyContent: `center`,
+      borderRadius: `50%`,
+      border: `1px solid rgba(255, 255, 255, 0.2)`,
+      background: `rgba(255, 255, 255, 0.04)`,
+      color: `#FFFFFF`,
+      cursor: `pointer`,
+      padding: 0,
+      ...i,
+    },
+    children: n,
+  });
+}
+function er({
+  items: e,
+  title: t,
+  index: n,
+  setIndex: r,
+  autoplay: a,
+  setAutoplay: o,
+  enableZoom: s,
+  onClose: c,
+}) {
+  let l = e.length,
+    [d, v] = b(!1),
+    [y, ee] = b(!1),
+    [w, T] = b(!1),
+    [E, D] = b(`50% 50%`),
+    O = x(null),
+    k = e[n] ?? e[0],
+    A = h(
+      (e) => {
+        l < 2 || (o(!1), r((t) => (t + e + l) % l));
+      },
+      [l, o, r],
+    );
+  (f(() => {
+    (T(!1), D(`50% 50%`));
+  }, [n]),
+    f(() => {
+      let e = (e) => {
+          (e.key === `Escape` && c(),
+            e.key === `ArrowRight` && A(1),
+            e.key === `ArrowLeft` && A(-1));
+        },
+        t = () => ee(i.innerWidth < 720);
+      (t(), i.addEventListener(`keydown`, e), i.addEventListener(`resize`, t));
+      let n = document.documentElement,
+        r = n.style.overflow;
+      return (
+        (n.style.overflow = `hidden`),
+        () => {
+          (i.removeEventListener(`keydown`, e),
+            i.removeEventListener(`resize`, t),
+            (n.style.overflow = r));
+        }
+      );
+    }, [A, c]),
+    f(() => {
+      if (!a || l < 2) return;
+      let e = i.setTimeout(() => r((e) => (e + 1) % l), 3600);
+      return () => i.clearTimeout(e);
+    }, [a, n, l, r]));
+  let j = async () => {
+      let e = i.location.href;
+      try {
+        if (u.share) {
+          await u.share({ title: t, url: e });
+          return;
+        }
+        (await u.clipboard.writeText(e),
+          v(!0),
+          i.setTimeout(() => v(!1), 1800));
+      } catch {}
+    },
+    M = (e) => {
+      let t = e.currentTarget.getBoundingClientRect(),
+        n = ((e.clientX - t.left) / t.width) * 100,
+        r = ((e.clientY - t.top) / t.height) * 100;
+      D(`${n}% ${r}%`);
+    },
+    N = () => {
+      (o(!1), T((e) => !e));
+    };
+  return /*#__PURE__*/ m(
+    /*#__PURE__*/ g(S.div, {
+      role: `dialog`,
+      "aria-modal": `true`,
+      "aria-label": `${t} — photo gallery`,
+      initial: { opacity: 0 },
+      animate: { opacity: 1 },
+      exit: { opacity: 0 },
+      transition: { duration: 0.2, ease: nr },
+      onPointerDown: (e) => {
+        w || (O.current = e.clientX);
+      },
+      onPointerUp: (e) => {
+        if (O.current === null) return;
+        let t = e.clientX - O.current;
+        ((O.current = null), Math.abs(t) > 60 && A(t < 0 ? 1 : -1));
+      },
+      style: {
+        position: `fixed`,
+        inset: 0,
+        zIndex: 1e4,
+        display: `flex`,
+        flexDirection: `column`,
+        background: `rgba(12, 12, 11, 0.96)`,
+        color: `#FFFFFF`,
+        fontFamily: ar,
+        touchAction: w ? `none` : `pan-y`,
+      },
+      children: [
+        /*#__PURE__*/ g(`div`, {
+          style: {
+            display: `flex`,
+            alignItems: `center`,
+            justifyContent: `space-between`,
+            gap: 16,
+            padding: y ? `16px` : `28px 44px`,
+          },
+          children: [
+            /*#__PURE__*/ g(`div`, {
+              style: {
+                display: `flex`,
+                alignItems: `baseline`,
+                gap: 10,
+                minWidth: 0,
+                fontSize: 14,
+                lineHeight: `20px`,
+                whiteSpace: `nowrap`,
+                overflow: `hidden`,
+              },
+              children: [
+                /*#__PURE__*/ _(`span`, {
+                  style: {
+                    fontWeight: 500,
+                    overflow: `hidden`,
+                    textOverflow: `ellipsis`,
+                  },
+                  children: t,
+                }),
+                k?.caption
+                  ? /*#__PURE__*/ _(`span`, {
+                      style: { color: `rgba(255, 255, 255, 0.55)` },
+                      children: k.caption,
+                    })
+                  : null,
+                /*#__PURE__*/ g(`span`, {
+                  style: { color: `rgba(255, 255, 255, 0.55)` },
+                  children: [`· `, n + 1, ` / `, l],
+                }),
+              ],
+            }),
+            /*#__PURE__*/ g(`div`, {
+              style: { display: `flex`, gap: 8 },
+              children: [
+                s
+                  ? /*#__PURE__*/ _($n, {
+                      label: w ? `Diminuir zoom` : `Ampliar`,
+                      onClick: () => {
+                        (D(`50% 50%`), N());
+                      },
+                      children: /*#__PURE__*/ _(Xn, {
+                        name: w ? `zoomOut` : `zoomIn`,
+                        size: 15,
+                      }),
+                    })
+                  : null,
+                /*#__PURE__*/ _($n, {
+                  label: d ? `Link copied` : `Share`,
+                  onClick: j,
+                  children: /*#__PURE__*/ _(Xn, { name: `share`, size: 15 }),
+                }),
+                /*#__PURE__*/ _($n, {
+                  label: "Fechar",
+                  onClick: c,
+                  children: /*#__PURE__*/ _(Xn, { name: `x`, size: 15 }),
+                }),
+              ],
+            }),
+          ],
+        }),
+        /*#__PURE__*/ g(`div`, {
+          style: {
+            position: `relative`,
+            flex: 1,
+            minHeight: 0,
+            display: `flex`,
+            alignItems: `center`,
+            justifyContent: `center`,
+            padding: y ? `0 16px` : `0 128px`,
+            overflow: `hidden`,
+          },
+          children: [
+            /*#__PURE__*/ _(C, {
+              mode: `popLayout`,
+              initial: !1,
+              children: /*#__PURE__*/ _(
+                S.img,
+                {
+                  src: k?.image?.src,
+                  srcSet: k?.image?.srcSet,
+                  alt: k?.image?.alt ?? ``,
+                  draggable: !1,
+                  initial: { opacity: 0, scale: 0.985 },
+                  animate: { opacity: 1, scale: w ? ir : 1 },
+                  exit: {
+                    opacity: 0,
+                    transition: { duration: 0.15, ease: nr },
+                  },
+                  transition: {
+                    opacity: { duration: 0.22, ease: nr },
+                    scale: rr,
+                  },
+                  onClick: (e) => {
+                    s && (e.stopPropagation(), M(e), N());
+                  },
+                  onPointerMove: (e) => {
+                    w && M(e);
+                  },
+                  style: {
+                    maxWidth: `100%`,
+                    maxHeight: `100%`,
+                    objectFit: `contain`,
+                    userSelect: `none`,
+                    display: `block`,
+                    transformOrigin: E,
+                    cursor: s ? (w ? `zoom-out` : `zoom-in`) : `default`,
+                  },
+                },
+                n,
+              ),
+            }),
+            a
+              ? /*#__PURE__*/ _(
+                  S.div,
+                  {
+                    initial: { scaleX: 0 },
+                    animate: { scaleX: 1 },
+                    transition: { duration: 3.6, ease: `linear` },
+                    style: {
+                      position: `absolute`,
+                      left: y ? 16 : 128,
+                      right: y ? 16 : 128,
+                      top: -12,
+                      height: 2,
+                      background: `#FFFFFF`,
+                      transformOrigin: `0% 50%`,
+                    },
+                  },
+                  `progress-${n}`,
+                )
+              : null,
+            !y && l > 1
+              ? /*#__PURE__*/ g(p, {
+                  children: [
+                    /*#__PURE__*/ _($n, {
+                      label: `Previous photo`,
+                      onClick: () => A(-1),
+                      size: 44,
+                      style: {
+                        position: `absolute`,
+                        left: 44,
+                        top: `50%`,
+                        marginTop: -22,
+                        zIndex: 2,
+                      },
+                      children: /*#__PURE__*/ _(Xn, { name: `left`, size: 18 }),
+                    }),
+                    /*#__PURE__*/ _($n, {
+                      label: `Next photo`,
+                      onClick: () => A(1),
+                      size: 44,
+                      style: {
+                        position: `absolute`,
+                        right: 44,
+                        top: `50%`,
+                        marginTop: -22,
+                        zIndex: 2,
+                      },
+                      children: /*#__PURE__*/ _(Xn, {
+                        name: `right`,
+                        size: 18,
+                      }),
+                    }),
+                  ],
+                })
+              : null,
+          ],
+        }),
+        /*#__PURE__*/ _(`div`, {
+          style: {
+            display: `flex`,
+            justifyContent: y ? `flex-start` : `center`,
+            gap: 6,
+            padding: y ? `16px` : `24px 44px 32px`,
+            overflowX: `auto`,
+          },
+          children: e.map((e, t) =>
+            /*#__PURE__*/ _(
+              `button`,
+              {
+                type: `button`,
+                "aria-label": `Show photo ${t + 1}`,
+                "aria-current": t === n,
+                onPointerDown: (e) => e.stopPropagation(),
+                onPointerUp: (e) => e.stopPropagation(),
+                onClick: () => {
+                  (o(!1), r(() => t));
+                },
+                style: {
+                  flex: `0 0 auto`,
+                  width: 64,
+                  height: 44,
+                  padding: 0,
+                  overflow: `hidden`,
+                  cursor: `pointer`,
+                  background: `transparent`,
+                  border:
+                    t === n ? `1.5px solid #FFFFFF` : `1.5px solid transparent`,
+                  opacity: t === n ? 1 : 0.5,
+                  transition: `opacity 0.18s ease`,
+                },
+                children: /*#__PURE__*/ _(`img`, {
+                  src: e.image?.src,
+                  alt: ``,
+                  style: {
+                    width: `100%`,
+                    height: `100%`,
+                    objectFit: `cover`,
+                    display: `block`,
+                  },
+                }),
+              },
+              t,
+            ),
+          ),
+        }),
+      ],
+    }),
+    document.body,
+  );
+}
+function tr(e) {
+  let {
+      images: t,
+      title: n = `Caldren Residence 07`,
+      layout: r = `feature`,
+      columns: i = 2,
+      rowHeight: o = 420,
+      sideWidth: s = 440,
+      gap: c = 12,
+      radius: l = 0,
+      viewAllLabel: u = "Ver todas as fotos",
+      filmLabel: d = ``,
+      enableZoom: p = !0,
+    } = e,
+    m = { ...q, ...(e.button || {}) },
+    v = (t && t.length ? t : or).filter((e) => e?.image?.src),
+    y = je(),
+    S = x(null),
+    [ee, w] = b(1072),
+    [T, E] = b(!1),
+    [D, O] = b(0),
+    [k, A] = b(!1);
+  f(() => {
+    let e = S.current;
+    if (!e || typeof ResizeObserver > `u`) return;
+    let t = new ResizeObserver(([e]) => w(e.contentRect.width));
+    return (t.observe(e), () => t.disconnect());
+  }, []);
+  let j = h((e) => O(e), []),
+    M = h(() => a(() => E(!1)), []),
+    N = (e, t = !1) => {
+      !y &&
+        v.length &&
+        a(() => {
+          (O(e), A(t), E(!0));
+        });
+    },
+    P = ee < 720,
+    te = e.style?.height !== `100%`,
+    F;
+  if (r === `grid`)
+    F = /*#__PURE__*/ _(`div`, {
+      style: {
+        display: `grid`,
+        gridTemplateColumns: `repeat(${P ? 1 : Math.max(1, i)}, minmax(0, 1fr))`,
+        gridAutoRows: P ? Math.round(o * 0.66) : o,
+        gap: c,
+        width: `100%`,
+      },
+      children: v.map((e, t) =>
+        /*#__PURE__*/ _(Zn, { item: e, radius: l, onOpen: () => N(t) }, t),
+      ),
+    });
+  else {
+    let e = v.slice(1, 5);
+    F = /*#__PURE__*/ g(`div`, {
+      style: {
+        display: `flex`,
+        flexDirection: P ? `column` : `row`,
+        gap: c,
+        width: `100%`,
+        height: te ? (P ? 460 : 620) : `100%`,
+      },
+      children: [
+        /*#__PURE__*/ _(Zn, {
+          item: v[0],
+          radius: l,
+          onOpen: () => N(0),
+          style: { flex: 1 },
+          children: d
+            ? /*#__PURE__*/ _(Qn, {
+                icon: `play`,
+                label: d,
+                onClick: (e) => {
+                  (e.stopPropagation(), N(0, !0));
+                },
+                config: m,
+                style: { left: m.offset, bottom: m.offset },
+              })
+            : null,
+        }),
+        e.length
+          ? /*#__PURE__*/ _(`div`, {
+              style: {
+                display: `grid`,
+                gap: c,
+                width: P ? `100%` : s,
+                height: P
+                  ? Math.max(64, Math.round(((ee - c * 3) / 4) * 0.75))
+                  : `100%`,
+                gridTemplateColumns: P
+                  ? `repeat(${e.length}, minmax(0, 1fr))`
+                  : `repeat(2, minmax(0, 1fr))`,
+                gridTemplateRows: P ? `1fr` : `repeat(2, minmax(0, 1fr))`,
+              },
+              children: e.map((e, t) =>
+                /*#__PURE__*/ _(
+                  Zn,
+                  { item: e, radius: l, onOpen: () => N(t + 1) },
+                  t,
+                ),
+              ),
+            })
+          : null,
+      ],
+    });
+  }
+  return /*#__PURE__*/ g(`div`, {
+    ref: S,
+    style: {
+      ...e.style,
+      position: `relative`,
+      width: `100%`,
+      height: r === `grid` || te ? `auto` : `100%`,
+      fontFamily: ar,
+    },
+    children: [
+      F,
+      v.length > 1 && !(m.hideOnMobile && P)
+        ? /*#__PURE__*/ _(Qn, {
+            icon: m.icon,
+            label: `${u}${m.showCount ? `${m.countSeparator}${v.length}` : ``}`,
+            onClick: () => N(0),
+            config: m,
+            style: Yn(m.position, m.offset),
+          })
+        : null,
+      /*#__PURE__*/ _(C, {
+        children:
+          T && !y
+            ? /*#__PURE__*/ _(
+                er,
+                {
+                  items: v,
+                  title: n,
+                  index: D,
+                  setIndex: j,
+                  autoplay: k,
+                  setAutoplay: A,
+                  enableZoom: p,
+                  onClose: M,
+                },
+                `lightbox`,
+              )
+            : null,
+      }),
+    ],
+  });
+}
+var q, nr, rr, ir, ar, or;
+function sr() {
+  return (sr = e(() => {
+    (t(),
+      y(),
+      R(),
+      T(),
+      n(),
+      d(),
+      (q = {
+        showIcon: !0,
+        icon: `grid`,
+        iconPosition: `left`,
+        iconSize: 14,
+        showCount: !0,
+        countSeparator: ` · `,
+        font: {},
+        color: `#0E0E0C`,
+        background: `#FFFFFF`,
+        hoverColor: `#0E0E0C`,
+        hoverBackground: `#F2F0EC`,
+        borderWidth: 0,
+        borderColor: `rgba(14, 14, 12, 0.12)`,
+        radius: 100,
+        padding: `10px 16px`,
+        gap: 8,
+        shadow: `0px 6px 24px 0px rgba(14, 14, 12, 0.12)`,
+        blur: 0,
+        position: `bottom-right`,
+        offset: 20,
+        hideOnMobile: !1,
+      }),
+      (nr = [0.22, 1, 0.36, 1]),
+      (rr = { type: `spring`, stiffness: 420, damping: 38, mass: 0.8 }),
+      (ir = 2.2),
+      (ar = `"Geist", "Geist Placeholder", sans-serif`),
+      (or = [
+        {
+          image: {
+            src: `https://framerusercontent.com/images/yNC8RAIxalRjYhcCvk9KRAQqeU.jpg`,
+            alt: `Exterior`,
+          },
+          caption: `Exterior`,
+        },
+        {
+          image: {
+            src: `https://framerusercontent.com/images/xV5CA4Iu6G67BxHH5JKSgLqt4HY.jpg`,
+            alt: `Living room`,
+          },
+          caption: `Living room`,
+        },
+        {
+          image: {
+            src: `https://framerusercontent.com/images/JURb7chho1x46jLcBJL7vKeEAUY.jpg`,
+            alt: `Kitchen`,
+          },
+          caption: `Kitchen`,
+        },
+        {
+          image: {
+            src: `https://framerusercontent.com/images/1w6mrGYSrHPQjIItt300NwCZtDA.jpg`,
+            alt: `Principal suite`,
+          },
+          caption: `Principal suite`,
+        },
+        {
+          image: {
+            src: `https://framerusercontent.com/images/ghWrEuYBtVEeykR1ZqqY7uIc.jpg`,
+            alt: `Terrace`,
+          },
+          caption: `Terrace`,
+        },
+      ]),
+      le(tr, {
+        images: {
+          type: W.Array,
+          title: `Photos`,
+          control: {
+            type: W.Object,
+            controls: {
+              image: { type: W.ResponsiveImage, title: `Image` },
+              caption: { type: W.String, title: `Caption`, defaultValue: `` },
+            },
+          },
+          defaultValue: [{ caption: `Exterior` }, { caption: `Living room` }],
+        },
+        title: {
+          type: W.String,
+          title: `Title`,
+          defaultValue: `Caldren Residence 07`,
+        },
+        layout: {
+          type: W.Enum,
+          title: `Layout`,
+          options: [`feature`, `grid`],
+          optionTitles: [`Feature`, `Grid`],
+          defaultValue: `feature`,
+          displaySegmentedControl: !0,
+        },
+        columns: {
+          type: W.Number,
+          title: `Columns`,
+          defaultValue: 2,
+          min: 1,
+          max: 4,
+          step: 1,
+          displayStepper: !0,
+          hidden: (e) => e.layout !== `grid`,
+        },
+        rowHeight: {
+          type: W.Number,
+          title: `Row Height`,
+          defaultValue: 420,
+          min: 120,
+          max: 900,
+          unit: `px`,
+          hidden: (e) => e.layout !== `grid`,
+        },
+        sideWidth: {
+          type: W.Number,
+          title: `Side Width`,
+          defaultValue: 440,
+          min: 200,
+          max: 800,
+          unit: `px`,
+          hidden: (e) => e.layout !== `feature`,
+        },
+        gap: {
+          type: W.Number,
+          title: `Gap`,
+          defaultValue: 12,
+          min: 0,
+          max: 48,
+          unit: `px`,
+        },
+        radius: {
+          type: W.Number,
+          title: `Radius`,
+          defaultValue: 0,
+          min: 0,
+          max: 40,
+          unit: `px`,
+        },
+        viewAllLabel: {
+          type: W.String,
+          title: "Ver todos",
+          defaultValue: "Ver todas as fotos",
+        },
+        filmLabel: {
+          type: W.String,
+          title: `Film Label`,
+          defaultValue: ``,
+          placeholder: `Watch film · 2:14`,
+        },
+        enableZoom: {
+          type: W.Boolean,
+          title: `Zoom no lightbox`,
+          defaultValue: !0,
+        },
+        button: {
+          type: W.Object,
+          title: `Botão`,
+          controls: {
+            showIcon: {
+              type: W.Boolean,
+              title: `Ícone`,
+              defaultValue: q.showIcon,
+            },
+            icon: {
+              type: W.Enum,
+              title: `Tipo de ícone`,
+              options: [`grid`, `plus`, `arrow`],
+              optionTitles: [`Grade`, `Mais`, `Seta`],
+              defaultValue: q.icon,
+              hidden: (e) => !e.showIcon,
+            },
+            iconPosition: {
+              type: W.Enum,
+              title: `Lado do ícone`,
+              options: [`left`, `right`],
+              optionTitles: [`Esquerda`, `Direita`],
+              displaySegmentedControl: !0,
+              defaultValue: q.iconPosition,
+              hidden: (e) => !e.showIcon,
+            },
+            iconSize: {
+              type: W.Number,
+              title: `Tam. do ícone`,
+              min: 8,
+              max: 32,
+              unit: `px`,
+              defaultValue: q.iconSize,
+              hidden: (e) => !e.showIcon,
+            },
+            showCount: {
+              type: W.Boolean,
+              title: `Contador`,
+              defaultValue: q.showCount,
+            },
+            countSeparator: {
+              type: W.String,
+              title: `Separador`,
+              defaultValue: q.countSeparator,
+              hidden: (e) => !e.showCount,
+            },
+            font: {
+              type: W.Font,
+              title: `Fonte`,
+              controls: `extended`,
+              defaultFontType: `sans-serif`,
+              defaultValue: {
+                fontSize: 13,
+                fontWeight: 500,
+                lineHeight: `16px`,
+              },
+            },
+            color: { type: W.Color, title: `Texto`, defaultValue: q.color },
+            background: {
+              type: W.Color,
+              title: `Fundo`,
+              defaultValue: q.background,
+            },
+            hoverColor: {
+              type: W.Color,
+              title: `Texto (hover)`,
+              defaultValue: q.hoverColor,
+            },
+            hoverBackground: {
+              type: W.Color,
+              title: `Fundo (hover)`,
+              defaultValue: q.hoverBackground,
+            },
+            borderWidth: {
+              type: W.Number,
+              title: `Borda`,
+              min: 0,
+              max: 6,
+              unit: `px`,
+              defaultValue: q.borderWidth,
+            },
+            borderColor: {
+              type: W.Color,
+              title: `Cor da borda`,
+              defaultValue: q.borderColor,
+              hidden: (e) => !e.borderWidth,
+            },
+            radius: {
+              type: W.Number,
+              title: `Arredondamento`,
+              min: 0,
+              max: 100,
+              unit: `px`,
+              defaultValue: q.radius,
+            },
+            padding: {
+              type: W.Padding,
+              title: `Padding`,
+              defaultValue: q.padding,
+            },
+            gap: {
+              type: W.Number,
+              title: `Espaço ícone`,
+              min: 0,
+              max: 24,
+              unit: `px`,
+              defaultValue: q.gap,
+            },
+            shadow: {
+              type: W.BoxShadow,
+              title: `Sombra`,
+              defaultValue: q.shadow,
+            },
+            blur: {
+              type: W.Number,
+              title: `Desfoque fundo`,
+              min: 0,
+              max: 40,
+              unit: `px`,
+              defaultValue: q.blur,
+            },
+            position: {
+              type: W.Enum,
+              title: `Posição`,
+              options: [
+                `bottom-right`,
+                `bottom-left`,
+                `bottom-center`,
+                `top-right`,
+                `top-left`,
+              ],
+              optionTitles: [
+                `Inferior direita`,
+                `Inferior esquerda`,
+                `Inferior centro`,
+                `Superior direita`,
+                `Superior esquerda`,
+              ],
+              defaultValue: q.position,
+            },
+            offset: {
+              type: W.Number,
+              title: `Distância borda`,
+              min: 0,
+              max: 80,
+              unit: `px`,
+              defaultValue: q.offset,
+            },
+            hideOnMobile: {
+              type: W.Boolean,
+              title: `Ocultar mobile`,
+              defaultValue: q.hideOnMobile,
+            },
+          },
+        },
+      }));
+  }))();
+}
+var cr, lr, ur;
+function dr() {
+  return (dr = e(() => {
+    (R(),
+      ie.loadFonts([`FS;Manrope-regular`, `FS;Manrope-bold`]),
+      (cr = [
+        {
+          explicitInter: !0,
+          fonts: [
+            {
+              cssFamilyName: `Manrope`,
+              openType: !0,
+              source: `fontshare`,
+              style: `normal`,
+              uiFamilyName: `Manrope`,
+              url: `https://framerusercontent.com/third-party-assets/fontshare/wf/2TYFCBHUANEXS6QGR5EQDUNAFH6LSWM3/AYNOU3VEA4LRTDNKJQUFNVNUTYSGOUOP/UXO4O7K2G3HI3D2VKD7UXVJVJD26P4BQ.woff2`,
+              weight: `400`,
+            },
+            {
+              cssFamilyName: `Manrope`,
+              openType: !0,
+              source: `fontshare`,
+              style: `normal`,
+              uiFamilyName: `Manrope`,
+              url: `https://framerusercontent.com/third-party-assets/fontshare/wf/NGBUP45ES3F7RD5XGKPEDJ6QEPO4TMOK/EXDVWJ2EDDVVV65UENMX33EDDYBX6OF7/6P4FPMFQH7CCC7RZ4UU4NKSGJ2RLF7V5.woff2`,
+              weight: `700`,
+            },
+          ],
+        },
+      ]),
+      (lr = [
+        `.framer-Seflv .framer-styles-preset-1go5ger:not(.rich-text-wrapper), .framer-Seflv .framer-styles-preset-1go5ger.rich-text-wrapper p { --framer-font-family: "Manrope", "Manrope Placeholder", sans-serif; --framer-font-family-bold: "Manrope", "Manrope Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on; --framer-font-size: 14px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-font-weight-bold: 700; --framer-letter-spacing: -0.02em; --framer-line-height: 1.4em; --framer-paragraph-spacing: 20px; --framer-text-alignment: start; --framer-text-color: #666666; --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }`,
+      ]),
+      (ur = `framer-Seflv`));
+  }))();
+}
+var fr,
+  pr,
+  mr,
+  hr,
+  gr,
+  _r,
+  vr,
+  J,
+  yr,
+  br,
+  xr,
+  Sr,
+  Cr,
+  wr,
+  Tr,
+  Er,
+  Dr,
+  Or,
+  kr,
+  Ar,
+  jr,
+  Mr,
+  Nr,
+  Pr,
+  Fr,
+  Ir,
+  Lr,
+  Rr,
+  zr,
+  Br,
+  Vr,
+  Hr,
+  Y,
+  X,
+  Ur,
+  Z,
+  Q,
+  $,
+  Wr,
+  Gr,
+  Kr,
+  qr,
+  Jr,
+  Yr,
+  Xr,
+  Zr,
+  Qr,
+  $r,
+  ei,
+  ti,
+  ni,
+  ri,
+  ii,
+  ai;
+function oi() {
+  return (oi = e(() => {
+    (y(),
+      R(),
+      T(),
+      n(),
+      d(),
+      Ue(),
+      Ze(),
+      sn(),
+      $e(),
+      hn(),
+      jn(),
+      ft(),
+      zt(),
+      mt(),
+      gt(),
+      vt(),
+      Nn(),
+      Hn(),
+      Jn(),
+      sr(),
+      rt(),
+      Dt(),
+      bt(),
+      Be(),
+      Vt(),
+      Le(),
+      dr(),
+      K(),
+      Pt(),
+      ot(),
+      wt(),
+      at(),
+      Kt(),
+      (fr = B(Qe)),
+      (pr = B(et)),
+      (mr = te(S.a)),
+      (hr = B(yt)),
+      (gr = te(S.div)),
+      (_r = B(ht)),
+      (vr = B(_t)),
+      (J = Pe(S.div)),
+      (yr = B(An)),
+      (br = B(qt)),
+      (xr = B(mn)),
+      (Sr = B(tr)),
+      (Cr = B(pt)),
+      (wr = O(S.div)),
+      (Tr = Pe(wr)),
+      (Er = fe(U, { nodeId: `NsBMi88i5`, override: Gn, scopeId: `YpTYVyu2F` })),
+      (Dr = B(In)),
+      (Or = O(S.div)),
+      (kr = B(Mn)),
+      (Ar = B(Bt)),
+      (jr = B(We)),
+      (Mr = {
+        hH0DQFdT_: `(min-width: 810px) and (max-width: 1199.98px)`,
+        LtsrEqi21: `(max-width: 809.98px)`,
+        qiFBfLOED: `(min-width: 1200px)`,
+      }),
+      (Nr = () => typeof document < `u`),
+      (Pr = []),
+      (Fr = `framer-hCxt7`),
+      (Ir = {
+        hH0DQFdT_: `framer-v-1vzs2u5`,
+        LtsrEqi21: `framer-v-1v2x7lb`,
+        qiFBfLOED: `framer-v-1ym8dqe`,
+      }),
+      (Lr = (e, t, n) => (e && t ? `position` : n)),
+      (Rr = (e) =>
+        typeof e == `object` && e && typeof e.src == `string`
+          ? e.src
+          : typeof e == `string`
+            ? e
+            : void 0),
+      (zr = {
+        opacity: 0.7,
+        rotate: 0,
+        rotateX: 0,
+        rotateY: 0,
+        scale: 1,
+        skewX: 0,
+        skewY: 0,
+        transition: { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` },
+      }),
+      (Br = {
+        opacity: 1,
+        rotate: 0,
+        rotateX: 0,
+        rotateY: 0,
+        scale: 1,
+        skewX: 0,
+        skewY: 0,
+        transition: { bounce: 0, delay: 0.5, duration: 0.8, type: `spring` },
+        x: 0,
+        y: 0,
+      }),
+      (Vr = {
+        opacity: 0.001,
+        rotate: 0,
+        rotateX: 0,
+        rotateY: 0,
+        scale: 1,
+        skewX: 0,
+        skewY: 0,
+        x: 0,
+        y: -40,
+      }),
+      (Hr = {
+        opacity: 0.001,
+        rotate: 0,
+        rotateX: 0,
+        rotateY: 0,
+        scale: 1,
+        skewX: 0,
+        skewY: 0,
+        x: 0,
+        y: 40,
+      }),
+      (Y = (e) =>
+        typeof e == `object` && e && typeof e.src == `string`
+          ? e
+          : typeof e == `string`
+            ? { src: e }
+            : void 0),
+      (X = (...e) => {
+        for (let t of e) if (t && typeof t == `string`) return t;
+      }),
+      (Ur = (e) => (Array.isArray(e) ? e.length > 0 : e != null && e !== ``)),
+      (Z = {
+        opacity: 0,
+        rotate: 0,
+        rotateX: 0,
+        rotateY: 0,
+        scale: 1,
+        skewX: 0,
+        skewY: 0,
+        x: 0,
+        y: 40,
+      }),
+      (Q = { bounce: 0, delay: 0.1, duration: 0.8, type: `spring` }),
+      ($ = {
+        opacity: 0,
+        rotate: 0,
+        rotateX: 0,
+        rotateY: 0,
+        scale: 1,
+        skewX: 0,
+        skewY: 0,
+        transition: Q,
+        x: 0,
+        y: 40,
+      }),
+      (Wr = (e, t) => `translate(-50%, -50%) ${t}`),
+      (Gr = () =>
+        document.querySelector(`#template-overlay`) ??
+        document.querySelector(`#overlay`) ??
+        document.body),
+      (Kr = ({
+        children: e,
+        blockDocumentScrolling: t,
+        dismissWithEsc: n,
+        enabled: r = !0,
+      }) => {
+        let [i, a] = D({ blockDocumentScrolling: t, dismissWithEsc: r && n });
+        return e({
+          hide: () => a(!1),
+          show: () => a(!0),
+          toggle: () => a(!i),
+          visible: r && i,
+        });
+      }),
+      (qr = (e) => {
+        if (Array.isArray(e))
+          return e.map((e) => ({
+            caption: ``,
+            id: e?.id,
+            image: Y(e?.ha1w4BLud),
+          }));
+      }),
+      (Jr = { bounce: 0, delay: 0, duration: 0.7, type: `spring` }),
+      (Yr = (e) => {
+        if (Array.isArray(e))
+          return e.map((e) => ({
+            caption: ``,
+            id: e?.id,
+            image: Y(e?.M5sTnpx7i),
+          }));
+      }),
+      (Xr = (e, t = {}, n) => {
+        let r = `en-US`,
+          i = t.locale || n || r,
+          {
+            useGrouping: a,
+            notation: o,
+            compactDisplay: s,
+            style: c,
+            currency: l,
+            currencyDisplay: u,
+            unit: d,
+            unitDisplay: f,
+            minimumFractionDigits: p,
+            maximumFractionDigits: m,
+            minimumIntegerDigits: h,
+          } = t,
+          g = {
+            useGrouping: a,
+            notation: o,
+            compactDisplay: s,
+            style: c,
+            currency: l,
+            currencyDisplay: u,
+            unit: d,
+            unitDisplay: f,
+            minimumFractionDigits: p,
+            maximumFractionDigits: m,
+            minimumIntegerDigits: h,
+          },
+          _ = Number(e);
+        try {
+          return _.toLocaleString(i, g);
+        } catch {
+          try {
+            return _.toLocaleString(r, g);
+          } catch {
+            return _.toLocaleString();
+          }
+        }
+      }),
+      (Zr = (e, t, n) => {
+        switch (e.state) {
+          case `success`:
+            return t.success ?? n;
+          case `pending`:
+            return t.pending ?? n;
+          case `error`:
+            return t.error ?? n;
+          case `incomplete`:
+            return t.incomplete ?? n;
+          default:
+            return n;
+        }
+      }),
+      (Qr = { Desktop: `qiFBfLOED`, Phone: `LtsrEqi21`, Tablet: `hH0DQFdT_` }),
+      ($r = ({ value: e }) =>
+        k()
+          ? null
+          : /*#__PURE__*/ _(`style`, {
+              dangerouslySetInnerHTML: { __html: e },
+              "data-framer-html-style": ``,
+            })),
+      (ei = (e) => ({
+        from: { alias: `YpTYVyu2F`, data: nt, type: `Collection` },
+        select: [
+          { collection: `YpTYVyu2F`, name: `X2UQ6u6yb`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `RxttKCsHa`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `b7apOmGOj`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `PnppCh5E3`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `LRShbaYYK`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `PiBlBSLnd`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `SnqcLRJQB`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `HibEaVK6w`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `eXVa3zGhc`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `G13PZqxrp`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `k0b0wvjV4`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `v8eJTyg1m`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `PP_4UcxO2`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `l2c9g64SD`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `sfO6njvXJ`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `NDSPF828F`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `SBDCcUXxd`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `ufaQCrf6V`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `FxNV7unIM`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `el0eDwfNP`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `sQQ3NbOdQ`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `ktj7kdehN`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `QnSN6Pe4p`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `c0L_HmH9P`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `LMViqSwuH`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `AiUVXNMId`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `lCnocqV0q`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `fVfkegQOL`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `cGpviWwOJ`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `js7fSrg1L`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `zwmcswokk`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `eABfR_fZ4`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `rWWKPfd6I`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `fudhL_MQR`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `gh5YxdU3Z`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `c2duFfNVi`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `m1TO3EDBh`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `ZfLSGLtiq`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `FNbNnQ9UN`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `XjkpjENiq`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `pRO8hjD5y`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `wU5wrAFRo`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `keqZllvWm`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `kjcp3ZK9Z`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `tRDjIZxax`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `mbU34_kkK`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `tWVUwuqAW`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `t3epfOiL5`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `aSm3_9OUC`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `WukTVjb7C`, type: `Identifier` },
+          { collection: `YpTYVyu2F`, name: `es4mJu0KZ`, type: `Identifier` },
+        ],
+        where: e,
+      })),
+      (ti = ({ height: e, id: t, width: n, ...r }) => ({
+        ...r,
+        variant: Qr[r.variant] ?? r.variant ?? `qiFBfLOED`,
+      })),
+      (ni = /*#__PURE__*/ v(function (e, t) {
+        let n = x(null),
+          i = t ?? n;
+        r();
+        let { activeLocale: a, contentLocale: l, setLocale: u } = M(),
+          d = xe(),
+          f = he()?.pathVariables,
+          [h] = we(ei(re(f, `YpTYVyu2F`)));
+        if (!h)
+          throw new Me(`No data matches path variables: ${JSON.stringify(f)}`);
+        let {
+            style: v,
+            className: y,
+            layoutId: b,
+            variant: T,
+            X2UQ6u6yb: D = h.X2UQ6u6yb ?? ``,
+            RxttKCsHa: O = h.RxttKCsHa,
+            b7apOmGOj: k = h.b7apOmGOj ?? ``,
+            PnppCh5E3: P = h.PnppCh5E3 ?? ``,
+            LRShbaYYK: te = h.LRShbaYYK ?? ``,
+            PiBlBSLnd: ne = h.PiBlBSLnd ?? ``,
+            SnqcLRJQB: ie = h.SnqcLRJQB ?? ``,
+            HibEaVK6w: ae = h.HibEaVK6w,
+            eXVa3zGhc: oe = h.eXVa3zGhc ?? ``,
+            G13PZqxrp: le = h.G13PZqxrp ?? ``,
+            k0b0wvjV4: ue = h.k0b0wvjV4,
+            v8eJTyg1m: R = h.v8eJTyg1m ?? ``,
+            PP_4UcxO2: de = h.PP_4UcxO2,
+            l2c9g64SD: fe = h.l2c9g64SD ?? ``,
+            sfO6njvXJ: B = h.sfO6njvXJ,
+            NDSPF828F: ge = h.NDSPF828F ?? ``,
+            SBDCcUXxd: Ce = h.SBDCcUXxd,
+            ufaQCrf6V: Te = h.ufaQCrf6V ?? ``,
+            FxNV7unIM: W = h.FxNV7unIM,
+            el0eDwfNP: De = h.el0eDwfNP ?? ``,
+            sQQ3NbOdQ: je = h.sQQ3NbOdQ ?? ``,
+            ktj7kdehN: Pe = h.ktj7kdehN ?? ``,
+            QnSN6Pe4p: Fe = h.QnSN6Pe4p,
+            c0L_HmH9P: Ie = h.c0L_HmH9P,
+            LMViqSwuH: Le = h.LMViqSwuH ?? ``,
+            AiUVXNMId: Re = h.AiUVXNMId ?? ``,
+            lCnocqV0q: Be = h.lCnocqV0q ?? ``,
+            fVfkegQOL: He = h.fVfkegQOL ?? ``,
+            cGpviWwOJ: Ue = h.cGpviWwOJ,
+            js7fSrg1L: Ge = h.js7fSrg1L ?? [],
+            zwmcswokk: Ke = h.zwmcswokk ?? !0,
+            eABfR_fZ4: qe = h.eABfR_fZ4 ?? ``,
+            rWWKPfd6I: Je = h.rWWKPfd6I,
+            fudhL_MQR: Ye = h.fudhL_MQR ?? ``,
+            gh5YxdU3Z: Xe = h.gh5YxdU3Z ?? !0,
+            c2duFfNVi: Ze = h.c2duFfNVi ?? ``,
+            m1TO3EDBh: $e = h.m1TO3EDBh ?? [],
+            ZfLSGLtiq: nt = h.ZfLSGLtiq ?? ``,
+            FNbNnQ9UN: rt = h.FNbNnQ9UN ?? ``,
+            XjkpjENiq: at = h.XjkpjENiq,
+            pRO8hjD5y: ot = h.pRO8hjD5y ?? ``,
+            wU5wrAFRo: st = h.wU5wrAFRo ?? 0,
+            keqZllvWm: ct = h.keqZllvWm ?? ``,
+            kjcp3ZK9Z: lt = h.kjcp3ZK9Z ?? 0,
+            tRDjIZxax: ut = h.tRDjIZxax ?? ``,
+            mbU34_kkK: ft = h.mbU34_kkK ?? 0,
+            tWVUwuqAW: mt = h.tWVUwuqAW ?? ``,
+            t3epfOiL5: gt = h.t3epfOiL5 ?? 0,
+            aSm3_9OUC: vt = h.aSm3_9OUC ?? ``,
+            WukTVjb7C: bt = h.WukTVjb7C ?? ``,
+            es4mJu0KZ: xt = h.es4mJu0KZ ?? ``,
+            ...St
+          } = ti(e),
+          wt = c(
+            () => Gt({ k0b0wvjV4: ue, PiBlBSLnd: ne, SnqcLRJQB: ie }, l),
+            [ue, ie, ne, l],
+          );
+        j(wt);
+        let [G, Tt] = Ne(T, Mr, !1),
+          Dt = F(Fr, Ct, it, ze, dt, Nt, Wt, Et, Ve, Lt, At, ur),
+          Ot = s(Ee)?.isLayoutTemplate,
+          kt = !!s(w)?.transition?.layout,
+          K = Lr(Ot, kt),
+          jt = () => !Nr() || G !== `LtsrEqi21`,
+          Mt = tt.RxttKCsHa?.(O, l),
+          Pt = L(`To5bNRrVp`),
+          Ft = N(),
+          It = Ur(te);
+        se();
+        let { activeVariantCallback: Rt, delay: zt } = Se(void 0),
+          Vt = ({ overlay: e }) =>
+            Rt(async (...t) => {
+              e.toggle();
+            }),
+          Ht = ({ overlay: e }) =>
+            Rt(async (...t) => {
+              e.hide();
+            }),
+          Ut = L(`CxicquXrG`),
+          Kt = x(null),
+          Jt = L(`Bd6G2lzQE`),
+          Yt = x(null),
+          Xt = L(`HwZ0M4miZ`),
+          Zt = x(null),
+          Qt = L(`ahEz4WvSq`),
+          $t = x(null),
+          en = L(`d8jnbzJaY`),
+          tn = x(null),
+          nn = pe(),
+          rn = Xr(
+            st,
+            {
+              locale: ``,
+              notation: `standard`,
+              style: `unit`,
+              unit: `percent`,
+              unitDisplay: `short`,
+            },
+            nn,
+          ),
+          an = Xr(
+            lt,
+            {
+              locale: ``,
+              notation: `standard`,
+              style: `unit`,
+              unit: `percent`,
+              unitDisplay: `short`,
+            },
+            nn,
+          ),
+          on = Xr(
+            ft,
+            {
+              locale: ``,
+              notation: `standard`,
+              style: `unit`,
+              unit: `percent`,
+              unitDisplay: `short`,
+            },
+            nn,
+          ),
+          sn = Xr(
+            gt,
+            {
+              locale: ``,
+              notation: `standard`,
+              style: `unit`,
+              unit: `percent`,
+              unitDisplay: `short`,
+            },
+            nn,
+          ),
+          cn = Ur(xt);
+        return (
+          Ae({}),
+          /*#__PURE__*/ _(Ee.Provider, {
+            value: {
+              activeVariantId: G,
+              humanReadableVariantMap: Qr,
+              primaryVariantId: `qiFBfLOED`,
+              variantClassNames: Ir,
+            },
+            children: /*#__PURE__*/ g(ee, {
+              id: b ?? `YpTYVyu2F`,
+              children: [
+                /*#__PURE__*/ _($r, {
+                  value: `html body { background: rgb(18, 31, 48); }`,
+                }),
+                /*#__PURE__*/ g(S.div, {
+                  ...St,
+                  className: F(Dt, `framer-1ym8dqe`, y),
+                  ref: i,
+                  style: { ...v },
+                  children: [
+                    /*#__PURE__*/ g(S.main, {
+                      className: `framer-6hqon3`,
+                      "data-framer-name": `Hero`,
+                      layout: K,
+                      children: [
+                        /*#__PURE__*/ g(`div`, {
+                          className: `framer-1lmouzm`,
+                          "data-framer-name": `BG`,
+                          children: [
+                            /*#__PURE__*/ _(H, {
+                              children: /*#__PURE__*/ _(V, {
+                                className: `framer-ynhyei-container`,
+                                isAuthoredByUser: !0,
+                                isModuleExternal: !0,
+                                nodeId: `qFx5jyg4s`,
+                                scopeId: `YpTYVyu2F`,
+                                children: /*#__PURE__*/ _(Qe, {
+                                  backgroundColor: `rgba(0, 0, 0, 0)`,
+                                  borderRadius: 0,
+                                  bottomLeftRadius: 0,
+                                  bottomRightRadius: 0,
+                                  controls: !1,
+                                  height: `100%`,
+                                  id: `qFx5jyg4s`,
+                                  isMixedBorderRadius: !1,
+                                  layoutId: `qFx5jyg4s`,
+                                  loop: !0,
+                                  muted: !0,
+                                  objectFit: `cover`,
+                                  playing: !0,
+                                  poster: Rr(ue),
+                                  posterEnabled: !0,
+                                  srcType: `URL`,
+                                  srcUrl: R,
+                                  startTime: 0,
+                                  style: { height: `100%`, width: `100%` },
+                                  topLeftRadius: 0,
+                                  topRightRadius: 0,
+                                  volume: 25,
+                                  width: `100%`,
+                                }),
+                              }),
+                            }),
+                            /*#__PURE__*/ _(`div`, {
+                              className: `framer-wn5tbh`,
+                              "data-framer-name": `overlay`,
+                            }),
+                            /*#__PURE__*/ _(`div`, {
+                              className: `framer-pmk4ka`,
+                              "data-framer-name": `bottom-overlay`,
+                              children:
+                                jt() &&
+                                /*#__PURE__*/ _(H, {
+                                  children: /*#__PURE__*/ _(V, {
+                                    className: `framer-1h4uyf6-container hidden-1v2x7lb`,
+                                    isAuthoredByUser: !0,
+                                    isModuleExternal: !0,
+                                    nodeId: `j3E1ARARF`,
+                                    scopeId: `YpTYVyu2F`,
+                                    children: /*#__PURE__*/ _(et, {
+                                      allCorners: !1,
+                                      blur: 10,
+                                      blurDirection: `toBottom`,
+                                      bottomLeft: 0,
+                                      bottomRight: 0,
+                                      cornerRadius: 0,
+                                      height: `100%`,
+                                      id: `j3E1ARARF`,
+                                      layoutId: `j3E1ARARF`,
+                                      style: { height: `100%`, width: `100%` },
+                                      topLeft: 0,
+                                      topRight: 0,
+                                      width: `100%`,
+                                    }),
+                                  }),
+                                }),
+                            }),
+                          ],
+                        }),
+                        /*#__PURE__*/ g(`div`, {
+                          className: `framer-ukjsoj`,
+                          "data-framer-name": `Container`,
+                          children: [
+                            /*#__PURE__*/ g(`div`, {
+                              className: `framer-1mz348k`,
+                              "data-framer-name": `Left`,
+                              children: [
+                                /*#__PURE__*/ _(_e, {
+                                  href: { webPageId: `mMr8PcLVz` },
+                                  motionChild: !0,
+                                  nodeId: `KqJ1YiLhm`,
+                                  openInNewTab: !1,
+                                  scopeId: `YpTYVyu2F`,
+                                  children: /*#__PURE__*/ g(mr, {
+                                    animate: Br,
+                                    className: `framer-16dnu1o framer-tif3tz`,
+                                    "data-framer-appear-id": `16dnu1o`,
+                                    "data-framer-name": `Breadcrumb`,
+                                    initial: Vr,
+                                    optimized: !0,
+                                    whileHover: zr,
+                                    children: [
+                                      /*#__PURE__*/ _(U, {
+                                        __fromCanvasComponent: !0,
+                                        children: /*#__PURE__*/ _(o, {
+                                          children: /*#__PURE__*/ _(`p`, {
+                                            style: {
+                                              "--framer-font-size": `14px`,
+                                              "--framer-line-height": `140%`,
+                                            },
+                                            children: /*#__PURE__*/ _(`span`, {
+                                              style: {
+                                                "--font-selector": `R0Y7TWFucm9wZS03MDA=`,
+                                                "--framer-font-family": `"Manrope"`,
+                                                "--framer-font-size": `14px`,
+                                                "--framer-font-weight": `700`,
+                                                "--framer-letter-spacing": `0.04em`,
+                                                "--framer-text-color": `rgba(255, 255, 255, 1)`,
+                                                "--framer-text-transform": `uppercase`,
+                                              },
+                                              children: `empreendimentos`,
+                                            }),
+                                          }),
+                                        }),
+                                        className: `framer-115876y`,
+                                        "data-framer-name": `Motto`,
+                                        fonts: [`GF;Manrope-700`],
+                                        verticalAlignment: `top`,
+                                        withExternalLayout: !0,
+                                      }),
+                                      /*#__PURE__*/ _(E, {
+                                        className: `framer-jw7tlz`,
+                                        "data-framer-name": `Chev`,
+                                        fill: `rgba(0,0,0,1)`,
+                                        intrinsicHeight: 18,
+                                        intrinsicWidth: 18,
+                                        svg: `<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.8">
+<path opacity="0.6" d="M6.75 13.5L11.25 9L6.75 4.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
+`,
+                                        withExternalLayout: !0,
+                                      }),
+                                      /*#__PURE__*/ _(U, {
+                                        __fromCanvasComponent: !0,
+                                        children: /*#__PURE__*/ _(o, {
+                                          children: /*#__PURE__*/ _(`p`, {
+                                            style: {
+                                              "--framer-font-size": `14px`,
+                                              "--framer-line-height": `140%`,
+                                            },
+                                            children: /*#__PURE__*/ _(`span`, {
+                                              style: {
+                                                "--font-selector": `R0Y7TWFucm9wZS03MDA=`,
+                                                "--framer-font-family": `"Manrope"`,
+                                                "--framer-font-size": `14px`,
+                                                "--framer-font-weight": `700`,
+                                                "--framer-letter-spacing": `0.04em`,
+                                                "--framer-text-color": `rgba(255, 255, 255, 1)`,
+                                                "--framer-text-transform": `uppercase`,
+                                              },
+                                              children: `xap by housi`,
+                                            }),
+                                          }),
+                                        }),
+                                        className: `framer-16avvzk`,
+                                        "data-framer-name": `Empreendimento`,
+                                        fonts: [`GF;Manrope-700`],
+                                        text: D,
+                                        verticalAlignment: `top`,
+                                        withExternalLayout: !0,
+                                      }),
+                                    ],
+                                  }),
+                                }),
+                                /*#__PURE__*/ g(gr, {
+                                  animate: Br,
+                                  className: `framer-1l0wyjm`,
+                                  "data-framer-appear-id": `1l0wyjm`,
+                                  "data-framer-name": `Heading`,
+                                  initial: Hr,
+                                  optimized: !0,
+                                  children: [
+                                    /*#__PURE__*/ _(z, {
+                                      breakpoint: G,
+                                      overrides: {
+                                        hH0DQFdT_: {
+                                          background: {
+                                            alt: ``,
+                                            fit: `fill`,
+                                            loading: I((d?.y || 0) + 279.6),
+                                            pixelHeight: 200,
+                                            pixelWidth: 372,
+                                            sizes: `185px`,
+                                            ...Y(ae),
+                                          },
+                                        },
+                                        LtsrEqi21: {
+                                          background: {
+                                            alt: ``,
+                                            fit: `fill`,
+                                            loading: I((d?.y || 0) + 239.6),
+                                            pixelHeight: 200,
+                                            pixelWidth: 372,
+                                            sizes: `170px`,
+                                            ...Y(ae),
+                                          },
+                                        },
+                                      },
+                                      children: /*#__PURE__*/ _(be, {
+                                        background: {
+                                          alt: ``,
+                                          fit: `fill`,
+                                          loading: I((d?.y || 0) + 538.2),
+                                          pixelHeight: 200,
+                                          pixelWidth: 372,
+                                          sizes: `min(max(min(max(${d?.width || `100vw`}, 1px), 1512px) - 721px, 1px), 240px)`,
+                                          ...Y(ae),
+                                        },
+                                        className: `framer-t6pf13`,
+                                        "data-framer-name": `Logo`,
+                                        fitImageDimension: `height`,
+                                      }),
+                                    }),
+                                    /*#__PURE__*/ _(`div`, {
+                                      className: `framer-1xaqxap`,
+                                      "data-framer-name": `Texts`,
+                                      children: /*#__PURE__*/ g(`div`, {
+                                        className: `framer-1nt9dns`,
+                                        "data-framer-name": `Subheading`,
+                                        children: [
+                                          /*#__PURE__*/ _(U, {
+                                            __fromCanvasComponent: !0,
+                                            children: /*#__PURE__*/ _(o, {
+                                              children: /*#__PURE__*/ _(`h1`, {
+                                                className: `framer-styles-preset-19a0grh`,
+                                                "data-styles-preset": `E8uaRWkXj`,
+                                                dir: `auto`,
+                                                children: `O primeiro Bairro Planejado de Chapecó. Pronto pra você construir.`,
+                                              }),
+                                            }),
+                                            className: `framer-b72igw`,
+                                            "data-framer-name": `TOTNT — A 1ª Desenvolvedora Imobiliária do Oeste de Santa Catarina`,
+                                            fonts: [`Inter`],
+                                            text: oe,
+                                            verticalAlignment: `top`,
+                                            withExternalLayout: !0,
+                                          }),
+                                          /*#__PURE__*/ _(z, {
+                                            breakpoint: G,
+                                            overrides: {
+                                              LtsrEqi21: {
+                                                children: /*#__PURE__*/ _(o, {
+                                                  children: /*#__PURE__*/ _(
+                                                    `p`,
+                                                    {
+                                                      className: `framer-styles-preset-1yk4fco`,
+                                                      "data-styles-preset": `zBGYslnpm`,
+                                                      dir: `auto`,
+                                                      style: {
+                                                        "--framer-text-color": `var(--token-33cd011f-da88-43f6-87ac-2295abc01884, rgba(247, 241, 237, 0.8))`,
+                                                      },
+                                                      children: `Casas elevadas no centro da cidade — o primeiro de Chapecó com pé-direito duplo em todos os apartamentos.`,
+                                                    },
+                                                  ),
+                                                }),
+                                                fonts: [`Inter`],
+                                              },
+                                            },
+                                            children: /*#__PURE__*/ _(U, {
+                                              __fromCanvasComponent: !0,
+                                              children: /*#__PURE__*/ _(o, {
+                                                children: /*#__PURE__*/ _(
+                                                  `h2`,
+                                                  {
+                                                    dir: `auto`,
+                                                    style: {
+                                                      "--font-selector": `RlM7TWFucm9wZS1tZWRpdW0=`,
+                                                      "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                                      "--framer-font-size": `20px`,
+                                                      "--framer-font-weight": `500`,
+                                                      "--framer-line-height": `150%`,
+                                                      "--framer-text-color": `var(--token-33cd011f-da88-43f6-87ac-2295abc01884, rgba(247, 241, 237, 0.8))`,
+                                                    },
+                                                    children: `Casas elevadas no centro da cidade — o primeiro de Chapecó com pé-direito duplo em todos os apartamentos.`,
+                                                  },
+                                                ),
+                                              }),
+                                              className: `framer-1aaszy6`,
+                                              "data-framer-name": `Motto`,
+                                              fonts: [`FS;Manrope-medium`],
+                                              text: le,
+                                              verticalAlignment: `top`,
+                                              withExternalLayout: !0,
+                                            }),
+                                          }),
+                                          /*#__PURE__*/ _(`div`, {
+                                            className: `framer-5tq0rm`,
+                                            "data-framer-name": `CTA`,
+                                            children: /*#__PURE__*/ _(z, {
+                                              breakpoint: G,
+                                              overrides: {
+                                                hH0DQFdT_: {
+                                                  y: (d?.y || 0) + 565.4,
+                                                },
+                                                LtsrEqi21: {
+                                                  y: (d?.y || 0) + 599.4,
+                                                },
+                                              },
+                                              children: /*#__PURE__*/ _(H, {
+                                                height: 56,
+                                                y: (d?.y || 0) + 854,
+                                                children: /*#__PURE__*/ _(V, {
+                                                  className: `framer-hdlpab-container`,
+                                                  nodeId: `pcvNYGx_V`,
+                                                  scopeId: `YpTYVyu2F`,
+                                                  children: /*#__PURE__*/ _(
+                                                    yt,
+                                                    {
+                                                      anX0VQP6e: !0,
+                                                      eKaAeFycN: "",
+                                                      height: `100%`,
+                                                      id: `pcvNYGx_V`,
+                                                      layoutId: `pcvNYGx_V`,
+                                                      tehIb4ywa: `Plantão de vendas`,
+                                                      variant: X(`UwqubZzwb`),
+                                                      width: `100%`,
+                                                    },
+                                                  ),
+                                                }),
+                                              }),
+                                            }),
+                                          }),
+                                        ],
+                                      }),
+                                    }),
+                                  ],
+                                }),
+                              ],
+                            }),
+                            /*#__PURE__*/ _(gr, {
+                              animate: Br,
+                              className: `framer-jsh01g`,
+                              "data-border": !0,
+                              "data-framer-appear-id": `jsh01g`,
+                              "data-framer-name": `Ficha`,
+                              initial: Hr,
+                              optimized: !0,
+                              children: /*#__PURE__*/ g(`div`, {
+                                className: `framer-g2rlvo`,
+                                "data-framer-name": `Container`,
+                                children: [
+                                  /*#__PURE__*/ g(`div`, {
+                                    className: `framer-w6g3p6`,
+                                    "data-framer-name": `Top`,
+                                    children: [
+                                      /*#__PURE__*/ g(`div`, {
+                                        className: `framer-1n6l5oi`,
+                                        "data-framer-name": `Title`,
+                                        children: [
+                                          /*#__PURE__*/ _(`div`, {
+                                            className: `framer-k5j6y8`,
+                                            "data-framer-name": `Rectangle 50`,
+                                          }),
+                                          /*#__PURE__*/ _(U, {
+                                            __fromCanvasComponent: !0,
+                                            children: /*#__PURE__*/ _(o, {
+                                              children: /*#__PURE__*/ _(`p`, {
+                                                dir: `auto`,
+                                                style: {
+                                                  "--font-selector": `RlM7TWFucm9wZS1ib2xk`,
+                                                  "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                                  "--framer-font-size": `14px`,
+                                                  "--framer-font-weight": `700`,
+                                                  "--framer-letter-spacing": `0.04em`,
+                                                  "--framer-line-height": `140%`,
+                                                  "--framer-text-color": `var(--token-d01ffe2e-fdb0-4595-96ba-9f369f564ab4, rgb(247, 241, 237))`,
+                                                  "--framer-text-transform": `uppercase`,
+                                                },
+                                                children: `ficha rápida`,
+                                              }),
+                                            }),
+                                            className: `framer-1kvfola`,
+                                            "data-framer-name": `Motto`,
+                                            fonts: [`FS;Manrope-bold`],
+                                            verticalAlignment: `top`,
+                                            withExternalLayout: !0,
+                                          }),
+                                        ],
+                                      }),
+                                      /*#__PURE__*/ g(`div`, {
+                                        className: `framer-7xy35`,
+                                        children: [
+                                          /*#__PURE__*/ _(`div`, {
+                                            className: `framer-1ca8b00`,
+                                            "data-framer-name": `Badge`,
+                                            children: /*#__PURE__*/ _(U, {
+                                              __fromCanvasComponent: !0,
+                                              children: /*#__PURE__*/ _(o, {
+                                                children: /*#__PURE__*/ _(`p`, {
+                                                  dir: `auto`,
+                                                  style: {
+                                                    "--font-selector": `RlM7TWFucm9wZS1ib2xk`,
+                                                    "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                                    "--framer-font-size": `12px`,
+                                                    "--framer-font-weight": `700`,
+                                                    "--framer-letter-spacing": `0.04em`,
+                                                    "--framer-line-height": `140%`,
+                                                    "--framer-text-color": `rgb(18, 31, 47)`,
+                                                    "--framer-text-transform": `uppercase`,
+                                                  },
+                                                  children: `Em finalização`,
+                                                }),
+                                              }),
+                                              className: `framer-f30l6q`,
+                                              "data-framer-name": `Motto`,
+                                              fonts: [`FS;Manrope-bold`],
+                                              text: Mt,
+                                              verticalAlignment: `top`,
+                                              withExternalLayout: !0,
+                                            }),
+                                          }),
+                                          /*#__PURE__*/ _(z, {
+                                            breakpoint: G,
+                                            overrides: {
+                                              LtsrEqi21: {
+                                                children: /*#__PURE__*/ _(o, {
+                                                  children: /*#__PURE__*/ _(
+                                                    `p`,
+                                                    {
+                                                      dir: `auto`,
+                                                      style: {
+                                                        "--font-selector": `RlM7TWFucm9wZS1ib2xk`,
+                                                        "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                                        "--framer-font-size": `13px`,
+                                                        "--framer-font-weight": `700`,
+                                                        "--framer-letter-spacing": `0.04em`,
+                                                        "--framer-line-height": `140%`,
+                                                        "--framer-text-color": `var(--token-d01ffe2e-fdb0-4595-96ba-9f369f564ab4, rgb(247, 241, 237))`,
+                                                        "--framer-text-transform": `uppercase`,
+                                                      },
+                                                      children: `ÚLTIMAS UNIDADES `,
+                                                    },
+                                                  ),
+                                                }),
+                                              },
+                                            },
+                                            children: /*#__PURE__*/ _(U, {
+                                              __fromCanvasComponent: !0,
+                                              children: /*#__PURE__*/ _(o, {
+                                                children: /*#__PURE__*/ _(`p`, {
+                                                  dir: `auto`,
+                                                  style: {
+                                                    "--font-selector": `RlM7TWFucm9wZS1ib2xk`,
+                                                    "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                                    "--framer-font-size": `14px`,
+                                                    "--framer-font-weight": `700`,
+                                                    "--framer-letter-spacing": `0.04em`,
+                                                    "--framer-line-height": `140%`,
+                                                    "--framer-text-color": `var(--token-d01ffe2e-fdb0-4595-96ba-9f369f564ab4, rgb(247, 241, 237))`,
+                                                    "--framer-text-transform": `uppercase`,
+                                                  },
+                                                  children: `ficha rápida`,
+                                                }),
+                                              }),
+                                              className: `framer-1xqshk`,
+                                              "data-framer-name": `Motto`,
+                                              fonts: [`FS;Manrope-bold`],
+                                              text: k,
+                                              verticalAlignment: `top`,
+                                              withExternalLayout: !0,
+                                            }),
+                                          }),
+                                        ],
+                                      }),
+                                    ],
+                                  }),
+                                  /*#__PURE__*/ g(`div`, {
+                                    className: `framer-1ogvalb`,
+                                    "data-framer-name": `Points`,
+                                    children: [
+                                      /*#__PURE__*/ g(`div`, {
+                                        className: `framer-s6j5d5`,
+                                        "data-border": !0,
+                                        "data-framer-name": `Topic`,
+                                        children: [
+                                          /*#__PURE__*/ _(ke, {
+                                            animated: !1,
+                                            className: `framer-195ghsg`,
+                                            Component: de,
+                                            K5AAorpEW: !0,
+                                            layoutId: `N3e3WiiVT`,
+                                          }),
+                                          /*#__PURE__*/ _(z, {
+                                            breakpoint: G,
+                                            overrides: {
+                                              LtsrEqi21: {
+                                                children: /*#__PURE__*/ _(o, {
+                                                  children: /*#__PURE__*/ _(
+                                                    `p`,
+                                                    {
+                                                      className: `framer-styles-preset-198ohbp`,
+                                                      "data-styles-preset": `NXnLXwg_z`,
+                                                      dir: `auto`,
+                                                      style: {
+                                                        "--framer-text-color": `var(--token-d01ffe2e-fdb0-4595-96ba-9f369f564ab4, rgb(247, 241, 237))`,
+                                                      },
+                                                      children: `252 apartamentos em 26 pavimentos`,
+                                                    },
+                                                  ),
+                                                }),
+                                                fonts: [`Inter`],
+                                              },
+                                            },
+                                            children: /*#__PURE__*/ _(U, {
+                                              __fromCanvasComponent: !0,
+                                              children: /*#__PURE__*/ _(o, {
+                                                children: /*#__PURE__*/ _(`p`, {
+                                                  dir: `auto`,
+                                                  style: {
+                                                    "--font-selector": `RlM7TWFucm9wZS1tZWRpdW0=`,
+                                                    "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                                    "--framer-font-weight": `500`,
+                                                    "--framer-line-height": `116%`,
+                                                    "--framer-text-color": `var(--token-d01ffe2e-fdb0-4595-96ba-9f369f564ab4, rgb(247, 241, 237))`,
+                                                  },
+                                                  children: `252 apartamentos em 26 pavimentos`,
+                                                }),
+                                              }),
+                                              className: `framer-18rq2v3`,
+                                              "data-framer-name": `252 apartamentos em 26 pavimentos`,
+                                              fonts: [`FS;Manrope-medium`],
+                                              text: fe,
+                                              verticalAlignment: `top`,
+                                              withExternalLayout: !0,
+                                            }),
+                                          }),
+                                        ],
+                                      }),
+                                      /*#__PURE__*/ g(`div`, {
+                                        className: `framer-gbvu9e`,
+                                        "data-border": !0,
+                                        "data-framer-name": `Topic`,
+                                        children: [
+                                          /*#__PURE__*/ _(ke, {
+                                            animated: !1,
+                                            className: `framer-1s0d4a0`,
+                                            Component: B,
+                                            K5AAorpEW: !0,
+                                            layoutId: `cnHPKYQvT`,
+                                          }),
+                                          /*#__PURE__*/ _(z, {
+                                            breakpoint: G,
+                                            overrides: {
+                                              LtsrEqi21: {
+                                                children: /*#__PURE__*/ _(o, {
+                                                  children: /*#__PURE__*/ _(
+                                                    `p`,
+                                                    {
+                                                      className: `framer-styles-preset-198ohbp`,
+                                                      "data-styles-preset": `NXnLXwg_z`,
+                                                      dir: `auto`,
+                                                      style: {
+                                                        "--framer-text-color": `var(--token-d01ffe2e-fdb0-4595-96ba-9f369f564ab4, rgb(247, 241, 237))`,
+                                                      },
+                                                      children: `Studios a partir de 25 m²`,
+                                                    },
+                                                  ),
+                                                }),
+                                                fonts: [`Inter`],
+                                              },
+                                            },
+                                            children: /*#__PURE__*/ _(U, {
+                                              __fromCanvasComponent: !0,
+                                              children: /*#__PURE__*/ _(o, {
+                                                children: /*#__PURE__*/ _(`p`, {
+                                                  dir: `auto`,
+                                                  style: {
+                                                    "--font-selector": `RlM7TWFucm9wZS1tZWRpdW0=`,
+                                                    "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                                    "--framer-font-weight": `500`,
+                                                    "--framer-line-height": `116%`,
+                                                    "--framer-text-color": `var(--token-d01ffe2e-fdb0-4595-96ba-9f369f564ab4, rgb(247, 241, 237))`,
+                                                  },
+                                                  children: `Studios a partir de 25 m²`,
+                                                }),
+                                              }),
+                                              className: `framer-q03mfv`,
+                                              "data-framer-name": `Studios a partir de 25 m²`,
+                                              fonts: [`FS;Manrope-medium`],
+                                              text: ge,
+                                              verticalAlignment: `top`,
+                                              withExternalLayout: !0,
+                                            }),
+                                          }),
+                                        ],
+                                      }),
+                                      /*#__PURE__*/ g(`div`, {
+                                        className: `framer-1lwdqrd`,
+                                        "data-border": !0,
+                                        "data-framer-name": `Topic`,
+                                        children: [
+                                          /*#__PURE__*/ _(ke, {
+                                            animated: !1,
+                                            className: `framer-71mg3e`,
+                                            Component: Ce,
+                                            K5AAorpEW: !0,
+                                            layoutId: `Rz2CM7EN8`,
+                                          }),
+                                          /*#__PURE__*/ _(z, {
+                                            breakpoint: G,
+                                            overrides: {
+                                              LtsrEqi21: {
+                                                children: /*#__PURE__*/ _(o, {
+                                                  children: /*#__PURE__*/ _(
+                                                    `p`,
+                                                    {
+                                                      className: `framer-styles-preset-198ohbp`,
+                                                      "data-styles-preset": `NXnLXwg_z`,
+                                                      dir: `auto`,
+                                                      style: {
+                                                        "--framer-text-color": `var(--token-d01ffe2e-fdb0-4595-96ba-9f369f564ab4, rgb(247, 241, 237))`,
+                                                      },
+                                                      children: `Um andar inteiro de lazer`,
+                                                    },
+                                                  ),
+                                                }),
+                                                fonts: [`Inter`],
+                                              },
+                                            },
+                                            children: /*#__PURE__*/ _(U, {
+                                              __fromCanvasComponent: !0,
+                                              children: /*#__PURE__*/ _(o, {
+                                                children: /*#__PURE__*/ _(`p`, {
+                                                  dir: `auto`,
+                                                  style: {
+                                                    "--font-selector": `RlM7TWFucm9wZS1tZWRpdW0=`,
+                                                    "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                                    "--framer-font-weight": `500`,
+                                                    "--framer-line-height": `116%`,
+                                                    "--framer-text-color": `var(--token-d01ffe2e-fdb0-4595-96ba-9f369f564ab4, rgb(247, 241, 237))`,
+                                                  },
+                                                  children: `Um andar inteiro de lazer`,
+                                                }),
+                                              }),
+                                              className: `framer-pdmhda`,
+                                              "data-framer-name": `Um andar inteiro de lazer`,
+                                              fonts: [`FS;Manrope-medium`],
+                                              text: Te,
+                                              verticalAlignment: `top`,
+                                              withExternalLayout: !0,
+                                            }),
+                                          }),
+                                        ],
+                                      }),
+                                      /*#__PURE__*/ g(`div`, {
+                                        className: `framer-3kmdwn`,
+                                        "data-framer-name": `Topic`,
+                                        children: [
+                                          /*#__PURE__*/ _(ke, {
+                                            animated: !1,
+                                            className: `framer-mt2igg`,
+                                            Component: W,
+                                            K5AAorpEW: !0,
+                                            layoutId: `ir3kiFxri`,
+                                          }),
+                                          /*#__PURE__*/ _(z, {
+                                            breakpoint: G,
+                                            overrides: {
+                                              LtsrEqi21: {
+                                                children: /*#__PURE__*/ _(o, {
+                                                  children: /*#__PURE__*/ _(
+                                                    `p`,
+                                                    {
+                                                      className: `framer-styles-preset-198ohbp`,
+                                                      "data-styles-preset": `NXnLXwg_z`,
+                                                      dir: `auto`,
+                                                      style: {
+                                                        "--framer-text-color": `var(--token-d01ffe2e-fdb0-4595-96ba-9f369f564ab4, rgb(247, 241, 237))`,
+                                                      },
+                                                      children: `Gestão Housi completa — do aluguel à rentabilidade`,
+                                                    },
+                                                  ),
+                                                }),
+                                                fonts: [`Inter`],
+                                              },
+                                            },
+                                            children: /*#__PURE__*/ _(U, {
+                                              __fromCanvasComponent: !0,
+                                              children: /*#__PURE__*/ _(o, {
+                                                children: /*#__PURE__*/ _(`p`, {
+                                                  dir: `auto`,
+                                                  style: {
+                                                    "--font-selector": `RlM7TWFucm9wZS1tZWRpdW0=`,
+                                                    "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                                    "--framer-font-weight": `500`,
+                                                    "--framer-line-height": `116%`,
+                                                    "--framer-text-color": `var(--token-d01ffe2e-fdb0-4595-96ba-9f369f564ab4, rgb(247, 241, 237))`,
+                                                  },
+                                                  children: `Gestão Housi completa — do aluguel à rentabilidade`,
+                                                }),
+                                              }),
+                                              className: `framer-1tbciyk`,
+                                              "data-framer-name": `Gestão Housi completa — do aluguel à rentabilidade`,
+                                              fonts: [`FS;Manrope-medium`],
+                                              text: De,
+                                              verticalAlignment: `top`,
+                                              withExternalLayout: !0,
+                                            }),
+                                          }),
+                                        ],
+                                      }),
+                                    ],
+                                  }),
+                                ],
+                              }),
+                            }),
+                          ],
+                        }),
+                      ],
+                    }),
+                    /*#__PURE__*/ _(S.section, {
+                      className: `framer-ucza7p`,
+                      "data-framer-name": `Sobre`,
+                      id: Pt,
+                      layout: K,
+                      ref: Ft(Pt),
+                      children: /*#__PURE__*/ g(`div`, {
+                        className: `framer-ghymyb`,
+                        "data-framer-name": `Container`,
+                        children: [
+                          /*#__PURE__*/ g(`div`, {
+                            className: `framer-mudt4j`,
+                            "data-framer-name": `Image container`,
+                            children: [
+                              /*#__PURE__*/ g(`div`, {
+                                className: `framer-gl12dc`,
+                                "data-framer-name": `Left`,
+                                children: [
+                                  /*#__PURE__*/ _(z, {
+                                    breakpoint: G,
+                                    overrides: {
+                                      hH0DQFdT_: {
+                                        background: {
+                                          alt: ``,
+                                          fit: `fill`,
+                                          loading: I((d?.y || 0) + 1349.4),
+                                          sizes: `max((min(min(${d?.width || `100vw`}, 1512px) - 40px, 820px) - 24px) / 2, 1px)`,
+                                          ...Y(Fe),
+                                        },
+                                      },
+                                      LtsrEqi21: {
+                                        background: {
+                                          alt: ``,
+                                          fit: `fill`,
+                                          loading: I((d?.y || 0) + 1759.8),
+                                          sizes: `min(min(${d?.width || `100vw`}, 1512px) - 32px, 820px)`,
+                                          ...Y(Fe),
+                                        },
+                                      },
+                                    },
+                                    children: /*#__PURE__*/ _(be, {
+                                      background: {
+                                        alt: ``,
+                                        fit: `fill`,
+                                        loading: I((d?.y || 0) + 990),
+                                        sizes: `max((min(max((min(${d?.width || `100vw`}, 1512px) - 160px) / 2, 1px), 820px) - 24px) / 2, 1px)`,
+                                        ...Y(Fe),
+                                      },
+                                      className: `framer-15o4s45`,
+                                      "data-framer-name": `Placeholder Image`,
+                                    }),
+                                  }),
+                                  /*#__PURE__*/ _(z, {
+                                    breakpoint: G,
+                                    overrides: {
+                                      hH0DQFdT_: {
+                                        background: {
+                                          alt: ``,
+                                          fit: `fill`,
+                                          intrinsicHeight: 266,
+                                          intrinsicWidth: 556,
+                                          loading: I((d?.y || 0) + 1841.6),
+                                          pixelHeight: 266,
+                                          pixelWidth: 556,
+                                          sizes: `max((min(min(${d?.width || `100vw`}, 1512px) - 40px, 820px) - 24px) / 2, 1px)`,
+                                          src: `https://framerusercontent.com/images/rVVflvAwE8HcA5cRYCMOs4m0k8.svg?width=556&height=266`,
+                                          srcSet: `https://framerusercontent.com/images/rVVflvAwE8HcA5cRYCMOs4m0k8.svg?scale-down-to=512&width=556&height=266 512w,https://framerusercontent.com/images/rVVflvAwE8HcA5cRYCMOs4m0k8.svg?width=556&height=266 556w`,
+                                        },
+                                      },
+                                      LtsrEqi21: {
+                                        background: {
+                                          alt: ``,
+                                          fit: `fill`,
+                                          intrinsicHeight: 266,
+                                          intrinsicWidth: 556,
+                                          loading: I((d?.y || 0) + 2103.8),
+                                          pixelHeight: 266,
+                                          pixelWidth: 556,
+                                          sizes: `min(min(${d?.width || `100vw`}, 1512px) - 32px, 820px)`,
+                                          src: `https://framerusercontent.com/images/rVVflvAwE8HcA5cRYCMOs4m0k8.svg?width=556&height=266`,
+                                          srcSet: `https://framerusercontent.com/images/rVVflvAwE8HcA5cRYCMOs4m0k8.svg?scale-down-to=512&width=556&height=266 512w,https://framerusercontent.com/images/rVVflvAwE8HcA5cRYCMOs4m0k8.svg?width=556&height=266 556w`,
+                                        },
+                                      },
+                                    },
+                                    children: /*#__PURE__*/ _(be, {
+                                      background: {
+                                        alt: ``,
+                                        fit: `fill`,
+                                        intrinsicHeight: 266,
+                                        intrinsicWidth: 556,
+                                        loading: I((d?.y || 0) + 1482.2),
+                                        pixelHeight: 266,
+                                        pixelWidth: 556,
+                                        sizes: `max((min(max((min(${d?.width || `100vw`}, 1512px) - 160px) / 2, 1px), 820px) - 24px) / 2, 1px)`,
+                                        src: `https://framerusercontent.com/images/rVVflvAwE8HcA5cRYCMOs4m0k8.svg?width=556&height=266`,
+                                        srcSet: `https://framerusercontent.com/images/rVVflvAwE8HcA5cRYCMOs4m0k8.svg?scale-down-to=512&width=556&height=266 512w,https://framerusercontent.com/images/rVVflvAwE8HcA5cRYCMOs4m0k8.svg?width=556&height=266 556w`,
+                                      },
+                                      className: `framer-56m2h1`,
+                                      "data-border": !0,
+                                      "data-framer-name": `Map`,
+                                      children: /*#__PURE__*/ g(`div`, {
+                                        className: `framer-5dwt9q`,
+                                        "data-framer-name": `Endereço`,
+                                        children: [
+                                          /*#__PURE__*/ g(`div`, {
+                                            className: `framer-1shnp6c`,
+                                            "data-framer-name": `Frame 1000006056`,
+                                            children: [
+                                              /*#__PURE__*/ _(`div`, {
+                                                className: `framer-mp68o1`,
+                                                "data-framer-name": `Rectangle 50`,
+                                              }),
+                                              /*#__PURE__*/ _(U, {
+                                                __fromCanvasComponent: !0,
+                                                children: /*#__PURE__*/ _(o, {
+                                                  children: /*#__PURE__*/ _(
+                                                    `p`,
+                                                    {
+                                                      style: {
+                                                        "--framer-font-size": `12px`,
+                                                        "--framer-line-height": `140%`,
+                                                      },
+                                                      children: /*#__PURE__*/ _(
+                                                        `span`,
+                                                        {
+                                                          style: {
+                                                            "--font-selector": `R0Y7TWFucm9wZS03MDA=`,
+                                                            "--framer-font-family": `"Manrope"`,
+                                                            "--framer-font-size": `12px`,
+                                                            "--framer-font-weight": `700`,
+                                                            "--framer-letter-spacing": `0.04em`,
+                                                            "--framer-text-color": `rgba(18, 31, 47, 1)`,
+                                                            "--framer-text-transform": `uppercase`,
+                                                          },
+                                                          children: `endereço`,
+                                                        },
+                                                      ),
+                                                    },
+                                                  ),
+                                                }),
+                                                className: `framer-yecvfm`,
+                                                "data-framer-name": `Motto`,
+                                                fonts: [`GF;Manrope-700`],
+                                                verticalAlignment: `top`,
+                                                withExternalLayout: !0,
+                                              }),
+                                            ],
+                                          }),
+                                          /*#__PURE__*/ _(`div`, {
+                                            className: `framer-15rluxp`,
+                                            "data-framer-name": `Frame 1321314463`,
+                                            children: /*#__PURE__*/ _(U, {
+                                              __fromCanvasComponent: !0,
+                                              children: /*#__PURE__*/ _(o, {
+                                                children: /*#__PURE__*/ _(
+                                                  `h3`,
+                                                  {
+                                                    dir: `auto`,
+                                                    style: {
+                                                      "--font-selector": `RlM7TWFucm9wZS1yZWd1bGFy`,
+                                                      "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                                      "--framer-font-size": `14px`,
+                                                      "--framer-line-height": `150%`,
+                                                      "--framer-text-color": `rgb(18, 31, 47)`,
+                                                    },
+                                                    children: `Rua Achiles Tomazelli, 111-E, Centro — Chapecó - SC`,
+                                                  },
+                                                ),
+                                              }),
+                                              className: `framer-1uv762t`,
+                                              "data-framer-name": `Rua Achiles Tomazelli, 111-E, Centro — Chapecó - SC`,
+                                              fonts: [`FS;Manrope-regular`],
+                                              text: P,
+                                              verticalAlignment: `top`,
+                                              withExternalLayout: !0,
+                                            }),
+                                          }),
+                                          It !== !1 &&
+                                            /*#__PURE__*/ _(ce, {
+                                              links: [
+                                                {
+                                                  href: te,
+                                                  implicitPathVariables: void 0,
+                                                },
+                                                {
+                                                  href: te,
+                                                  implicitPathVariables: void 0,
+                                                },
+                                                {
+                                                  href: te,
+                                                  implicitPathVariables: void 0,
+                                                },
+                                              ],
+                                              children: (e) =>
+                                                /*#__PURE__*/ _(z, {
+                                                  breakpoint: G,
+                                                  overrides: {
+                                                    hH0DQFdT_: {
+                                                      width: `calc(max((min(min(${d?.width || `100vw`}, 1512px) - 40px, 820px) - 24px) / 2, 1px) - 80px)`,
+                                                      y: (d?.y || 0) + 1939.4,
+                                                    },
+                                                    LtsrEqi21: {
+                                                      width: `calc(min(min(${d?.width || `100vw`}, 1512px) - 32px, 820px) - 80px)`,
+                                                      y: (d?.y || 0) + 2201.6,
+                                                    },
+                                                  },
+                                                  children: /*#__PURE__*/ _(H, {
+                                                    height: 46,
+                                                    width: `calc(max((min(max((min(${d?.width || `100vw`}, 1512px) - 160px) / 2, 1px), 820px) - 24px) / 2, 1px) - 80px)`,
+                                                    y: (d?.y || 0) + 1580,
+                                                    children: /*#__PURE__*/ _(
+                                                      V,
+                                                      {
+                                                        className: `framer-173w59j-container`,
+                                                        nodeId: `hdPW2d4qJ`,
+                                                        scopeId: `YpTYVyu2F`,
+                                                        children:
+                                                          /*#__PURE__*/ _(z, {
+                                                            breakpoint: G,
+                                                            overrides: {
+                                                              hH0DQFdT_: {
+                                                                fD9FxMscF: e[1],
+                                                              },
+                                                              LtsrEqi21: {
+                                                                fD9FxMscF: e[2],
+                                                              },
+                                                            },
+                                                            children:
+                                                              /*#__PURE__*/ _(
+                                                                ht,
+                                                                {
+                                                                  fD9FxMscF:
+                                                                    e[0],
+                                                                  height: `100%`,
+                                                                  id: `hdPW2d4qJ`,
+                                                                  layoutId: `hdPW2d4qJ`,
+                                                                  style: {
+                                                                    width: `100%`,
+                                                                  },
+                                                                  variant:
+                                                                    X(
+                                                                      `I8nWcbbOb`,
+                                                                    ),
+                                                                  width: `100%`,
+                                                                  Y1MKQP1kT: `Ver no mapa`,
+                                                                  ZVztqi655: !0,
+                                                                },
+                                                              ),
+                                                          }),
+                                                      },
+                                                    ),
+                                                  }),
+                                                }),
+                                            }),
+                                        ],
+                                      }),
+                                    }),
+                                  }),
+                                ],
+                              }),
+                              /*#__PURE__*/ _(z, {
+                                breakpoint: G,
+                                overrides: {
+                                  hH0DQFdT_: {
+                                    background: {
+                                      alt: ``,
+                                      fit: `fill`,
+                                      loading: I((d?.y || 0) + 1349.4),
+                                      sizes: `max((min(min(${d?.width || `100vw`}, 1512px) - 40px, 820px) - 24px) / 2, 1px)`,
+                                      ...Y(Ie),
+                                    },
+                                  },
+                                  LtsrEqi21: {
+                                    background: {
+                                      alt: ``,
+                                      fit: `fill`,
+                                      loading: I((d?.y || 0) + 1415.8),
+                                      sizes: `min(min(${d?.width || `100vw`}, 1512px) - 32px, 820px)`,
+                                      ...Y(Ie),
+                                    },
+                                  },
+                                },
+                                children: /*#__PURE__*/ _(be, {
+                                  background: {
+                                    alt: ``,
+                                    fit: `fill`,
+                                    loading: I((d?.y || 0) + 990),
+                                    sizes: `max((min(max((min(${d?.width || `100vw`}, 1512px) - 160px) / 2, 1px), 820px) - 24px) / 2, 1px)`,
+                                    ...Y(Ie),
+                                  },
+                                  className: `framer-211nlt`,
+                                  "data-framer-name": `Placeholder Image`,
+                                }),
+                              }),
+                            ],
+                          }),
+                          /*#__PURE__*/ g(`div`, {
+                            className: `framer-frjbo9`,
+                            "data-framer-name": `Content`,
+                            children: [
+                              /*#__PURE__*/ g(J, {
+                                __framer__animate: { transition: Q },
+                                __framer__animateOnce: !0,
+                                __framer__enter: Z,
+                                __framer__exit: $,
+                                __framer__styleAppearEffectEnabled: !0,
+                                __framer__threshold: 0.5,
+                                __perspectiveFX: !1,
+                                __targetOpacity: 1,
+                                className: `framer-1jq3acl`,
+                                "data-framer-name": `Heading`,
+                                children: [
+                                  /*#__PURE__*/ _(z, {
+                                    breakpoint: G,
+                                    overrides: {
+                                      hH0DQFdT_: { y: (d?.y || 0) + 2049.4 },
+                                      LtsrEqi21: { y: (d?.y || 0) + 2311.6 },
+                                    },
+                                    children: /*#__PURE__*/ _(H, {
+                                      height: 32,
+                                      y: (d?.y || 0) + 990,
+                                      children: /*#__PURE__*/ _(V, {
+                                        className: `framer-1dkflbp-container`,
+                                        nodeId: `KWUgVcwpF`,
+                                        scopeId: `YpTYVyu2F`,
+                                        children: /*#__PURE__*/ _(_t, {
+                                          DHcIYXfWT: `Sobre`,
+                                          height: `100%`,
+                                          id: `KWUgVcwpF`,
+                                          layoutId: `KWUgVcwpF`,
+                                          variant: X(`c3mkalrqV`),
+                                          width: `100%`,
+                                        }),
+                                      }),
+                                    }),
+                                  }),
+                                  /*#__PURE__*/ _(U, {
+                                    __fromCanvasComponent: !0,
+                                    children: /*#__PURE__*/ _(o, {
+                                      children: /*#__PURE__*/ _(`h2`, {
+                                        className: `framer-styles-preset-1tulnyr`,
+                                        "data-styles-preset": `UeureKQ4f`,
+                                        dir: `auto`,
+                                        style: {
+                                          "--framer-text-color": `var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, rgb(18, 31, 47))`,
+                                        },
+                                        children: `Conheça \u2028\u2028o XAP by Housi`,
+                                      }),
+                                    }),
+                                    className: `framer-1ohmnd`,
+                                    "data-framer-name": `O que você está buscando?`,
+                                    fonts: [`Inter`],
+                                    text: je,
+                                    verticalAlignment: `top`,
+                                    withExternalLayout: !0,
+                                  }),
+                                  /*#__PURE__*/ _(U, {
+                                    __fromCanvasComponent: !0,
+                                    children: /*#__PURE__*/ _(o, {
+                                      children: /*#__PURE__*/ _(`h3`, {
+                                        className: `framer-styles-preset-1yk4fco`,
+                                        "data-styles-preset": `zBGYslnpm`,
+                                        dir: `auto`,
+                                        children: `Um projeto premiado no International Property Awards 2025–2026. No centro de Chapecó, no ponto mais alto da cidade, o XAP by Housi coloca uma praça arborizada de 450 m² na porta e um padrão construtivo que se percebe em cada detalhe. Cada decisão desse projeto foi tomada pensando em quem vai morar aqui, e é esse mesmo cuidado que sustenta o valor do imóvel ao longo do tempo.`,
+                                      }),
+                                    }),
+                                    className: `framer-1prqc4t`,
+                                    "data-framer-name": `Motto`,
+                                    fonts: [`Inter`],
+                                    text: Pe,
+                                    verticalAlignment: `top`,
+                                    withExternalLayout: !0,
+                                  }),
+                                ],
+                              }),
+                              /*#__PURE__*/ g(`div`, {
+                                className: `framer-lbskrt`,
+                                "data-framer-name": `Topics`,
+                                children: [
+                                  /*#__PURE__*/ g(`div`, {
+                                    className: `framer-yewt5d`,
+                                    "data-framer-name": `Title`,
+                                    children: [
+                                      /*#__PURE__*/ _(`div`, {
+                                        className: `framer-xng3s7`,
+                                        "data-framer-name": `Rectangle 50`,
+                                      }),
+                                      /*#__PURE__*/ _(U, {
+                                        __fromCanvasComponent: !0,
+                                        children: /*#__PURE__*/ _(o, {
+                                          children: /*#__PURE__*/ _(`p`, {
+                                            dir: `auto`,
+                                            style: {
+                                              "--font-selector": `RlM7TWFucm9wZS1ib2xk`,
+                                              "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                              "--framer-font-size": `14px`,
+                                              "--framer-font-weight": `700`,
+                                              "--framer-letter-spacing": `0.04em`,
+                                              "--framer-line-height": `140%`,
+                                              "--framer-text-color": `var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, rgb(18, 31, 47))`,
+                                              "--framer-text-transform": `uppercase`,
+                                            },
+                                            children: `Infraestrutura e destaques`,
+                                          }),
+                                        }),
+                                        className: `framer-hd1oxi`,
+                                        "data-framer-name": `Motto`,
+                                        fonts: [`FS;Manrope-bold`],
+                                        verticalAlignment: `top`,
+                                        withExternalLayout: !0,
+                                      }),
+                                    ],
+                                  }),
+                                  /*#__PURE__*/ _(U, {
+                                    __fromCanvasComponent: !0,
+                                    children: Le,
+                                    className: `framer-1w2unuu`,
+                                    "data-framer-name": `Infraestrutura`,
+                                    fonts: [`Inter`],
+                                    stylesPresetsClassNames: {
+                                      p: `framer-styles-preset-1yk4fco`,
+                                    },
+                                    verticalAlignment: `top`,
+                                    withExternalLayout: !0,
+                                  }),
+                                ],
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                    }),
+                    /*#__PURE__*/ _(S.div, {
+                      className: `framer-8czqdd`,
+                      "data-framer-name": `Conceito`,
+                      layout: K,
+                      children: /*#__PURE__*/ g(J, {
+                        __framer__animate: { transition: Q },
+                        __framer__animateOnce: !0,
+                        __framer__enter: Z,
+                        __framer__exit: $,
+                        __framer__styleAppearEffectEnabled: !0,
+                        __framer__threshold: 0.5,
+                        __perspectiveFX: !1,
+                        __targetOpacity: 1,
+                        className: `framer-paeddt`,
+                        "data-framer-name": `Container`,
+                        children: [
+                          /*#__PURE__*/ g(`div`, {
+                            className: `framer-107ksrh`,
+                            "data-framer-name": `Left`,
+                            children: [
+                              /*#__PURE__*/ g(`div`, {
+                                className: `framer-1xerocl`,
+                                "data-framer-name": `Heading`,
+                                children: [
+                                  /*#__PURE__*/ _(z, {
+                                    breakpoint: G,
+                                    overrides: {
+                                      hH0DQFdT_: { y: (d?.y || 0) + 2487.4 },
+                                      LtsrEqi21: { y: (d?.y || 0) + 2749.6 },
+                                    },
+                                    children: /*#__PURE__*/ _(H, {
+                                      height: 32,
+                                      y: (d?.y || 0) + 1730,
+                                      children: /*#__PURE__*/ _(V, {
+                                        className: `framer-1aj9gbv-container`,
+                                        nodeId: `MyKfdoRgP`,
+                                        scopeId: `YpTYVyu2F`,
+                                        children: /*#__PURE__*/ _(_t, {
+                                          DHcIYXfWT: `Conceito`,
+                                          height: `100%`,
+                                          id: `MyKfdoRgP`,
+                                          layoutId: `MyKfdoRgP`,
+                                          variant: X(`OEATJ7tHt`),
+                                          width: `100%`,
+                                        }),
+                                      }),
+                                    }),
+                                  }),
+                                  /*#__PURE__*/ _(U, {
+                                    __fromCanvasComponent: !0,
+                                    children: /*#__PURE__*/ _(o, {
+                                      children: /*#__PURE__*/ g(`h2`, {
+                                        className: `framer-styles-preset-1tulnyr`,
+                                        "data-styles-preset": `UeureKQ4f`,
+                                        dir: `auto`,
+                                        children: [
+                                          `Um endereço para se viver`,
+                                          /*#__PURE__*/ _(`br`, {}),
+                                          `de dois jeitos`,
+                                        ],
+                                      }),
+                                    }),
+                                    className: `framer-164pijq`,
+                                    "data-framer-name": `Um endereço para se viver\u2028de dois jeitos`,
+                                    fonts: [`Inter`],
+                                    text: Re,
+                                    verticalAlignment: `top`,
+                                    withExternalLayout: !0,
+                                  }),
+                                ],
+                              }),
+                              /*#__PURE__*/ _(`div`, {
+                                className: `framer-1ukntzs`,
+                                "data-framer-name": `Subheading`,
+                                children: /*#__PURE__*/ _(z, {
+                                  breakpoint: G,
+                                  overrides: {
+                                    LtsrEqi21: {
+                                      stylesPresetsClassNames: {
+                                        a: `framer-styles-preset-ciw3xo`,
+                                        h1: `framer-styles-preset-19a0grh`,
+                                        h3: `framer-styles-preset-123mgq4`,
+                                        h4: `framer-styles-preset-1nm27u5`,
+                                        p: `framer-styles-preset-1yk4fco`,
+                                      },
+                                    },
+                                  },
+                                  children: /*#__PURE__*/ _(U, {
+                                    __fromCanvasComponent: !0,
+                                    children: Be,
+                                    className: `framer-40jg9n`,
+                                    "data-framer-name": `Text`,
+                                    fonts: [`Inter`],
+                                    stylesPresetsClassNames: {
+                                      a: `framer-styles-preset-ciw3xo`,
+                                      h1: `framer-styles-preset-19a0grh`,
+                                      h3: `framer-styles-preset-123mgq4`,
+                                      h4: `framer-styles-preset-1nm27u5`,
+                                      p: `framer-styles-preset-nmpz7`,
+                                    },
+                                    verticalAlignment: `top`,
+                                    withExternalLayout: !0,
+                                  }),
+                                }),
+                              }),
+                            ],
+                          }),
+                          /*#__PURE__*/ _(Kr, {
+                            dismissWithEsc: !0,
+                            children: (e) =>
+                              /*#__PURE__*/ _(p, {
+                                children: /*#__PURE__*/ _(z, {
+                                  breakpoint: G,
+                                  overrides: {
+                                    hH0DQFdT_: {
+                                      height: 491,
+                                      width: `calc(min(${d?.width || `100vw`}, 1512px) - 40px)`,
+                                      y: (d?.y || 0) + 2799.4,
+                                    },
+                                    LtsrEqi21: {
+                                      width: `calc(min(${d?.width || `100vw`}, 1512px) - 32px)`,
+                                      y: (d?.y || 0) + 3053.6,
+                                    },
+                                  },
+                                  children: /*#__PURE__*/ _(H, {
+                                    height: 620,
+                                    width: `max((min(${d?.width || `100vw`}, 1512px) - 160px) / 2, 1px)`,
+                                    y: (d?.y || 0) + 1730,
+                                    children: /*#__PURE__*/ g(V, {
+                                      className: `framer-kjuqxf-container`,
+                                      id: `kjuqxf`,
+                                      nodeId: `s7BJm0rUk`,
+                                      scopeId: `YpTYVyu2F`,
+                                      children: [
+                                        /*#__PURE__*/ _(z, {
+                                          breakpoint: G,
+                                          overrides: {
+                                            LtsrEqi21: {
+                                              style: { width: `100%` },
+                                              variant: X(`JR9q2jpn0`),
+                                            },
+                                          },
+                                          children: /*#__PURE__*/ _(An, {
+                                            EPWnEQaJt: Y(Ue),
+                                            height: `100%`,
+                                            id: `s7BJm0rUk`,
+                                            layoutId: `s7BJm0rUk`,
+                                            SH6NFE0gb: ``,
+                                            style: {
+                                              height: `100%`,
+                                              width: `100%`,
+                                            },
+                                            U6H5W491P: Vt({ overlay: e }),
+                                            variant: X(`rMHCtt2DB`),
+                                            width: `100%`,
+                                          }),
+                                        }),
+                                        /*#__PURE__*/ _(C, {
+                                          children:
+                                            e.visible &&
+                                            /*#__PURE__*/ _(p, {
+                                              children: /*#__PURE__*/ m(
+                                                /*#__PURE__*/ _(me, {
+                                                  triggerId: `kjuqxf`,
+                                                  children: /*#__PURE__*/ g(A, {
+                                                    children: [
+                                                      /*#__PURE__*/ _(
+                                                        S.div,
+                                                        {
+                                                          animate: {
+                                                            opacity: 1,
+                                                            transition: {
+                                                              delay: 0,
+                                                              duration: 0,
+                                                              ease: [
+                                                                0.5, 0, 0.88,
+                                                                0.77,
+                                                              ],
+                                                              type: `tween`,
+                                                            },
+                                                          },
+                                                          className: F(
+                                                            Dt,
+                                                            `framer-10kj3ne`,
+                                                          ),
+                                                          "data-framer-portal-id": `kjuqxf`,
+                                                          exit: {
+                                                            opacity: 0,
+                                                            transition: {
+                                                              delay: 0,
+                                                              duration: 0,
+                                                              ease: [
+                                                                0.12, 0.23, 0.5,
+                                                                1,
+                                                              ],
+                                                              type: `tween`,
+                                                            },
+                                                          },
+                                                          initial: {
+                                                            opacity: 0,
+                                                          },
+                                                          onTap: () => e.hide(),
+                                                        },
+                                                        `v6hIYIYHX`,
+                                                      ),
+                                                      /*#__PURE__*/ _(H, {
+                                                        children:
+                                                          /*#__PURE__*/ _(V, {
+                                                            className: F(
+                                                              Dt,
+                                                              `framer-hlz197-container`,
+                                                            ),
+                                                            "data-framer-portal-id": `kjuqxf`,
+                                                            inComponentSlot: !0,
+                                                            isAuthoredByUser:
+                                                              !0,
+                                                            isModuleExternal:
+                                                              !0,
+                                                            nodeId: `m2sZtntav`,
+                                                            rendersWithMotion:
+                                                              !0,
+                                                            scopeId: `YpTYVyu2F`,
+                                                            transformTemplate:
+                                                              Wr,
+                                                            children:
+                                                              /*#__PURE__*/ _(
+                                                                qt,
+                                                                {
+                                                                  borderRadius: 0,
+                                                                  bottomLeftRadius: 0,
+                                                                  bottomRightRadius: 0,
+                                                                  boxShadow: ``,
+                                                                  height: `100%`,
+                                                                  id: `m2sZtntav`,
+                                                                  isMixedBorderRadius:
+                                                                    !1,
+                                                                  isRed: !0,
+                                                                  layoutId: `m2sZtntav`,
+                                                                  play: `On`,
+                                                                  shouldMute:
+                                                                    !1,
+                                                                  style: {
+                                                                    height: `100%`,
+                                                                    width: `100%`,
+                                                                  },
+                                                                  thumbnail: `High Quality`,
+                                                                  topLeftRadius: 0,
+                                                                  topRightRadius: 0,
+                                                                  url: He,
+                                                                  width: `100%`,
+                                                                },
+                                                              ),
+                                                          }),
+                                                      }),
+                                                      /*#__PURE__*/ _(S.div, {
+                                                        className: F(
+                                                          Dt,
+                                                          `framer-1np74ck`,
+                                                        ),
+                                                        "data-framer-name": `icon-close`,
+                                                        "data-framer-portal-id": `kjuqxf`,
+                                                        onTap: Ht({
+                                                          overlay: e,
+                                                        }),
+                                                        children:
+                                                          /*#__PURE__*/ _(mn, {
+                                                            animated: !1,
+                                                            className: `framer-1nqeuca`,
+                                                            ezTt3ayMo: !0,
+                                                            layoutId: `YFRFXJi8z`,
+                                                            lschgej4H: !0,
+                                                            qxTvv_EBh: !0,
+                                                          }),
+                                                      }),
+                                                    ],
+                                                  }),
+                                                }),
+                                                Gr(),
+                                              ),
+                                            }),
+                                        }),
+                                      ],
+                                    }),
+                                  }),
+                                }),
+                              }),
+                          }),
+                        ],
+                      }),
+                    }),
+                    /*#__PURE__*/ _(S.div, {
+                      className: `framer-18gppec`,
+                      "data-framer-name": `Galeria`,
+                      id: Ut,
+                      layout: K,
+                      ref: Kt,
+                      children: /*#__PURE__*/ _(`div`, {
+                        className: `framer-1dvo1ex`,
+                        "data-framer-name": `Container`,
+                        children: /*#__PURE__*/ g(`div`, {
+                          className: `framer-oysxor`,
+                          "data-framer-name": `content-text`,
+                          children: [
+                            /*#__PURE__*/ g(J, {
+                              __framer__animate: { transition: Q },
+                              __framer__animateOnce: !0,
+                              __framer__enter: Z,
+                              __framer__exit: $,
+                              __framer__styleAppearEffectEnabled: !0,
+                              __framer__threshold: 0.5,
+                              __perspectiveFX: !1,
+                              __targetOpacity: 1,
+                              className: `framer-nudsga`,
+                              "data-framer-name": `Heading`,
+                              children: [
+                                /*#__PURE__*/ g(J, {
+                                  __framer__animate: { transition: Q },
+                                  __framer__animateOnce: !0,
+                                  __framer__enter: Z,
+                                  __framer__exit: $,
+                                  __framer__styleAppearEffectEnabled: !0,
+                                  __framer__threshold: 0.5,
+                                  __perspectiveFX: !1,
+                                  __targetOpacity: 1,
+                                  className: `framer-skvx9l`,
+                                  "data-framer-name": `Heading`,
+                                  children: [
+                                    /*#__PURE__*/ _(z, {
+                                      breakpoint: G,
+                                      overrides: {
+                                        hH0DQFdT_: { y: (d?.y || 0) + 3370.4 },
+                                        LtsrEqi21: { y: (d?.y || 0) + 3753.6 },
+                                      },
+                                      children: /*#__PURE__*/ _(H, {
+                                        height: 32,
+                                        y: (d?.y || 0) + 2470,
+                                        children: /*#__PURE__*/ _(V, {
+                                          className: `framer-1xbvgih-container`,
+                                          nodeId: `EmudQQBia`,
+                                          scopeId: `YpTYVyu2F`,
+                                          children: /*#__PURE__*/ _(_t, {
+                                            DHcIYXfWT: `galeria`,
+                                            height: `100%`,
+                                            id: `EmudQQBia`,
+                                            layoutId: `EmudQQBia`,
+                                            variant: X(`c3mkalrqV`),
+                                            width: `100%`,
+                                          }),
+                                        }),
+                                      }),
+                                    }),
+                                    /*#__PURE__*/ _(U, {
+                                      __fromCanvasComponent: !0,
+                                      children: /*#__PURE__*/ _(o, {
+                                        children: /*#__PURE__*/ _(`h2`, {
+                                          className: `framer-styles-preset-1tulnyr`,
+                                          "data-styles-preset": `UeureKQ4f`,
+                                          dir: `auto`,
+                                          style: {
+                                            "--framer-text-color": `var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, rgb(18, 31, 47))`,
+                                          },
+                                          children: `Conheça cada detalhe`,
+                                        }),
+                                      }),
+                                      className: `framer-1cj7yi7`,
+                                      "data-framer-name": `O que você está buscando?`,
+                                      fonts: [`Inter`],
+                                      verticalAlignment: `top`,
+                                      withExternalLayout: !0,
+                                    }),
+                                  ],
+                                }),
+                                jt() &&
+                                  /*#__PURE__*/ _(E, {
+                                    className: `framer-1eczak1 hidden-1v2x7lb`,
+                                    "data-framer-name": `Group 9`,
+                                    fill: `rgba(0,0,0,1)`,
+                                    intrinsicHeight: 66,
+                                    intrinsicWidth: 67,
+                                    svg: `<svg width="67" height="66" viewBox="0 0 67 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M-8.86882e-05 65.5321L-9.05822e-05 22.2032L21.6399 22.1919C21.673 29.3291 21.8296 37.32 21.6216 44.398C28.8969 44.5511 36.5696 44.4351 43.8745 44.4335L43.8788 65.5321L-8.86882e-05 65.5321Z" fill="#DBD4CC"/>
+<path d="M43.8759 44.4315L43.8875 22.1867L66.0899 22.1984L66.0965 44.4063L43.8759 44.4315Z" fill="#DBD4CC"/>
+<path d="M21.6406 22.1894C21.7933 15.0819 21.7074 7.14253 21.6545 0.00385573L43.8941 -2.28791e-05L43.8869 22.1869L21.6406 22.1894Z" fill="#DBD4CC"/>
+</svg>
+`,
+                                    withExternalLayout: !0,
+                                  }),
+                              ],
+                            }),
+                            /*#__PURE__*/ g(J, {
+                              __framer__animate: { transition: Q },
+                              __framer__animateOnce: !0,
+                              __framer__enter: Z,
+                              __framer__exit: $,
+                              __framer__styleAppearEffectEnabled: !0,
+                              __framer__threshold: 0.5,
+                              __perspectiveFX: !1,
+                              __targetOpacity: 1,
+                              className: `framer-1k103i5`,
+                              "data-framer-name": `Grid`,
+                              children: [
+                                /*#__PURE__*/ _(H, {
+                                  children: /*#__PURE__*/ _(V, {
+                                    className: `framer-1t451gm-container`,
+                                    "data-code-component-plugin-id": `api`,
+                                    "data-framer-name": `Property Gallery`,
+                                    isAuthoredByUser: !0,
+                                    name: `Property Gallery`,
+                                    nodeId: `gdKg6VQWh`,
+                                    scopeId: `YpTYVyu2F`,
+                                    children: /*#__PURE__*/ _(z, {
+                                      breakpoint: G,
+                                      overrides: {
+                                        hH0DQFdT_: { sideWidth: 444 },
+                                        LtsrEqi21: {
+                                          button: {
+                                            background: `rgb(255, 255, 255)`,
+                                            blur: 0,
+                                            borderColor: `rgba(14, 14, 12, 0.12)`,
+                                            borderWidth: 0,
+                                            color: `var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, rgb(18, 31, 47))`,
+                                            countSeparator: ` · `,
+                                            font: {
+                                              fontFamily: `"Manrope", "Manrope Placeholder", sans-serif`,
+                                              fontSize: `13px`,
+                                              fontStyle: `normal`,
+                                              fontWeight: 600,
+                                              letterSpacing: `0em`,
+                                              lineHeight: `16px`,
+                                            },
+                                            gap: 8,
+                                            hideOnMobile: !0,
+                                            hoverBackground: `rgb(242, 240, 236)`,
+                                            hoverColor: `var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, rgb(18, 31, 47))`,
+                                            icon: `grid`,
+                                            iconPosition: `left`,
+                                            iconSize: 14,
+                                            offset: 0,
+                                            padding: `16px 24px 16px 24px`,
+                                            position: `bottom-right`,
+                                            radius: 6,
+                                            shadow: `0px 6px 24px 0px rgba(14, 14, 12, 0.12)`,
+                                            showCount: !0,
+                                            showIcon: !1,
+                                          },
+                                          gap: 12,
+                                          radius: 8,
+                                        },
+                                      },
+                                      children: /*#__PURE__*/ _(tr, {
+                                        button: {
+                                          background: `rgb(255, 255, 255)`,
+                                          blur: 0,
+                                          borderColor: `rgba(14, 14, 12, 0.12)`,
+                                          borderWidth: 0,
+                                          color: `var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, rgb(18, 31, 47))`,
+                                          countSeparator: ` · `,
+                                          font: {
+                                            fontFamily: `"Manrope", "Manrope Placeholder", sans-serif`,
+                                            fontSize: `13px`,
+                                            fontStyle: `normal`,
+                                            fontWeight: 600,
+                                            letterSpacing: `0em`,
+                                            lineHeight: `16px`,
+                                          },
+                                          gap: 8,
+                                          hideOnMobile: !1,
+                                          hoverBackground: `rgb(242, 240, 236)`,
+                                          hoverColor: `var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, rgb(18, 31, 47))`,
+                                          icon: `grid`,
+                                          iconPosition: `left`,
+                                          iconSize: 14,
+                                          offset: 14,
+                                          padding: `16px 24px 16px 24px`,
+                                          position: `bottom-right`,
+                                          radius: 6,
+                                          shadow: `0px 6px 24px 0px rgba(14, 14, 12, 0.12)`,
+                                          showCount: !0,
+                                          showIcon: !1,
+                                        },
+                                        columns: 2,
+                                        enableZoom: !0,
+                                        filmLabel: ``,
+                                        gap: 16,
+                                        height: `100%`,
+                                        id: `gdKg6VQWh`,
+                                        images: qr(Ge),
+                                        layout: `feature`,
+                                        layoutId: `gdKg6VQWh`,
+                                        name: `Property Gallery`,
+                                        radius: 12,
+                                        rowHeight: 420,
+                                        sideWidth: 600,
+                                        style: { width: `100%` },
+                                        title: D,
+                                        viewAllLabel: `Ver mais imagens`,
+                                        width: `100%`,
+                                      }),
+                                    }),
+                                  }),
+                                }),
+                                /*#__PURE__*/ g(`div`, {
+                                  className: `framer-h9nbxq`,
+                                  "data-framer-name": `CTA`,
+                                  children: [
+                                    /*#__PURE__*/ g(`div`, {
+                                      className: `framer-1cgxr13`,
+                                      "data-framer-name": `Text`,
+                                      children: [
+                                        /*#__PURE__*/ _(U, {
+                                          __fromCanvasComponent: !0,
+                                          children: /*#__PURE__*/ _(o, {
+                                            children: /*#__PURE__*/ _(`p`, {
+                                              dir: `auto`,
+                                              style: {
+                                                "--font-selector": `RlM7TWFucm9wZS1zZW1pYm9sZA==`,
+                                                "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                                "--framer-font-size": `28px`,
+                                                "--framer-font-weight": `600`,
+                                                "--framer-letter-spacing": `-0.01em`,
+                                                "--framer-line-height": `130%`,
+                                                "--framer-text-color": `var(--token-d01ffe2e-fdb0-4595-96ba-9f369f564ab4, rgb(247, 241, 237))`,
+                                              },
+                                              children: `Conheça esse empreendimento no Espaço TOTNT`,
+                                            }),
+                                          }),
+                                          className: `framer-lth36k`,
+                                          "data-framer-name": `Acesse o book completo`,
+                                          fonts: [`FS;Manrope-semibold`],
+                                          verticalAlignment: `top`,
+                                          withExternalLayout: !0,
+                                        }),
+                                        /*#__PURE__*/ _(z, {
+                                          breakpoint: G,
+                                          overrides: {
+                                            LtsrEqi21: {
+                                              children: /*#__PURE__*/ _(o, {
+                                                children: /*#__PURE__*/ _(`p`, {
+                                                  className: `framer-styles-preset-1yk4fco`,
+                                                  "data-styles-preset": `zBGYslnpm`,
+                                                  dir: `auto`,
+                                                  style: {
+                                                    "--framer-text-color": `var(--token-d01ffe2e-fdb0-4595-96ba-9f369f564ab4, rgb(247, 241, 237))`,
+                                                  },
+                                                  children: `Agende sua visita com nosso time no melhor horário para você.`,
+                                                }),
+                                              }),
+                                            },
+                                          },
+                                          children: /*#__PURE__*/ _(U, {
+                                            __fromCanvasComponent: !0,
+                                            children: /*#__PURE__*/ _(o, {
+                                              children: /*#__PURE__*/ _(`p`, {
+                                                className: `framer-styles-preset-nmpz7`,
+                                                "data-styles-preset": `vrsGKmNx4`,
+                                                dir: `auto`,
+                                                style: {
+                                                  "--framer-text-color": `var(--token-d01ffe2e-fdb0-4595-96ba-9f369f564ab4, rgb(247, 241, 237))`,
+                                                },
+                                                children: `Agende sua visita com nosso time no melhor horário para você.`,
+                                              }),
+                                            }),
+                                            className: `framer-ljwpup`,
+                                            "data-framer-name": `Motto`,
+                                            fonts: [`Inter`],
+                                            verticalAlignment: `top`,
+                                            withExternalLayout: !0,
+                                          }),
+                                        }),
+                                      ],
+                                    }),
+                                    /*#__PURE__*/ _(z, {
+                                      breakpoint: G,
+                                      overrides: {
+                                        hH0DQFdT_: { y: (d?.y || 0) + 4377.9 },
+                                        LtsrEqi21: {
+                                          width: `calc(min(${d?.width || `100vw`}, 1512px) - 96px)`,
+                                          y: (d?.y || 0) + 4908.6,
+                                        },
+                                      },
+                                      children: /*#__PURE__*/ _(H, {
+                                        height: 54,
+                                        y: (d?.y || 0) + 3457.5,
+                                        children: /*#__PURE__*/ _(V, {
+                                          className: `framer-bvhbkv-container`,
+                                          nodeId: `Dl8fauUQb`,
+                                          scopeId: `YpTYVyu2F`,
+                                          children: /*#__PURE__*/ _(z, {
+                                            breakpoint: G,
+                                            overrides: {
+                                              LtsrEqi21: {
+                                                style: { width: `100%` },
+                                              },
+                                            },
+                                            children: /*#__PURE__*/ _(pt, {
+                                              height: `100%`,
+                                              id: `Dl8fauUQb`,
+                                              ifHxKqLQt: !1,
+                                              layoutId: `Dl8fauUQb`,
+                                              variant: X(`v3n7UpjqI`),
+                                              WbVgikzjs: "",
+                                              width: `100%`,
+                                              WK1W5mUEO: `Agendar visita`,
+                                            }),
+                                          }),
+                                        }),
+                                      }),
+                                    }),
+                                    /*#__PURE__*/ _(E, {
+                                      className: `framer-1eec2zf`,
+                                      "data-framer-name": `Group 13`,
+                                      fill: `rgba(0,0,0,1)`,
+                                      intrinsicHeight: 172,
+                                      intrinsicWidth: 170,
+                                      svg: `<svg width="170" height="172" viewBox="0 0 170 172" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0H112.218L112.248 56.0416C93.7631 56.1273 73.0673 56.5328 54.7357 55.9942C54.3392 74.8352 54.6396 94.7053 54.6439 113.623L0 113.634V0Z" fill="#F7EFEB" fill-opacity="0.15"/>
+<path d="M54.6494 113.626L112.26 113.657L112.23 171.155L54.7147 171.172L54.6494 113.626Z" fill="#F7EFEB" fill-opacity="0.15"/>
+<path d="M112.243 56.0479C130.65 56.4433 151.212 56.2208 169.7 56.0837L169.71 113.678L112.25 113.66L112.243 56.0479Z" fill="#F7EFEB" fill-opacity="0.15"/>
+</svg>
+`,
+                                      withExternalLayout: !0,
+                                    }),
+                                  ],
+                                }),
+                              ],
+                            }),
+                          ],
+                        }),
+                      }),
+                    }),
+                    Ke !== !1 &&
+                      /*#__PURE__*/ _(S.div, {
+                        className: `framer-y3ysuz`,
+                        "data-framer-name": `Masterplan`,
+                        id: Jt,
+                        layout: K,
+                        ref: Yt,
+                        children: /*#__PURE__*/ _(`div`, {
+                          className: `framer-1n4dika`,
+                          "data-framer-name": `Container`,
+                          children: /*#__PURE__*/ g(`div`, {
+                            className: `framer-owjd5m`,
+                            "data-framer-name": `content-text`,
+                            children: [
+                              /*#__PURE__*/ g(J, {
+                                __framer__animate: { transition: Q },
+                                __framer__animateOnce: !0,
+                                __framer__enter: Z,
+                                __framer__exit: $,
+                                __framer__styleAppearEffectEnabled: !0,
+                                __framer__threshold: 0.5,
+                                __perspectiveFX: !1,
+                                __targetOpacity: 1,
+                                className: `framer-9tupbo`,
+                                "data-framer-name": `Heading`,
+                                children: [
+                                  /*#__PURE__*/ _(z, {
+                                    breakpoint: G,
+                                    overrides: {
+                                      hH0DQFdT_: { y: (d?.y || 0) + 4679.4 },
+                                      LtsrEqi21: { y: (d?.y || 0) + 5074.6 },
+                                    },
+                                    children: /*#__PURE__*/ _(H, {
+                                      height: 32,
+                                      y: (d?.y || 0) + 3759,
+                                      children: /*#__PURE__*/ _(V, {
+                                        className: `framer-cwll1e-container`,
+                                        nodeId: `CidkPvmTk`,
+                                        scopeId: `YpTYVyu2F`,
+                                        children: /*#__PURE__*/ _(_t, {
+                                          DHcIYXfWT: `Masterplan`,
+                                          height: `100%`,
+                                          id: `CidkPvmTk`,
+                                          layoutId: `CidkPvmTk`,
+                                          variant: X(`OEATJ7tHt`),
+                                          width: `100%`,
+                                        }),
+                                      }),
+                                    }),
+                                  }),
+                                  /*#__PURE__*/ _(U, {
+                                    __fromCanvasComponent: !0,
+                                    children: /*#__PURE__*/ _(o, {
+                                      children: /*#__PURE__*/ _(`h2`, {
+                                        className: `framer-styles-preset-1tulnyr`,
+                                        "data-styles-preset": `UeureKQ4f`,
+                                        dir: `auto`,
+                                        style: {
+                                          "--framer-text-color": `var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, rgb(18, 31, 47))`,
+                                        },
+                                        children: `O bairro inteiro, num só mapa`,
+                                      }),
+                                    }),
+                                    className: `framer-lbvi7n`,
+                                    "data-framer-name": `O que você está buscando?`,
+                                    fonts: [`Inter`],
+                                    text: qe,
+                                    verticalAlignment: `top`,
+                                    withExternalLayout: !0,
+                                  }),
+                                ],
+                              }),
+                              /*#__PURE__*/ g(`div`, {
+                                className: `framer-nv9n27`,
+                                "data-framer-name": `Collumns`,
+                                children: [
+                                  /*#__PURE__*/ _(z, {
+                                    breakpoint: G,
+                                    overrides: {
+                                      hH0DQFdT_: {
+                                        background: {
+                                          alt: ``,
+                                          fit: `fill`,
+                                          loading: I((d?.y || 0) + 4883.4),
+                                          sizes: `max((min(${d?.width || `100vw`}, 1512px) - 80px) / 2, 1px)`,
+                                          ...Y(Je),
+                                        },
+                                      },
+                                      LtsrEqi21: {
+                                        background: {
+                                          alt: ``,
+                                          fit: `fill`,
+                                          loading: I((d?.y || 0) + 5258.6),
+                                          sizes: `calc(min(${d?.width || `100vw`}, 1512px) - 32px)`,
+                                          ...Y(Je),
+                                        },
+                                      },
+                                    },
+                                    children: /*#__PURE__*/ _(be, {
+                                      background: {
+                                        alt: ``,
+                                        fit: `fill`,
+                                        loading: I((d?.y || 0) + 3943),
+                                        sizes: `min(max((min(${d?.width || `100vw`}, 1512px) - 160px) / 2, 1px), (min(${d?.width || `100vw`}, 1512px) - 80px) * 0.5)`,
+                                        ...Y(Je),
+                                      },
+                                      className: `framer-15evf6e`,
+                                      "data-framer-name": `Cover`,
+                                      fitImageDimension: `height`,
+                                    }),
+                                  }),
+                                  /*#__PURE__*/ g(Tr, {
+                                    __framer__animate: { transition: Q },
+                                    __framer__animateOnce: !0,
+                                    __framer__enter: Z,
+                                    __framer__exit: $,
+                                    __framer__styleAppearEffectEnabled: !0,
+                                    __framer__threshold: 0.5,
+                                    __perspectiveFX: !1,
+                                    __targetOpacity: 1,
+                                    className: `framer-1ersq0x`,
+                                    "data-framer-name": `Grid`,
+                                    flowEffectEnabled: !0,
+                                    isNestedFlowEffect: !1,
+                                    children: [
+                                      /*#__PURE__*/ _(U, {
+                                        __fromCanvasComponent: !0,
+                                        children: Ye,
+                                        className: `framer-gic3ce`,
+                                        "data-framer-name": `Plantas`,
+                                        fonts: [`Inter`],
+                                        layout: `position`,
+                                        stylesPresetsClassNames: {
+                                          a: `framer-styles-preset-ciw3xo`,
+                                          h1: `framer-styles-preset-19a0grh`,
+                                          h2: `framer-styles-preset-1gkx439`,
+                                          h3: `framer-styles-preset-123mgq4`,
+                                          h4: `framer-styles-preset-1nm27u5`,
+                                          p: `framer-styles-preset-ijh15b`,
+                                        },
+                                        verticalAlignment: `top`,
+                                        withExternalLayout: !0,
+                                      }),
+                                      /*#__PURE__*/ g(S.div, {
+                                        className: `framer-13e6js9`,
+                                        "data-framer-name": `CTA`,
+                                        layout: `position`,
+                                        children: [
+                                          /*#__PURE__*/ _(`div`, {
+                                            className: `framer-6jew64`,
+                                            "data-framer-name": `Text`,
+                                            children: /*#__PURE__*/ _(U, {
+                                              __fromCanvasComponent: !0,
+                                              children: /*#__PURE__*/ _(o, {
+                                                children: /*#__PURE__*/ _(`p`, {
+                                                  dir: `auto`,
+                                                  style: {
+                                                    "--font-selector": `RlM7TWFucm9wZS1zZW1pYm9sZA==`,
+                                                    "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                                    "--framer-font-size": `28px`,
+                                                    "--framer-font-weight": `600`,
+                                                    "--framer-letter-spacing": `-0.01em`,
+                                                    "--framer-line-height": `130%`,
+                                                    "--framer-text-color": `var(--token-d01ffe2e-fdb0-4595-96ba-9f369f564ab4, rgb(247, 241, 237))`,
+                                                  },
+                                                  children: `Quer saber mais sobre esse empreendimento?`,
+                                                }),
+                                              }),
+                                              className: `framer-7u6yko`,
+                                              "data-framer-name": `Acesse o book completo`,
+                                              fonts: [`FS;Manrope-semibold`],
+                                              verticalAlignment: `top`,
+                                              withExternalLayout: !0,
+                                            }),
+                                          }),
+                                          /*#__PURE__*/ _(z, {
+                                            breakpoint: G,
+                                            overrides: {
+                                              hH0DQFdT_: {
+                                                width: `calc(min(max((min(${d?.width || `100vw`}, 1512px) - 80px) / 2, 1px), 520px) - 64px)`,
+                                                y: (d?.y || 0) + 5257.4,
+                                              },
+                                              LtsrEqi21: {
+                                                width: `calc(min(min(${d?.width || `100vw`}, 1512px) - 32px, 520px) - 64px)`,
+                                                y: (d?.y || 0) + 6231.6,
+                                              },
+                                            },
+                                            children: /*#__PURE__*/ _(H, {
+                                              height: 56,
+                                              width: `calc(min(max((min(${d?.width || `100vw`}, 1512px) - 160px) / 2, 1px), 520px) - 64px)`,
+                                              y: (d?.y || 0) + 4309,
+                                              children: /*#__PURE__*/ _(V, {
+                                                className: `framer-9t5y77-container`,
+                                                nodeId: `NaZ2liDp6`,
+                                                scopeId: `YpTYVyu2F`,
+                                                children: /*#__PURE__*/ _(yt, {
+                                                  anX0VQP6e: !0,
+                                                  eKaAeFycN: "",
+                                                  height: `100%`,
+                                                  id: `NaZ2liDp6`,
+                                                  layoutId: `NaZ2liDp6`,
+                                                  style: { width: `100%` },
+                                                  tehIb4ywa: `Plantão de vendas`,
+                                                  variant: X(`UwqubZzwb`),
+                                                  width: `100%`,
+                                                }),
+                                              }),
+                                            }),
+                                          }),
+                                        ],
+                                      }),
+                                    ],
+                                  }),
+                                ],
+                              }),
+                            ],
+                          }),
+                        }),
+                      }),
+                    Xe !== !1 &&
+                      /*#__PURE__*/ _(Or, {
+                        className: `framer-14sb665`,
+                        "data-framer-name": `Plantas`,
+                        flowEffectEnabled: !0,
+                        flowEffectTransition: Jr,
+                        id: Xt,
+                        isNestedFlowEffect: !1,
+                        layout: K,
+                        ref: Zt,
+                        children: /*#__PURE__*/ g(S.div, {
+                          className: `framer-1askw3f`,
+                          "data-framer-name": `Container`,
+                          layout: `position`,
+                          children: [
+                            /*#__PURE__*/ _(`div`, {
+                              className: `framer-vw3fvz`,
+                              "data-framer-name": `Heading`,
+                              children: /*#__PURE__*/ g(J, {
+                                __framer__animate: { transition: Q },
+                                __framer__animateOnce: !0,
+                                __framer__enter: Z,
+                                __framer__exit: $,
+                                __framer__styleAppearEffectEnabled: !0,
+                                __framer__threshold: 0.5,
+                                __perspectiveFX: !1,
+                                __targetOpacity: 1,
+                                className: `framer-cu3h8o`,
+                                "data-framer-name": `Heading`,
+                                children: [
+                                  /*#__PURE__*/ _(z, {
+                                    breakpoint: G,
+                                    overrides: {
+                                      hH0DQFdT_: { y: (d?.y || 0) + 4679.4 },
+                                      LtsrEqi21: { y: (d?.y || 0) + 5074.6 },
+                                    },
+                                    children: /*#__PURE__*/ _(H, {
+                                      height: 32,
+                                      y: (d?.y || 0) + 3759,
+                                      children: /*#__PURE__*/ _(V, {
+                                        className: `framer-1jrw7xd-container`,
+                                        nodeId: `FzSjZcaM_`,
+                                        scopeId: `YpTYVyu2F`,
+                                        children: /*#__PURE__*/ _(_t, {
+                                          DHcIYXfWT: `detalhes`,
+                                          height: `100%`,
+                                          id: `FzSjZcaM_`,
+                                          layoutId: `FzSjZcaM_`,
+                                          variant: X(`OEATJ7tHt`),
+                                          width: `100%`,
+                                        }),
+                                      }),
+                                    }),
+                                  }),
+                                  /*#__PURE__*/ _(U, {
+                                    __fromCanvasComponent: !0,
+                                    children: /*#__PURE__*/ _(o, {
+                                      children: /*#__PURE__*/ _(`h2`, {
+                                        className: `framer-styles-preset-1tulnyr`,
+                                        "data-styles-preset": `UeureKQ4f`,
+                                        dir: `auto`,
+                                        style: {
+                                          "--framer-text-color": `var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, rgb(18, 31, 47))`,
+                                        },
+                                        children: `Conheça\u2028\u2028as plantas`,
+                                      }),
+                                    }),
+                                    className: `framer-1bsb0z6`,
+                                    "data-framer-name": `O que você está buscando?`,
+                                    fonts: [`Inter`],
+                                    verticalAlignment: `top`,
+                                    withExternalLayout: !0,
+                                  }),
+                                ],
+                              }),
+                            }),
+                            /*#__PURE__*/ g(Tr, {
+                              __framer__animate: { transition: Q },
+                              __framer__animateOnce: !0,
+                              __framer__enter: Z,
+                              __framer__exit: $,
+                              __framer__styleAppearEffectEnabled: !0,
+                              __framer__threshold: 0.5,
+                              __perspectiveFX: !1,
+                              __targetOpacity: 1,
+                              className: `framer-1osa5hx`,
+                              "data-framer-name": `Grid`,
+                              flowEffectEnabled: !0,
+                              isNestedFlowEffect: !0,
+                              children: [
+                                /*#__PURE__*/ _(Kr, {
+                                  dismissWithEsc: !0,
+                                  children: (e) =>
+                                    /*#__PURE__*/ g(p, {
+                                      children: [
+                                        /*#__PURE__*/ _(Er, {
+                                          __fromCanvasComponent: !0,
+                                          children: Ze,
+                                          className: `framer-g62rai`,
+                                          "data-framer-name": `Plantas`,
+                                          fonts: [`Inter`],
+                                          id: `g62rai`,
+                                          layout: `position`,
+                                          onTap: Vt({ overlay: e }),
+                                          stylesPresetsClassNames: {
+                                            h1: `framer-styles-preset-19a0grh`,
+                                            h3: `framer-styles-preset-123mgq4`,
+                                            h4: `framer-styles-preset-1nm27u5`,
+                                          },
+                                          verticalAlignment: `top`,
+                                          withExternalLayout: !0,
+                                        }),
+                                        /*#__PURE__*/ _(C, {
+                                          children:
+                                            e.visible &&
+                                            /*#__PURE__*/ _(p, {
+                                              children: /*#__PURE__*/ m(
+                                                /*#__PURE__*/ _(me, {
+                                                  triggerId: `g62rai`,
+                                                  children: /*#__PURE__*/ g(A, {
+                                                    children: [
+                                                      /*#__PURE__*/ _(
+                                                        S.div,
+                                                        {
+                                                          animate: {
+                                                            opacity: 1,
+                                                            transition: {
+                                                              delay: 0,
+                                                              duration: 0,
+                                                              ease: [
+                                                                0.5, 0, 0.88,
+                                                                0.77,
+                                                              ],
+                                                              type: `tween`,
+                                                            },
+                                                          },
+                                                          className: F(
+                                                            Dt,
+                                                            `framer-1pc03et`,
+                                                          ),
+                                                          "data-framer-portal-id": `g62rai`,
+                                                          exit: {
+                                                            opacity: 0,
+                                                            transition: {
+                                                              delay: 0,
+                                                              duration: 0,
+                                                              ease: [
+                                                                0.12, 0.23, 0.5,
+                                                                1,
+                                                              ],
+                                                              type: `tween`,
+                                                            },
+                                                          },
+                                                          initial: {
+                                                            opacity: 0,
+                                                          },
+                                                          onTap: () => e.hide(),
+                                                        },
+                                                        `ZVgAH7neN`,
+                                                      ),
+                                                      /*#__PURE__*/ _(H, {
+                                                        children:
+                                                          /*#__PURE__*/ _(V, {
+                                                            className: F(
+                                                              Dt,
+                                                              `framer-oqv3qe-container`,
+                                                            ),
+                                                            "data-framer-portal-id": `g62rai`,
+                                                            isAuthoredByUser:
+                                                              !0,
+                                                            nodeId: `V4ahzu9uN`,
+                                                            rendersWithMotion:
+                                                              !0,
+                                                            scopeId: `YpTYVyu2F`,
+                                                            children:
+                                                              /*#__PURE__*/ _(
+                                                                In,
+                                                                {
+                                                                  background: `rgba(13, 13, 12, 0)`,
+                                                                  closeWithEscape:
+                                                                    !0,
+                                                                  enableZoom:
+                                                                    !0,
+                                                                  height: `100%`,
+                                                                  id: `V4ahzu9uN`,
+                                                                  images:
+                                                                    Yr($e),
+                                                                  layoutId: `V4ahzu9uN`,
+                                                                  mutedColor: `rgba(255, 255, 255, 0.55)`,
+                                                                  showArrows:
+                                                                    !0,
+                                                                  showClose: !0,
+                                                                  showCounter:
+                                                                    !0,
+                                                                  showShare: !0,
+                                                                  showThumbs:
+                                                                    !0,
+                                                                  sidePadding: 158,
+                                                                  startIndex: 0,
+                                                                  style: {
+                                                                    height: `100%`,
+                                                                    width: `100%`,
+                                                                  },
+                                                                  textColor: `rgb(255, 255, 255)`,
+                                                                  title: D,
+                                                                  width: `100%`,
+                                                                },
+                                                              ),
+                                                          }),
+                                                      }),
+                                                    ],
+                                                  }),
+                                                }),
+                                                Gr(),
+                                              ),
+                                            }),
+                                        }),
+                                      ],
+                                    }),
+                                }),
+                                /*#__PURE__*/ g(S.div, {
+                                  className: `framer-se7tiv`,
+                                  "data-framer-name": `CTA`,
+                                  layout: `position`,
+                                  children: [
+                                    /*#__PURE__*/ g(`div`, {
+                                      className: `framer-1ac5roo`,
+                                      "data-framer-name": `Text`,
+                                      children: [
+                                        /*#__PURE__*/ _(U, {
+                                          __fromCanvasComponent: !0,
+                                          children: /*#__PURE__*/ _(o, {
+                                            children: /*#__PURE__*/ _(`p`, {
+                                              dir: `auto`,
+                                              style: {
+                                                "--font-selector": `RlM7TWFucm9wZS1zZW1pYm9sZA==`,
+                                                "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                                "--framer-font-size": `28px`,
+                                                "--framer-font-weight": `600`,
+                                                "--framer-letter-spacing": `-0.01em`,
+                                                "--framer-line-height": `130%`,
+                                                "--framer-text-color": `var(--token-d01ffe2e-fdb0-4595-96ba-9f369f564ab4, rgb(247, 241, 237))`,
+                                              },
+                                              children: `Conheça esse empreendimento no Espaço TOTNT`,
+                                            }),
+                                          }),
+                                          className: `framer-12z57gt`,
+                                          "data-framer-name": `Acesse o book completo`,
+                                          fonts: [`FS;Manrope-semibold`],
+                                          verticalAlignment: `top`,
+                                          withExternalLayout: !0,
+                                        }),
+                                        /*#__PURE__*/ _(U, {
+                                          __fromCanvasComponent: !0,
+                                          children: /*#__PURE__*/ _(o, {
+                                            children: /*#__PURE__*/ _(`p`, {
+                                              className: `framer-styles-preset-nmpz7`,
+                                              "data-styles-preset": `vrsGKmNx4`,
+                                              dir: `auto`,
+                                              style: {
+                                                "--framer-text-color": `var(--token-d01ffe2e-fdb0-4595-96ba-9f369f564ab4, rgb(247, 241, 237))`,
+                                              },
+                                              children: `Agende sua visita com nosso time no melhor horário para você.`,
+                                            }),
+                                          }),
+                                          className: `framer-5n2jh3`,
+                                          "data-framer-name": `Motto`,
+                                          fonts: [`Inter`],
+                                          verticalAlignment: `top`,
+                                          withExternalLayout: !0,
+                                        }),
+                                      ],
+                                    }),
+                                    /*#__PURE__*/ _(z, {
+                                      breakpoint: G,
+                                      overrides: {
+                                        hH0DQFdT_: {
+                                          width: `calc(max((min(${d?.width || `100vw`}, 1512px) - 54px) / 2, 1px) - 64px)`,
+                                          y: (d?.y || 0) + 5196.4,
+                                        },
+                                        LtsrEqi21: {
+                                          width: `calc(min(${d?.width || `100vw`}, 1512px) - 96px)`,
+                                          y: (d?.y || 0) + 5727.6,
+                                        },
+                                      },
+                                      children: /*#__PURE__*/ _(H, {
+                                        height: 56,
+                                        y: (d?.y || 0) + 4045.5,
+                                        children: /*#__PURE__*/ _(V, {
+                                          className: `framer-8u8wau-container`,
+                                          nodeId: `JcZqwgylG`,
+                                          scopeId: `YpTYVyu2F`,
+                                          children: /*#__PURE__*/ _(z, {
+                                            breakpoint: G,
+                                            overrides: {
+                                              hH0DQFdT_: {
+                                                style: { width: `100%` },
+                                              },
+                                              LtsrEqi21: {
+                                                style: { width: `100%` },
+                                              },
+                                            },
+                                            children: /*#__PURE__*/ _(yt, {
+                                              anX0VQP6e: !0,
+                                              eKaAeFycN: "",
+                                              height: `100%`,
+                                              id: `JcZqwgylG`,
+                                              layoutId: `JcZqwgylG`,
+                                              tehIb4ywa: `Plantão de vendas`,
+                                              variant: X(`UwqubZzwb`),
+                                              width: `100%`,
+                                            }),
+                                          }),
+                                        }),
+                                      }),
+                                    }),
+                                  ],
+                                }),
+                              ],
+                            }),
+                          ],
+                        }),
+                      }),
+                    /*#__PURE__*/ _(S.div, {
+                      className: `framer-y4wols`,
+                      "data-framer-name": `Decorado`,
+                      id: Qt,
+                      layout: K,
+                      ref: $t,
+                      children: /*#__PURE__*/ g(`div`, {
+                        className: `framer-1lubsh6`,
+                        "data-framer-name": `Banner Content`,
+                        children: [
+                          /*#__PURE__*/ _(z, {
+                            breakpoint: G,
+                            overrides: {
+                              hH0DQFdT_: {
+                                background: {
+                                  alt: ``,
+                                  fit: `fill`,
+                                  loading: I((d?.y || 0) + 4679.4),
+                                  sizes: `min(${d?.width || `100vw`} - 40px, 1512px)`,
+                                  ...Y(at),
+                                },
+                              },
+                              LtsrEqi21: {
+                                background: {
+                                  alt: ``,
+                                  fit: `fill`,
+                                  loading: I((d?.y || 0) + 5074.6),
+                                  sizes: `min(${d?.width || `100vw`} - 32px, 1512px)`,
+                                  ...Y(at),
+                                },
+                              },
+                            },
+                            children: /*#__PURE__*/ g(be, {
+                              background: {
+                                alt: ``,
+                                fit: `fill`,
+                                loading: I((d?.y || 0) + 3759),
+                                sizes: `min(${d?.width || `100vw`} - 80px, 1512px)`,
+                                ...Y(at),
+                              },
+                              className: `framer-7is5ts`,
+                              "data-border": !0,
+                              "data-framer-name": `Apartment Interior`,
+                              children: [
+                                /*#__PURE__*/ _(`div`, {
+                                  className: `framer-ovu6is`,
+                                  "data-framer-name": `bottom-overlay`,
+                                  children: /*#__PURE__*/ _(H, {
+                                    children: /*#__PURE__*/ _(V, {
+                                      className: `framer-1c12sj2-container`,
+                                      isAuthoredByUser: !0,
+                                      isModuleExternal: !0,
+                                      nodeId: `oNq5_omPJ`,
+                                      scopeId: `YpTYVyu2F`,
+                                      children: /*#__PURE__*/ _(et, {
+                                        allCorners: !1,
+                                        blur: 10,
+                                        blurDirection: `toBottom`,
+                                        bottomLeft: 0,
+                                        bottomRight: 0,
+                                        cornerRadius: 0,
+                                        height: `100%`,
+                                        id: `oNq5_omPJ`,
+                                        layoutId: `oNq5_omPJ`,
+                                        style: {
+                                          height: `100%`,
+                                          width: `100%`,
+                                        },
+                                        topLeft: 0,
+                                        topRight: 0,
+                                        width: `100%`,
+                                      }),
+                                    }),
+                                  }),
+                                }),
+                                /*#__PURE__*/ _(E, {
+                                  className: `framer-1c82ej2`,
+                                  "data-framer-name": `Decorative Pattern`,
+                                  fill: `rgba(0,0,0,1)`,
+                                  intrinsicHeight: 223,
+                                  intrinsicWidth: 222,
+                                  svg: `<svg width="222" height="223" viewBox="0 0 222 223" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M221.011 222.915H74.8762L74.8379 149.932C98.9095 149.821 125.86 149.293 149.732 149.994C150.249 125.458 149.857 99.581 149.852 74.9445L221.011 74.93V222.915Z" fill="#F7EFEB"/>
+<path d="M149.847 74.9408L74.8246 74.9015L74.8639 0.0224327L149.762 2.06184e-06L149.847 74.9408Z" fill="#F7EFEB"/>
+<path d="M74.8355 149.927C50.8649 149.412 24.0888 149.701 0.0130844 149.88L8.44754e-06 74.8751L74.8271 74.8994L74.8355 149.927Z" fill="#F7EFEB"/>
+</svg>
+`,
+                                  withExternalLayout: !0,
+                                }),
+                                /*#__PURE__*/ _(E, {
+                                  className: `framer-a15pxd`,
+                                  "data-framer-name": `Decorative Pattern`,
+                                  fill: `rgba(0,0,0,1)`,
+                                  intrinsicHeight: 199,
+                                  intrinsicWidth: 197,
+                                  svg: `<svg width="197" height="199" viewBox="0 0 197 199" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.10352e-05 0H129.971L130.005 64.9069C108.596 65.0062 84.6264 65.4758 63.3948 64.8521C62.9356 86.6736 63.2834 109.687 63.2884 131.597L6.10352e-05 131.61V0Z" fill="#F7EFEB"/>
+<path d="M63.296 131.602L130.02 131.636L129.985 198.23L63.3717 198.25L63.296 131.602Z" fill="#F7EFEB"/>
+<path d="M129.999 64.9131C151.318 65.371 175.132 65.1134 196.545 64.9546L196.557 131.66L130.006 131.638L129.999 64.9131Z" fill="#F7EFEB"/>
+</svg>
+`,
+                                  withExternalLayout: !0,
+                                }),
+                                /*#__PURE__*/ _(`div`, {
+                                  className: `framer-1ptxatr`,
+                                  "data-framer-name": `overlay`,
+                                }),
+                              ],
+                            }),
+                          }),
+                          /*#__PURE__*/ g(J, {
+                            __framer__animate: { transition: Q },
+                            __framer__animateOnce: !0,
+                            __framer__enter: Z,
+                            __framer__exit: $,
+                            __framer__styleAppearEffectEnabled: !0,
+                            __framer__threshold: 0.5,
+                            __perspectiveFX: !1,
+                            __targetOpacity: 1,
+                            className: `framer-x4wa3x`,
+                            "data-framer-name": `Visit Information`,
+                            children: [
+                              /*#__PURE__*/ g(`div`, {
+                                className: `framer-1r93pf9`,
+                                "data-framer-name": `Visit Details`,
+                                children: [
+                                  /*#__PURE__*/ _(z, {
+                                    breakpoint: G,
+                                    overrides: {
+                                      hH0DQFdT_: { y: (d?.y || 0) + 4759.4 },
+                                      LtsrEqi21: { y: (d?.y || 0) + 5154.6 },
+                                    },
+                                    children: /*#__PURE__*/ _(H, {
+                                      height: 32,
+                                      y: (d?.y || 0) + 3839,
+                                      children: /*#__PURE__*/ _(V, {
+                                        className: `framer-1p4n3re-container`,
+                                        nodeId: `gpH10Py7T`,
+                                        scopeId: `YpTYVyu2F`,
+                                        children: /*#__PURE__*/ _(_t, {
+                                          DHcIYXfWT: nt,
+                                          height: `100%`,
+                                          id: `gpH10Py7T`,
+                                          layoutId: `gpH10Py7T`,
+                                          variant: X(`OEATJ7tHt`),
+                                          width: `100%`,
+                                        }),
+                                      }),
+                                    }),
+                                  }),
+                                  /*#__PURE__*/ _(U, {
+                                    __fromCanvasComponent: !0,
+                                    children: /*#__PURE__*/ _(o, {
+                                      children: /*#__PURE__*/ _(`h2`, {
+                                        className: `framer-styles-preset-1tulnyr`,
+                                        "data-styles-preset": `UeureKQ4f`,
+                                        dir: `auto`,
+                                        style: {
+                                          "--framer-text-alignment": `center`,
+                                          "--framer-text-color": `var(--token-d01ffe2e-fdb0-4595-96ba-9f369f564ab4, rgb(247, 241, 237))`,
+                                        },
+                                        children: `Visite o apartamento decorado e sinta como é morar no XAP.`,
+                                      }),
+                                    }),
+                                    className: `framer-bgrn3d`,
+                                    "data-framer-name": `Headline`,
+                                    fonts: [`Inter`],
+                                    text: rt,
+                                    verticalAlignment: `top`,
+                                    withExternalLayout: !0,
+                                  }),
+                                  /*#__PURE__*/ _(U, {
+                                    __fromCanvasComponent: !0,
+                                    children: /*#__PURE__*/ _(o, {
+                                      children: /*#__PURE__*/ _(`p`, {
+                                        className: `framer-styles-preset-1yk4fco`,
+                                        "data-styles-preset": `zBGYslnpm`,
+                                        dir: `auto`,
+                                        style: {
+                                          "--framer-text-alignment": `center`,
+                                          "--framer-text-color": `var(--token-d01ffe2e-fdb0-4595-96ba-9f369f564ab4, rgb(247, 241, 237))`,
+                                        },
+                                        children: `Fale com nossa equipe e agende sua visita guiada.`,
+                                      }),
+                                    }),
+                                    className: `framer-1uv7ukz`,
+                                    "data-framer-name": `Motto`,
+                                    fonts: [`Inter`],
+                                    verticalAlignment: `top`,
+                                    withExternalLayout: !0,
+                                  }),
+                                ],
+                              }),
+                              /*#__PURE__*/ _(z, {
+                                breakpoint: G,
+                                overrides: {
+                                  hH0DQFdT_: { y: (d?.y || 0) + 5031.4 },
+                                  LtsrEqi21: { y: (d?.y || 0) + 5426.6 },
+                                },
+                                children: /*#__PURE__*/ _(H, {
+                                  height: 54,
+                                  y: (d?.y || 0) + 4119,
+                                  children: /*#__PURE__*/ _(V, {
+                                    className: `framer-12irvdc-container`,
+                                    nodeId: `tHZAVrfaC`,
+                                    scopeId: `YpTYVyu2F`,
+                                    children: /*#__PURE__*/ _(pt, {
+                                      height: `100%`,
+                                      id: `tHZAVrfaC`,
+                                      ifHxKqLQt: !0,
+                                      layoutId: `tHZAVrfaC`,
+                                      variant: X(`v3n7UpjqI`),
+                                      WbVgikzjs: "",
+                                      width: `100%`,
+                                      WK1W5mUEO: `Agendar visita`,
+                                    }),
+                                  }),
+                                }),
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                    }),
+                    /*#__PURE__*/ _(S.div, {
+                      className: `framer-e8zyd9`,
+                      "data-framer-name": `Cronograma`,
+                      id: en,
+                      layout: K,
+                      ref: tn,
+                      children: /*#__PURE__*/ g(`div`, {
+                        className: `framer-1omn75m`,
+                        "data-framer-name": `Container`,
+                        children: [
+                          /*#__PURE__*/ g(J, {
+                            __framer__animate: { transition: Q },
+                            __framer__animateOnce: !0,
+                            __framer__enter: Z,
+                            __framer__exit: $,
+                            __framer__styleAppearEffectEnabled: !0,
+                            __framer__threshold: 0.5,
+                            __perspectiveFX: !1,
+                            __targetOpacity: 1,
+                            className: `framer-1k427h4`,
+                            "data-framer-name": `Heading`,
+                            children: [
+                              /*#__PURE__*/ _(z, {
+                                breakpoint: G,
+                                overrides: {
+                                  hH0DQFdT_: { y: (d?.y || 0) + 5245.4 },
+                                  LtsrEqi21: { y: (d?.y || 0) + 5640.6 },
+                                },
+                                children: /*#__PURE__*/ _(H, {
+                                  height: 32,
+                                  y: (d?.y || 0) + 4333,
+                                  children: /*#__PURE__*/ _(V, {
+                                    className: `framer-1kijq31-container`,
+                                    nodeId: `HWvGbdmDq`,
+                                    scopeId: `YpTYVyu2F`,
+                                    children: /*#__PURE__*/ _(_t, {
+                                      DHcIYXfWT: `cronograma`,
+                                      height: `100%`,
+                                      id: `HWvGbdmDq`,
+                                      layoutId: `HWvGbdmDq`,
+                                      variant: X(`OEATJ7tHt`),
+                                      width: `100%`,
+                                    }),
+                                  }),
+                                }),
+                              }),
+                              /*#__PURE__*/ _(U, {
+                                __fromCanvasComponent: !0,
+                                children: /*#__PURE__*/ _(o, {
+                                  children: /*#__PURE__*/ _(`h2`, {
+                                    className: `framer-styles-preset-1tulnyr`,
+                                    "data-styles-preset": `UeureKQ4f`,
+                                    dir: `auto`,
+                                    style: {
+                                      "--framer-text-color": `var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, rgb(18, 31, 47))`,
+                                    },
+                                    children: `Andamento da obra`,
+                                  }),
+                                }),
+                                className: `framer-b8xgbx`,
+                                "data-framer-name": `O que você está buscando?`,
+                                fonts: [`Inter`],
+                                verticalAlignment: `top`,
+                                withExternalLayout: !0,
+                              }),
+                            ],
+                          }),
+                          /*#__PURE__*/ g(J, {
+                            __framer__animate: { transition: Q },
+                            __framer__animateOnce: !0,
+                            __framer__enter: Z,
+                            __framer__exit: $,
+                            __framer__styleAppearEffectEnabled: !0,
+                            __framer__threshold: 0.5,
+                            __perspectiveFX: !1,
+                            __targetOpacity: 1,
+                            className: `framer-12o51e2`,
+                            "data-framer-name": `Progress`,
+                            children: [
+                              /*#__PURE__*/ _(`div`, {
+                                className: `framer-wrskot`,
+                                "data-framer-name": `bars-wrap`,
+                                children: /*#__PURE__*/ g(`div`, {
+                                  className: `framer-19ejugx`,
+                                  "data-framer-name": `totoal`,
+                                  children: [
+                                    /*#__PURE__*/ g(`div`, {
+                                      className: `framer-18ht4ky`,
+                                      "data-framer-name": `texts`,
+                                      children: [
+                                        /*#__PURE__*/ _(z, {
+                                          breakpoint: G,
+                                          overrides: {
+                                            LtsrEqi21: {
+                                              children: /*#__PURE__*/ _(o, {
+                                                children: /*#__PURE__*/ _(`p`, {
+                                                  dir: `auto`,
+                                                  style: {
+                                                    "--font-selector": `RlM7TWFucm9wZS1tZWRpdW0=`,
+                                                    "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                                    "--framer-font-size": `20px`,
+                                                    "--framer-font-weight": `500`,
+                                                    "--framer-line-height": `140%`,
+                                                    "--framer-text-color": `var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, rgb(18, 31, 47))`,
+                                                  },
+                                                  children: `Obra na reta final`,
+                                                }),
+                                              }),
+                                            },
+                                          },
+                                          children: /*#__PURE__*/ _(U, {
+                                            __fromCanvasComponent: !0,
+                                            children: /*#__PURE__*/ _(o, {
+                                              children: /*#__PURE__*/ _(`p`, {
+                                                dir: `auto`,
+                                                style: {
+                                                  "--font-selector": `RlM7TWFucm9wZS1tZWRpdW0=`,
+                                                  "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                                  "--framer-font-size": `24px`,
+                                                  "--framer-font-weight": `500`,
+                                                  "--framer-line-height": `140%`,
+                                                  "--framer-text-color": `var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, rgb(18, 31, 47))`,
+                                                },
+                                                children: `Obra na reta final`,
+                                              }),
+                                            }),
+                                            className: `framer-1k40jla`,
+                                            "data-framer-name": `Obra na reta final`,
+                                            fonts: [`FS;Manrope-medium`],
+                                            text: ot,
+                                            verticalAlignment: `top`,
+                                            withExternalLayout: !0,
+                                          }),
+                                        }),
+                                        /*#__PURE__*/ _(z, {
+                                          breakpoint: G,
+                                          overrides: {
+                                            LtsrEqi21: {
+                                              children: /*#__PURE__*/ _(o, {
+                                                children: /*#__PURE__*/ _(`p`, {
+                                                  dir: `auto`,
+                                                  style: {
+                                                    "--font-selector": `RlM7TWFucm9wZS1tZWRpdW0=`,
+                                                    "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                                    "--framer-font-size": `20px`,
+                                                    "--framer-font-weight": `500`,
+                                                    "--framer-line-height": `140%`,
+                                                    "--framer-text-color": `var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, rgb(18, 31, 47))`,
+                                                  },
+                                                  children: `86%`,
+                                                }),
+                                              }),
+                                            },
+                                          },
+                                          children: /*#__PURE__*/ _(U, {
+                                            __fromCanvasComponent: !0,
+                                            children: /*#__PURE__*/ _(o, {
+                                              children: /*#__PURE__*/ _(`p`, {
+                                                dir: `auto`,
+                                                style: {
+                                                  "--font-selector": `RlM7TWFucm9wZS1tZWRpdW0=`,
+                                                  "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                                  "--framer-font-size": `24px`,
+                                                  "--framer-font-weight": `500`,
+                                                  "--framer-line-height": `140%`,
+                                                  "--framer-text-color": `var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, rgb(18, 31, 47))`,
+                                                },
+                                                children: `86%`,
+                                              }),
+                                            }),
+                                            className: `framer-eq4dsv`,
+                                            "data-framer-name": `86%`,
+                                            fonts: [`FS;Manrope-medium`],
+                                            text: rn,
+                                            verticalAlignment: `top`,
+                                            withExternalLayout: !0,
+                                          }),
+                                        }),
+                                      ],
+                                    }),
+                                    /*#__PURE__*/ _(H, {
+                                      children: /*#__PURE__*/ _(V, {
+                                        className: `framer-1r11ty0-container`,
+                                        isAuthoredByUser: !0,
+                                        nodeId: `dngduRy4v`,
+                                        scopeId: `YpTYVyu2F`,
+                                        children: /*#__PURE__*/ _(Mn, {
+                                          barColor: `rgb(35, 70, 105)`,
+                                          height: `100%`,
+                                          id: `dngduRy4v`,
+                                          layoutId: `dngduRy4v`,
+                                          progress: st,
+                                          style: {
+                                            height: `100%`,
+                                            width: `100%`,
+                                          },
+                                          trackColor: `rgb(237, 227, 222)`,
+                                          width: `100%`,
+                                        }),
+                                      }),
+                                    }),
+                                  ],
+                                }),
+                              }),
+                              /*#__PURE__*/ g(`div`, {
+                                className: `framer-1i8ety0`,
+                                "data-framer-name": `bars-wrap`,
+                                children: [
+                                  /*#__PURE__*/ g(`div`, {
+                                    className: `framer-1w7pqml`,
+                                    "data-framer-name": `progress-wrap`,
+                                    children: [
+                                      /*#__PURE__*/ g(`div`, {
+                                        className: `framer-pr80ub`,
+                                        "data-framer-name": `texts`,
+                                        children: [
+                                          /*#__PURE__*/ _(U, {
+                                            __fromCanvasComponent: !0,
+                                            children: /*#__PURE__*/ _(o, {
+                                              children: /*#__PURE__*/ _(`p`, {
+                                                dir: `auto`,
+                                                style: {
+                                                  "--font-selector": `RlM7TWFucm9wZS1tZWRpdW0=`,
+                                                  "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                                  "--framer-font-weight": `500`,
+                                                  "--framer-line-height": `150%`,
+                                                  "--framer-text-color": `var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, rgb(18, 31, 47))`,
+                                                },
+                                                children: `Fundações`,
+                                              }),
+                                            }),
+                                            className: `framer-1ky4ly`,
+                                            "data-framer-name": `Fundações`,
+                                            fonts: [`FS;Manrope-medium`],
+                                            text: ct,
+                                            verticalAlignment: `top`,
+                                            withExternalLayout: !0,
+                                          }),
+                                          /*#__PURE__*/ _(U, {
+                                            __fromCanvasComponent: !0,
+                                            children: /*#__PURE__*/ _(o, {
+                                              children: /*#__PURE__*/ _(`p`, {
+                                                dir: `auto`,
+                                                style: {
+                                                  "--font-selector": `RlM7TWFucm9wZS1tZWRpdW0=`,
+                                                  "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                                  "--framer-font-weight": `500`,
+                                                  "--framer-line-height": `150%`,
+                                                  "--framer-text-color": `var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, rgb(18, 31, 47))`,
+                                                },
+                                                children: `100%`,
+                                              }),
+                                            }),
+                                            className: `framer-1j3qvgm`,
+                                            "data-framer-name": `100%`,
+                                            fonts: [`FS;Manrope-medium`],
+                                            text: an,
+                                            verticalAlignment: `top`,
+                                            withExternalLayout: !0,
+                                          }),
+                                        ],
+                                      }),
+                                      /*#__PURE__*/ _(H, {
+                                        children: /*#__PURE__*/ _(V, {
+                                          className: `framer-1usqrue-container`,
+                                          isAuthoredByUser: !0,
+                                          nodeId: `y5lTxQG2b`,
+                                          scopeId: `YpTYVyu2F`,
+                                          children: /*#__PURE__*/ _(Mn, {
+                                            barColor: `rgb(0, 137, 94)`,
+                                            height: `100%`,
+                                            id: `y5lTxQG2b`,
+                                            layoutId: `y5lTxQG2b`,
+                                            progress: lt,
+                                            style: {
+                                              height: `100%`,
+                                              width: `100%`,
+                                            },
+                                            trackColor: `rgb(237, 227, 222)`,
+                                            width: `100%`,
+                                          }),
+                                        }),
+                                      }),
+                                    ],
+                                  }),
+                                  /*#__PURE__*/ g(`div`, {
+                                    className: `framer-7419ov`,
+                                    "data-framer-name": `progress-wrap`,
+                                    children: [
+                                      /*#__PURE__*/ g(`div`, {
+                                        className: `framer-lf4tef`,
+                                        "data-framer-name": `texts`,
+                                        children: [
+                                          /*#__PURE__*/ _(U, {
+                                            __fromCanvasComponent: !0,
+                                            children: /*#__PURE__*/ _(o, {
+                                              children: /*#__PURE__*/ _(`p`, {
+                                                dir: `auto`,
+                                                style: {
+                                                  "--font-selector": `RlM7TWFucm9wZS1tZWRpdW0=`,
+                                                  "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                                  "--framer-font-weight": `500`,
+                                                  "--framer-line-height": `150%`,
+                                                  "--framer-text-color": `var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, rgb(18, 31, 47))`,
+                                                },
+                                                children: `Instalações`,
+                                              }),
+                                            }),
+                                            className: `framer-r1ik5o`,
+                                            "data-framer-name": `Alvenaria`,
+                                            fonts: [`FS;Manrope-medium`],
+                                            text: ut,
+                                            verticalAlignment: `top`,
+                                            withExternalLayout: !0,
+                                          }),
+                                          /*#__PURE__*/ _(U, {
+                                            __fromCanvasComponent: !0,
+                                            children: /*#__PURE__*/ _(o, {
+                                              children: /*#__PURE__*/ _(`p`, {
+                                                dir: `auto`,
+                                                style: {
+                                                  "--font-selector": `RlM7TWFucm9wZS1tZWRpdW0=`,
+                                                  "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                                  "--framer-font-weight": `500`,
+                                                  "--framer-line-height": `150%`,
+                                                  "--framer-text-color": `var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, rgb(18, 31, 47))`,
+                                                },
+                                                children: `5%`,
+                                              }),
+                                            }),
+                                            className: `framer-pelqs1`,
+                                            "data-framer-name": `0%`,
+                                            fonts: [`FS;Manrope-medium`],
+                                            text: on,
+                                            verticalAlignment: `top`,
+                                            withExternalLayout: !0,
+                                          }),
+                                        ],
+                                      }),
+                                      /*#__PURE__*/ _(H, {
+                                        children: /*#__PURE__*/ _(V, {
+                                          className: `framer-1jax9zr-container`,
+                                          isAuthoredByUser: !0,
+                                          nodeId: `jjx6LL2m0`,
+                                          scopeId: `YpTYVyu2F`,
+                                          children: /*#__PURE__*/ _(Mn, {
+                                            barColor: `rgb(0, 137, 94)`,
+                                            height: `100%`,
+                                            id: `jjx6LL2m0`,
+                                            layoutId: `jjx6LL2m0`,
+                                            progress: ft,
+                                            style: {
+                                              height: `100%`,
+                                              width: `100%`,
+                                            },
+                                            trackColor: `rgb(237, 227, 222)`,
+                                            width: `100%`,
+                                          }),
+                                        }),
+                                      }),
+                                    ],
+                                  }),
+                                  /*#__PURE__*/ g(`div`, {
+                                    className: `framer-1awq4ve`,
+                                    "data-framer-name": `progress-wrap`,
+                                    children: [
+                                      /*#__PURE__*/ g(`div`, {
+                                        className: `framer-1qgduzu`,
+                                        "data-framer-name": `texts`,
+                                        children: [
+                                          /*#__PURE__*/ _(U, {
+                                            __fromCanvasComponent: !0,
+                                            children: /*#__PURE__*/ _(o, {
+                                              children: /*#__PURE__*/ _(`p`, {
+                                                dir: `auto`,
+                                                style: {
+                                                  "--font-selector": `RlM7TWFucm9wZS1tZWRpdW0=`,
+                                                  "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                                  "--framer-font-weight": `500`,
+                                                  "--framer-line-height": `150%`,
+                                                  "--framer-text-color": `var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, rgb(18, 31, 47))`,
+                                                },
+                                                children: `Estrutura`,
+                                              }),
+                                            }),
+                                            className: `framer-ohfawq`,
+                                            "data-framer-name": `Acabamentos`,
+                                            fonts: [`FS;Manrope-medium`],
+                                            text: mt,
+                                            verticalAlignment: `top`,
+                                            withExternalLayout: !0,
+                                          }),
+                                          /*#__PURE__*/ _(U, {
+                                            __fromCanvasComponent: !0,
+                                            children: /*#__PURE__*/ _(o, {
+                                              children: /*#__PURE__*/ _(`p`, {
+                                                dir: `auto`,
+                                                style: {
+                                                  "--font-selector": `RlM7TWFucm9wZS1tZWRpdW0=`,
+                                                  "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                                  "--framer-font-weight": `500`,
+                                                  "--framer-line-height": `150%`,
+                                                  "--framer-text-color": `var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, rgb(18, 31, 47))`,
+                                                },
+                                                children: `0%`,
+                                              }),
+                                            }),
+                                            className: `framer-hpiiko`,
+                                            "data-framer-name": `0%`,
+                                            fonts: [`FS;Manrope-medium`],
+                                            text: sn,
+                                            verticalAlignment: `top`,
+                                            withExternalLayout: !0,
+                                          }),
+                                        ],
+                                      }),
+                                      /*#__PURE__*/ _(H, {
+                                        children: /*#__PURE__*/ _(V, {
+                                          className: `framer-1ygyasi-container`,
+                                          isAuthoredByUser: !0,
+                                          nodeId: `WYPsAk7wl`,
+                                          scopeId: `YpTYVyu2F`,
+                                          children: /*#__PURE__*/ _(Mn, {
+                                            barColor: `rgb(0, 137, 94)`,
+                                            height: `100%`,
+                                            id: `WYPsAk7wl`,
+                                            layoutId: `WYPsAk7wl`,
+                                            progress: gt,
+                                            style: {
+                                              height: `100%`,
+                                              width: `100%`,
+                                            },
+                                            trackColor: `rgb(237, 227, 222)`,
+                                            width: `100%`,
+                                          }),
+                                        }),
+                                      }),
+                                    ],
+                                  }),
+                                ],
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                    }),
+                    /*#__PURE__*/ g(S.section, {
+                      className: `framer-1bvmzrb`,
+                      "data-framer-name": `CTA`,
+                      layout: K,
+                      children: [
+                        /*#__PURE__*/ g(J, {
+                          __framer__animate: { transition: Q },
+                          __framer__animateOnce: !0,
+                          __framer__enter: Z,
+                          __framer__exit: $,
+                          __framer__styleAppearEffectEnabled: !0,
+                          __framer__threshold: 0.5,
+                          __perspectiveFX: !1,
+                          __targetOpacity: 1,
+                          className: `framer-lfdvbc`,
+                          "data-framer-name": `Container`,
+                          children: [
+                            /*#__PURE__*/ g(`div`, {
+                              className: `framer-24ko51`,
+                              "data-framer-name": `Heading`,
+                              children: [
+                                /*#__PURE__*/ _(z, {
+                                  breakpoint: G,
+                                  overrides: {
+                                    hH0DQFdT_: { y: (d?.y || 0) + 5783 },
+                                    LtsrEqi21: { y: (d?.y || 0) + 6284.6 },
+                                  },
+                                  children: /*#__PURE__*/ _(H, {
+                                    height: 32,
+                                    y: (d?.y || 0) + 4890.6,
+                                    children: /*#__PURE__*/ _(V, {
+                                      className: `framer-2j68c1-container`,
+                                      nodeId: `ScEzBTVVk`,
+                                      scopeId: `YpTYVyu2F`,
+                                      children: /*#__PURE__*/ _(_t, {
+                                        DHcIYXfWT: `Contato`,
+                                        height: `100%`,
+                                        id: `ScEzBTVVk`,
+                                        layoutId: `ScEzBTVVk`,
+                                        variant: X(`v8bmgNaqb`),
+                                        width: `100%`,
+                                      }),
+                                    }),
+                                  }),
+                                }),
+                                /*#__PURE__*/ _(U, {
+                                  __fromCanvasComponent: !0,
+                                  children: /*#__PURE__*/ _(o, {
+                                    children: /*#__PURE__*/ _(`h2`, {
+                                      className: `framer-styles-preset-1tulnyr`,
+                                      "data-styles-preset": `UeureKQ4f`,
+                                      dir: `auto`,
+                                      style: {
+                                        "--framer-text-alignment": `center`,
+                                        "--framer-text-color": `var(--token-d01ffe2e-fdb0-4595-96ba-9f369f564ab4, rgb(247, 241, 237))`,
+                                      },
+                                      children: `O primeiro empreendimento Housi de Chapecó está aqui.`,
+                                    }),
+                                  }),
+                                  className: `framer-kypq16`,
+                                  "data-framer-name": `Headline`,
+                                  fonts: [`Inter`],
+                                  text: vt,
+                                  verticalAlignment: `top`,
+                                  withExternalLayout: !0,
+                                }),
+                                /*#__PURE__*/ _(U, {
+                                  __fromCanvasComponent: !0,
+                                  children: /*#__PURE__*/ _(o, {
+                                    children: /*#__PURE__*/ _(`p`, {
+                                      className: `framer-styles-preset-1yk4fco`,
+                                      "data-styles-preset": `zBGYslnpm`,
+                                      dir: `auto`,
+                                      style: {
+                                        "--framer-text-alignment": `center`,
+                                        "--framer-text-color": `rgba(247, 241, 237, 0.7)`,
+                                      },
+                                      children: `Venha descobrir o apartamento que combina com você.`,
+                                    }),
+                                  }),
+                                  className: `framer-1y1l834`,
+                                  "data-framer-name": `Motto`,
+                                  fonts: [`Inter`],
+                                  text: bt,
+                                  verticalAlignment: `top`,
+                                  withExternalLayout: !0,
+                                }),
+                              ],
+                            }),
+                            /*#__PURE__*/ g(`div`, {
+                              className: `framer-14ckk46`,
+                              "data-framer-name": `Form Contact`,
+                              children: [
+                                /*#__PURE__*/ _(`div`, {
+                                  className: `framer-nbm8n4`,
+                                  "data-framer-name": `WhatsApp`,
+                                  children: /*#__PURE__*/ g(`div`, {
+                                    className: `framer-1tbsjbb`,
+                                    "data-framer-name": `Container`,
+                                    children: [
+                                      /*#__PURE__*/ _(U, {
+                                        __fromCanvasComponent: !0,
+                                        children: /*#__PURE__*/ _(o, {
+                                          children: /*#__PURE__*/ _(`p`, {
+                                            dir: `auto`,
+                                            style: {
+                                              "--font-selector": `RlM7TWFucm9wZS1tZWRpdW0=`,
+                                              "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                              "--framer-font-size": `20px`,
+                                              "--framer-font-weight": `500`,
+                                              "--framer-line-height": `140%`,
+                                              "--framer-text-color": `var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, rgb(18, 31, 47))`,
+                                            },
+                                            children: `Converse agora com nosso time pelo WhatsApp`,
+                                          }),
+                                        }),
+                                        className: `framer-y2zc53`,
+                                        "data-framer-name": `Converse agora com nosso time pelo WhatsApp`,
+                                        fonts: [`FS;Manrope-medium`],
+                                        verticalAlignment: `top`,
+                                        withExternalLayout: !0,
+                                      }),
+                                      /*#__PURE__*/ _(z, {
+                                        breakpoint: G,
+                                        overrides: {
+                                          hH0DQFdT_: { y: (d?.y || 0) + 6141 },
+                                          LtsrEqi21: {
+                                            width: `calc(min(min(${d?.width || `100vw`}, 1512px) - 40px, 600px) - 48px)`,
+                                            y: (d?.y || 0) + 6764.6,
+                                          },
+                                        },
+                                        children: /*#__PURE__*/ _(H, {
+                                          height: 56,
+                                          y: (d?.y || 0) + 5248.6,
+                                          children: /*#__PURE__*/ _(V, {
+                                            className: `framer-2y6580-container`,
+                                            nodeId: `dRci6arbY`,
+                                            scopeId: `YpTYVyu2F`,
+                                            children: /*#__PURE__*/ _(z, {
+                                              breakpoint: G,
+                                              overrides: {
+                                                LtsrEqi21: {
+                                                  style: { width: `100%` },
+                                                },
+                                              },
+                                              children: /*#__PURE__*/ _(yt, {
+                                                anX0VQP6e: !0,
+                                                eKaAeFycN: "",
+                                                height: `100%`,
+                                                id: `dRci6arbY`,
+                                                layoutId: `dRci6arbY`,
+                                                tehIb4ywa: `Plantão de vendas`,
+                                                variant: X(`B5Wio7KaE`),
+                                                width: `100%`,
+                                              }),
+                                            }),
+                                          }),
+                                        }),
+                                      }),
+                                    ],
+                                  }),
+                                }),
+                                /*#__PURE__*/ g(`div`, {
+                                  className: `framer-1ss16i5`,
+                                  "data-border": !0,
+                                  "data-framer-name": `Form`,
+                                  children: [
+                                    /*#__PURE__*/ _(U, {
+                                      __fromCanvasComponent: !0,
+                                      children: /*#__PURE__*/ _(o, {
+                                        children: /*#__PURE__*/ _(`p`, {
+                                          dir: `auto`,
+                                          style: {
+                                            "--font-selector": `RlM7TWFucm9wZS1tZWRpdW0=`,
+                                            "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                            "--framer-font-size": `20px`,
+                                            "--framer-font-weight": `500`,
+                                            "--framer-line-height": `140%`,
+                                            "--framer-text-color": `rgb(18, 31, 47)`,
+                                          },
+                                          children: `Ou solicite nosso contato`,
+                                        }),
+                                      }),
+                                      className: `framer-1uhrm4t`,
+                                      "data-framer-name": `Ou solicite nosso contato`,
+                                      fonts: [`FS;Manrope-medium`],
+                                      verticalAlignment: `top`,
+                                      withExternalLayout: !0,
+                                    }),
+                                    /*#__PURE__*/ _(`div`, {
+                                      className: `framer-1ols9v4`,
+                                      "data-border": !0,
+                                    }),
+                                    /*#__PURE__*/ _(Oe, {
+                                      action: `https://api.framer.com/forms/v1/forms/8f1656c8-5af8-4794-8441-ea79cca7b74d/submit`,
+                                      className: `framer-1iprmqz`,
+                                      nodeId: `AXpNGm6V8`,
+                                      redirectUrl: { webPageId: `Z98CgnQIz` },
+                                      children: (e) =>
+                                        /*#__PURE__*/ g(p, {
+                                          children: [
+                                            /*#__PURE__*/ _(`label`, {
+                                              className: `framer-dqntnu`,
+                                              "data-framer-name": `Nome`,
+                                              children: /*#__PURE__*/ _(ve, {
+                                                className: `framer-a03rkx`,
+                                                defaultValue: D,
+                                                inputName: `Empreendimento enviado`,
+                                                type: `hidden`,
+                                              }),
+                                            }),
+                                            /*#__PURE__*/ _(`label`, {
+                                              className: `framer-3f42lo`,
+                                              "data-framer-name": `Nome`,
+                                              children: /*#__PURE__*/ _(ve, {
+                                                className: `framer-v0ic6p`,
+                                                inputName: `Nome completo`,
+                                                placeholder: `Seu nome completo`,
+                                                required: !0,
+                                                type: `text`,
+                                              }),
+                                            }),
+                                            /*#__PURE__*/ _(`label`, {
+                                              className: `framer-91muad`,
+                                              "data-framer-name": `Telefone`,
+                                              children: /*#__PURE__*/ _(ve, {
+                                                className: `framer-yp2k03`,
+                                                inputName: `Telefone com WhatsApp`,
+                                                placeholder: `Telefone com WhatsApp`,
+                                                required: !0,
+                                                type: `tel`,
+                                              }),
+                                            }),
+                                            /*#__PURE__*/ _(`label`, {
+                                              className: `framer-euxfz4`,
+                                              "data-framer-name": `Finalidade`,
+                                              children: /*#__PURE__*/ _(ye, {
+                                                className: `framer-5ovi60`,
+                                                defaultValue: ``,
+                                                inputName: `Finalidade da compra`,
+                                                required: !0,
+                                                selectOptions: [
+                                                  {
+                                                    disabled: !0,
+                                                    title: `Finalidade da compra`,
+                                                    type: `option`,
+                                                    value: ``,
+                                                  },
+                                                  {
+                                                    title: `Morar`,
+                                                    type: `option`,
+                                                    value: `Morar`,
+                                                  },
+                                                  {
+                                                    title: `Segunda moradia`,
+                                                    type: `option`,
+                                                    value: `Segunda moradia`,
+                                                  },
+                                                  {
+                                                    title: `Investir`,
+                                                    type: `option`,
+                                                    value: `Investir`,
+                                                  },
+                                                ],
+                                              }),
+                                            }),
+                                            /*#__PURE__*/ _(`label`, {
+                                              className: `framer-127bta4`,
+                                              "data-framer-name": `Telefone`,
+                                              children: /*#__PURE__*/ _(ve, {
+                                                className: `framer-peoly`,
+                                                inputName: `Quanto pretende investir?`,
+                                                placeholder: `Quanto pretende investir?`,
+                                                required: !0,
+                                                type: `text`,
+                                              }),
+                                            }),
+                                            /*#__PURE__*/ _(z, {
+                                              breakpoint: G,
+                                              overrides: {
+                                                hH0DQFdT_: {
+                                                  y: (d?.y || 0) + 6872,
+                                                },
+                                                LtsrEqi21: {
+                                                  width: `calc(min(min(${d?.width || `100vw`}, 1512px) - 40px, 600px) - 48px)`,
+                                                  y: (d?.y || 0) + 7445.6,
+                                                },
+                                              },
+                                              children: /*#__PURE__*/ _(H, {
+                                                height: 56,
+                                                width: `calc(min(min(${d?.width || `100vw`}, 1512px) - 40px, 600px) - 64px)`,
+                                                y: (d?.y || 0) + 5979.6,
+                                                children: /*#__PURE__*/ _(V, {
+                                                  className: `framer-o3qvc7-container`,
+                                                  nodeId: `m3buy5NVe`,
+                                                  scopeId: `YpTYVyu2F`,
+                                                  children: /*#__PURE__*/ _(
+                                                    Bt,
+                                                    {
+                                                      height: `100%`,
+                                                      id: `m3buy5NVe`,
+                                                      layoutId: `m3buy5NVe`,
+                                                      style: { width: `100%` },
+                                                      type: `submit`,
+                                                      variant: Zr(
+                                                        e,
+                                                        {
+                                                          pending: `zVvugNcuU`,
+                                                          success: `tjVb7MDxL`,
+                                                        },
+                                                        X(`IXbY4xH2h`),
+                                                      ),
+                                                      width: `100%`,
+                                                    },
+                                                  ),
+                                                }),
+                                              }),
+                                            }),
+                                            /*#__PURE__*/ _(U, {
+                                              __fromCanvasComponent: !0,
+                                              children: /*#__PURE__*/ _(o, {
+                                                children: /*#__PURE__*/ _(`p`, {
+                                                  dir: `auto`,
+                                                  style: {
+                                                    "--font-selector": `RlM7TWFucm9wZS1tZWRpdW0=`,
+                                                    "--framer-font-family": `"Manrope", "Manrope Placeholder", sans-serif`,
+                                                    "--framer-font-size": `12px`,
+                                                    "--framer-font-weight": `500`,
+                                                    "--framer-line-height": `150%`,
+                                                    "--framer-text-color": `rgb(18, 31, 47)`,
+                                                  },
+                                                  children: `Ao enviar, você aceita nossa Política de Privacidade.`,
+                                                }),
+                                              }),
+                                              className: `framer-px28eq`,
+                                              "data-framer-name": `Ao enviar, você aceita nossa Política de Privacidade.`,
+                                              fonts: [`FS;Manrope-medium`],
+                                              verticalAlignment: `top`,
+                                              withExternalLayout: !0,
+                                            }),
+                                          ],
+                                        }),
+                                    }),
+                                  ],
+                                }),
+                              ],
+                            }),
+                          ],
+                        }),
+                        /*#__PURE__*/ _(E, {
+                          className: `framer-teubg0`,
+                          "data-framer-name": `SVG`,
+                          fill: `rgba(0,0,0,1)`,
+                          intrinsicHeight: 274,
+                          intrinsicWidth: 182,
+                          svg: `<svg width="182" height="274" viewBox="0 0 182 274" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M90.2454 182.67H181.575V274H90.2454V182.67Z" fill="#F7EFEB" fill-opacity="0.15"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M91.3298 182.665H0V91.3351H91.3298V182.665ZM181.575 91.3301H90.2451V0H181.575V91.3301Z" fill="#F7EFEB" fill-opacity="0.15"/>
+</svg>
+`,
+                          withExternalLayout: !0,
+                        }),
+                        /*#__PURE__*/ _(E, {
+                          className: `framer-aot4i4`,
+                          "data-framer-name": `SVG`,
+                          fill: `rgba(0,0,0,1)`,
+                          intrinsicHeight: 274,
+                          intrinsicWidth: 272,
+                          style: { rotate: 90 },
+                          svg: `<svg width="272" height="274" viewBox="0 0 272 274" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0H179.631L179.678 89.7074C150.089 89.8446 116.961 90.4937 87.6168 89.6316C86.9821 119.791 87.4629 151.598 87.4698 181.88L0 181.898V0Z" fill="#F7EFEB" fill-opacity="0.15"/>
+<path d="M87.478 181.886L179.697 181.934L179.648 273.973L87.5826 274L87.478 181.886Z" fill="#F7EFEB" fill-opacity="0.15"/>
+<path d="M179.671 89.7178C209.136 90.3507 242.049 89.9946 271.644 89.7752L271.66 181.968L179.681 181.938L179.671 89.7178Z" fill="#F7EFEB" fill-opacity="0.15"/>
+</svg>
+`,
+                          withExternalLayout: !0,
+                        }),
+                      ],
+                    }),
+                    cn !== !1 &&
+                      /*#__PURE__*/ _(S.section, {
+                        className: `framer-i2dcwe`,
+                        "data-framer-name": `Info-matricula`,
+                        layout: K,
+                        children: /*#__PURE__*/ _(`div`, {
+                          className: `framer-18c8gnk`,
+                          "data-framer-name": `Container`,
+                          children: /*#__PURE__*/ _(z, {
+                            breakpoint: G,
+                            overrides: {
+                              LtsrEqi21: {
+                                children: /*#__PURE__*/ _(o, {
+                                  children: /*#__PURE__*/ _(`p`, {
+                                    className: `framer-styles-preset-1go5ger`,
+                                    "data-styles-preset": `PKq4ZTMWi`,
+                                    dir: `auto`,
+                                    style: {
+                                      "--framer-text-alignment": `center`,
+                                      "--framer-text-color": `var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, rgb(18, 31, 47))`,
+                                    },
+                                    children: `Incorporação sob matrícula nº 152.336. Imagens meramente ilustrativas.`,
+                                  }),
+                                }),
+                              },
+                            },
+                            children: /*#__PURE__*/ _(U, {
+                              __fromCanvasComponent: !0,
+                              children: /*#__PURE__*/ _(o, {
+                                children: /*#__PURE__*/ _(`p`, {
+                                  className: `framer-styles-preset-1yk4fco`,
+                                  "data-styles-preset": `zBGYslnpm`,
+                                  dir: `auto`,
+                                  style: {
+                                    "--framer-text-alignment": `center`,
+                                    "--framer-text-color": `var(--token-bef64308-d0a0-4d4d-b5db-6cc3667256b7, rgb(78, 85, 94))`,
+                                  },
+                                  children: `Incorporação sob matrícula nº 152.336. Imagens meramente ilustrativas.`,
+                                }),
+                              }),
+                              className: `framer-1drhnw4`,
+                              "data-framer-name": `Motto`,
+                              fonts: [`Inter`],
+                              text: xt,
+                              verticalAlignment: `top`,
+                              withExternalLayout: !0,
+                            }),
+                          }),
+                        }),
+                      }),
+                    /*#__PURE__*/ _(H, {
+                      children: /*#__PURE__*/ _(V, {
+                        className: `framer-jeiw4h-container`,
+                        isAuthoredByUser: !0,
+                        isModuleExternal: !0,
+                        layout: K,
+                        nodeId: `Gf_SUzC_D`,
+                        scopeId: `YpTYVyu2F`,
+                        children: /*#__PURE__*/ _(We, {
+                          height: `100%`,
+                          id: `Gf_SUzC_D`,
+                          infinite: !1,
+                          intensity: 20,
+                          layoutId: `Gf_SUzC_D`,
+                          orientation: `vertical`,
+                          smooth: !0,
+                          width: `100%`,
+                        }),
+                      }),
+                    }),
+                  ],
+                }),
+                /*#__PURE__*/ _(`div`, { id: `overlay` }),
+              ],
+            }),
+          })
+        );
+      })),
+      (ri = [
+        `.framer-hCxt7.framer-tif3tz, .framer-hCxt7 .framer-tif3tz { display: block; }`,
+        `.framer-hCxt7.framer-1ym8dqe { align-content: center; align-items: center; background-color: #121f30; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 1200px; }`,
+        `.framer-hCxt7 .framer-6hqon3 { align-content: flex-end; align-items: flex-end; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 95vh; justify-content: center; max-height: 980px; min-height: 620px; overflow: var(--overflow-clip-fallback, clip); padding: 100px 0px 40px 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-1lmouzm { bottom: 0px; flex: none; left: 0px; overflow: var(--overflow-clip-fallback, clip); position: absolute; right: 0px; top: 0px; z-index: 1; }`,
+        `.framer-hCxt7 .framer-ynhyei-container { bottom: 0px; flex: none; left: 0px; position: absolute; right: 0px; top: 0px; }`,
+        `.framer-hCxt7 .framer-wn5tbh { background-color: rgba(0, 0, 0, 0.2); bottom: 0px; flex: none; left: 0px; overflow: var(--overflow-clip-fallback, clip); position: absolute; right: 0px; top: 0px; z-index: 1; }`,
+        `.framer-hCxt7 .framer-pmk4ka { background: linear-gradient(180deg, rgba(18, 31, 47, 0) 0%, rgba(18, 31, 47, 0.8) 100%); bottom: 0px; flex: none; height: 65%; left: 0px; overflow: var(--overflow-clip-fallback, clip); position: absolute; right: 0px; z-index: 2; }`,
+        `.framer-hCxt7 .framer-1h4uyf6-container, .framer-hCxt7 .framer-1c12sj2-container { bottom: 0px; flex: none; height: 100%; left: 0px; position: absolute; right: 0px; }`,
+        `.framer-hCxt7 .framer-ukjsoj { align-content: flex-end; align-items: flex-end; display: flex; flex: 1 0 0px; flex-direction: row; flex-wrap: nowrap; height: 100%; justify-content: space-between; max-width: 1512px; overflow: visible; padding: 0px 40px 0px 40px; position: relative; width: 1px; z-index: 2; }`,
+        `.framer-hCxt7 .framer-1mz348k { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; height: 100%; justify-content: space-between; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 1px; }`,
+        `.framer-hCxt7 .framer-16dnu1o { align-content: center; align-items: center; border-bottom-left-radius: 100px; border-bottom-right-radius: 100px; border-top-left-radius: 100px; border-top-right-radius: 100px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 4px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; text-decoration: none; width: min-content; will-change: var(--framer-will-change-effect-override, transform); z-index: 1; }`,
+        `.framer-hCxt7 .framer-115876y { --framer-paragraph-spacing: 0px; -webkit-user-select: none; flex: none; height: auto; opacity: 0.6; position: relative; user-select: none; white-space: pre; width: auto; }`,
+        `.framer-hCxt7 .framer-jw7tlz { flex: none; height: 18px; position: relative; width: 18px; }`,
+        `.framer-hCxt7 .framer-16avvzk { --framer-paragraph-spacing: 0px; -webkit-user-select: none; flex: none; height: auto; position: relative; user-select: none; white-space: pre; width: auto; }`,
+        `.framer-hCxt7 .framer-1l0wyjm { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 32px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; will-change: var(--framer-will-change-effect-override, transform); }`,
+        `.framer-hCxt7 .framer-t6pf13 { -webkit-filter: contrast(2); filter: contrast(2); flex: none; height: auto; max-width: 240px; overflow: var(--overflow-clip-fallback, clip); position: relative; width: 100%; will-change: var(--framer-will-change-filter-override, filter); }`,
+        `.framer-hCxt7 .framer-1xaqxap, .framer-hCxt7 .framer-w6g3p6, .framer-hCxt7 .framer-15rluxp, .framer-hCxt7 .framer-18ht4ky, .framer-hCxt7 .framer-pr80ub, .framer-hCxt7 .framer-lf4tef, .framer-hCxt7 .framer-1qgduzu, .framer-hCxt7 .framer-1tbsjbb { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; height: min-content; justify-content: space-between; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-1nt9dns { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
+        `.framer-hCxt7 .framer-b72igw { --framer-paragraph-spacing: 0px; --framer-text-wrap-override: balance; flex: none; height: auto; max-width: 1100px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-1aaszy6, .framer-hCxt7 .framer-1y1l834 { --framer-paragraph-spacing: 0px; flex: none; height: auto; max-width: 600px; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-hCxt7 .framer-5tq0rm { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
+        `.framer-hCxt7 .framer-hdlpab-container, .framer-hCxt7 .framer-1dkflbp-container, .framer-hCxt7 .framer-1aj9gbv-container, .framer-hCxt7 .framer-1xbvgih-container, .framer-hCxt7 .framer-bvhbkv-container, .framer-hCxt7 .framer-cwll1e-container, .framer-hCxt7 .framer-1jrw7xd-container, .framer-hCxt7 .framer-8u8wau-container, .framer-hCxt7 .framer-1p4n3re-container, .framer-hCxt7 .framer-12irvdc-container, .framer-hCxt7 .framer-1kijq31-container, .framer-hCxt7 .framer-2j68c1-container, .framer-hCxt7 .framer-2y6580-container, .framer-hCxt7 .framer-jeiw4h-container { flex: none; height: auto; position: relative; width: auto; }`,
+        `.framer-hCxt7 .framer-jsh01g { --border-bottom-width: 1px; --border-color: rgba(255, 255, 255, 0.2); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; -webkit-backdrop-filter: blur(5px); align-content: flex-start; align-items: flex-start; backdrop-filter: blur(5px); background-color: rgba(0, 0, 0, 0.15); border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; border-top-left-radius: 12px; border-top-right-radius: 12px; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: flex-start; overflow: visible; padding: 32px; position: relative; width: 531px; will-change: var(--framer-will-change-effect-override, transform); }`,
+        `.framer-hCxt7 .framer-g2rlvo { align-content: flex-start; align-items: flex-start; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; border-top-left-radius: 12px; border-top-right-radius: 12px; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-1n6l5oi, .framer-hCxt7 .framer-1shnp6c, .framer-hCxt7 .framer-yewt5d { align-content: center; align-items: center; border-bottom-left-radius: 1000px; border-bottom-right-radius: 1000px; border-top-left-radius: 1000px; border-top-right-radius: 1000px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 8px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
+        `.framer-hCxt7 .framer-k5j6y8 { aspect-ratio: 1 / 1; background-color: #f7efeb; flex: none; height: auto; position: relative; width: 6px; }`,
+        `.framer-hCxt7 .framer-1kvfola, .framer-hCxt7 .framer-f30l6q, .framer-hCxt7 .framer-1xqshk, .framer-hCxt7 .framer-yecvfm, .framer-hCxt7 .framer-hd1oxi, .framer-hCxt7 .framer-1cj7yi7, .framer-hCxt7 .framer-lbvi7n, .framer-hCxt7 .framer-1k40jla, .framer-hCxt7 .framer-eq4dsv, .framer-hCxt7 .framer-1ky4ly, .framer-hCxt7 .framer-1j3qvgm, .framer-hCxt7 .framer-r1ik5o, .framer-hCxt7 .framer-pelqs1, .framer-hCxt7 .framer-ohfawq, .framer-hCxt7 .framer-hpiiko, .framer-hCxt7 .framer-px28eq { --framer-paragraph-spacing: 0px; flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
+        `.framer-hCxt7 .framer-7xy35 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 8px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: min-content; }`,
+        `.framer-hCxt7 .framer-1ca8b00 { align-content: center; align-items: center; background-color: #f7efeb; border-bottom-left-radius: 1000px; border-bottom-right-radius: 1000px; border-top-left-radius: 1000px; border-top-right-radius: 1000px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 8px; height: min-content; justify-content: center; overflow: visible; padding: 6px 12px 6px 12px; position: relative; width: min-content; }`,
+        `.framer-hCxt7 .framer-1ogvalb { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-s6j5d5 { --border-bottom-width: 1px; --border-color: rgba(255, 255, 255, 0.1); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: flex-start; overflow: visible; padding: 20px 0px 20px 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-195ghsg, .framer-hCxt7 .framer-1s0d4a0, .framer-hCxt7 .framer-71mg3e, .framer-hCxt7 .framer-mt2igg { --esondr: var(--token-d01ffe2e-fdb0-4595-96ba-9f369f564ab4, #f7f1ed); flex: none; height: auto; position: relative; width: 20px; }`,
+        `.framer-hCxt7 .framer-18rq2v3, .framer-hCxt7 .framer-q03mfv, .framer-hCxt7 .framer-pdmhda, .framer-hCxt7 .framer-1tbciyk, .framer-hCxt7 .framer-1uv762t { --framer-paragraph-spacing: 0px; flex: 1 0 0px; height: auto; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-hCxt7 .framer-gbvu9e, .framer-hCxt7 .framer-1lwdqrd { --border-bottom-width: 1px; --border-color: rgba(255, 255, 255, 0.1); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px 0px 20px 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-3kmdwn { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-ucza7p { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 148px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 40px 0px 40px 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-ghymyb { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 80px; height: min-content; justify-content: flex-start; max-width: 1512px; overflow: var(--overflow-clip-fallback, clip); padding: 0px 40px 0px 40px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-mudt4j { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: row; flex-wrap: nowrap; gap: 24px; height: 620px; justify-content: flex-start; max-width: 820px; overflow: visible; padding: 0px; position: sticky; top: 100px; width: 1px; z-index: 1; }`,
+        `.framer-hCxt7 .framer-gl12dc { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: 100%; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 1px; }`,
+        `.framer-hCxt7 .framer-15o4s45 { border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; border-top-left-radius: 12px; border-top-right-radius: 12px; flex: 1 0 0px; height: 1px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-56m2h1 { --border-bottom-width: 1px; --border-color: var(--token-807dcf01-d385-4f71-a01f-3d56cffb08e7, #e2e8f0); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: center; align-items: center; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; border-top-left-radius: 12px; border-top-right-radius: 12px; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 24px; position: relative; width: 100%; will-change: var(--framer-will-change-override, transform); }`,
+        `.framer-hCxt7 .framer-5dwt9q { align-content: flex-start; align-items: flex-start; background-color: #ffffff; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; border-top-left-radius: 8px; border-top-right-radius: 8px; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 16px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-mp68o1 { aspect-ratio: 1 / 1; background-color: #121f2f; flex: none; height: auto; position: relative; width: 6px; }`,
+        `.framer-hCxt7 .framer-173w59j-container, .framer-hCxt7 .framer-1t451gm-container, .framer-hCxt7 .framer-9t5y77-container, .framer-hCxt7 .framer-o3qvc7-container { flex: none; height: auto; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-211nlt { border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; border-top-left-radius: 12px; border-top-right-radius: 12px; flex: 1 0 0px; height: 620px; position: relative; width: 1px; }`,
+        `.framer-hCxt7 .framer-frjbo9 { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: flex-start; max-width: 542px; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 1px; }`,
+        `.framer-hCxt7 .framer-1jq3acl, .framer-hCxt7 .framer-1xerocl { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-1ohmnd { --framer-paragraph-spacing: 0px; --framer-text-wrap-override: balance; flex: none; height: auto; max-width: 400px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-1prqc4t, .framer-hCxt7 .framer-1uv7ukz { --framer-paragraph-spacing: 0px; flex: none; height: auto; max-width: 500px; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-hCxt7 .framer-lbskrt { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 32px; height: min-content; justify-content: flex-start; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-xng3s7 { aspect-ratio: 1 / 1; background-color: var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, #121f2f); flex: none; height: auto; position: relative; width: 6px; }`,
+        `.framer-hCxt7 .framer-1w2unuu { --framer-paragraph-spacing: 32px; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-hCxt7 .framer-8czqdd { align-content: center; align-items: center; background-color: #d7cec6; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 80px; height: min-content; justify-content: flex-start; overflow: visible; padding: 80px 0px 80px 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-paeddt { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 80px; height: min-content; justify-content: flex-start; max-width: 1512px; overflow: visible; padding: 0px 40px 0px 40px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-107ksrh { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; height: 620px; justify-content: space-between; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
+        `.framer-hCxt7 .framer-164pijq { --framer-paragraph-spacing: 0px; --framer-text-wrap-override: balance; flex: none; height: auto; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-1ukntzs { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 32px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-40jg9n, .framer-hCxt7 .framer-lth36k, .framer-hCxt7 .framer-1uhrm4t, .framer-hCxt7 .framer-1drhnw4 { --framer-paragraph-spacing: 0px; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-hCxt7 .framer-kjuqxf-container { flex: 1 0 0px; height: 620px; position: relative; width: 1px; }`,
+        `.framer-hCxt7.framer-10kj3ne, .framer-hCxt7.framer-1pc03et { background-color: rgba(0, 0, 0, 0.8); inset: 0px; position: fixed; user-select: none; z-index: 10; }`,
+        `.framer-hCxt7.framer-hlz197-container { aspect-ratio: 1.7777777777777777 / 1; flex: none; height: auto; left: 50%; position: fixed; top: 50%; transform: translate(-50%, -50%); width: 88%; z-index: 10; }`,
+        `.framer-hCxt7.framer-1np74ck { align-content: center; align-items: center; background-color: rgba(255, 255, 255, 0.2); border-bottom-left-radius: 9999px; border-bottom-right-radius: 9999px; border-top-left-radius: 9999px; border-top-right-radius: 9999px; cursor: pointer; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 40px; justify-content: center; overflow: visible; padding: 0px; position: fixed; right: 16px; top: 16px; width: 40px; z-index: 10; }`,
+        `.framer-hCxt7 .framer-1nqeuca { --1m6trwb: 0; --21h8s6: var(--token-c58886b8-54ce-4eaa-8afb-45318af8f91a, #ffffff); --pgex8v: 1.5; aspect-ratio: 1 / 1; flex: none; height: auto; position: relative; width: 24px; }`,
+        `.framer-hCxt7 .framer-18gppec { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 40px 0px 40px 0px; position: relative; scroll-margin-top: 100px; width: 100%; }`,
+        `.framer-hCxt7 .framer-1dvo1ex, .framer-hCxt7 .framer-1n4dika { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 14px; height: min-content; justify-content: flex-start; max-width: 1512px; overflow: visible; padding: 0px 40px 0px 40px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-oysxor, .framer-hCxt7 .framer-owjd5m { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 80px; height: min-content; justify-content: flex-start; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-nudsga { align-content: flex-end; align-items: flex-end; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; height: min-content; justify-content: space-between; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-skvx9l { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: flex-start; max-width: 700px; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
+        `.framer-hCxt7 .framer-1eczak1 { flex: none; height: 66px; position: relative; width: 67px; }`,
+        `.framer-hCxt7 .framer-1k103i5 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-h9nbxq, .framer-hCxt7 .framer-se7tiv { align-content: center; align-items: center; background-color: #121f2f; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; border-top-left-radius: 12px; border-top-right-radius: 12px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; height: min-content; justify-content: space-between; overflow: visible; padding: 32px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-1cgxr13 { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 17px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 651px; }`,
+        `.framer-hCxt7 .framer-ljwpup { --framer-paragraph-spacing: 0px; flex: none; height: auto; opacity: 0.8; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-hCxt7 .framer-1eec2zf { bottom: 0px; flex: none; left: 707px; position: absolute; top: 0px; width: 170px; z-index: 1; }`,
+        `.framer-hCxt7 .framer-y3ysuz, .framer-hCxt7 .framer-14sb665, .framer-hCxt7 .framer-e8zyd9 { align-content: center; align-items: center; background-color: var(--token-1dd90354-3af1-429a-b301-6cca47d3031c, #d7cec6); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 40px 0px 40px 0px; position: relative; scroll-margin-top: 100px; width: 100%; }`,
+        `.framer-hCxt7 .framer-9tupbo { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: flex-start; max-width: 700px; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-nv9n27 { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; height: min-content; justify-content: space-between; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-15evf6e { flex: 1 0 0px; gap: 10px; height: auto; max-width: 50%; overflow: var(--overflow-clip-fallback, clip); position: sticky; top: 100px; width: 1px; will-change: var(--framer-will-change-filter-override, filter); z-index: 1; }`,
+        `.framer-hCxt7 .framer-1ersq0x { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: center; max-width: 520px; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 1px; }`,
+        `.framer-hCxt7 .framer-gic3ce { --framer-paragraph-spacing: 12px; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-hCxt7 .framer-13e6js9 { align-content: flex-start; align-items: flex-start; background-color: #121f2f; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; border-top-left-radius: 12px; border-top-right-radius: 12px; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 32px; height: min-content; justify-content: flex-start; overflow: visible; padding: 32px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-6jew64 { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 17px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-7u6yko, .framer-hCxt7 .framer-12z57gt { --framer-paragraph-spacing: 0px; --framer-text-wrap: balance; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-hCxt7 .framer-1askw3f { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 14px; height: min-content; justify-content: flex-start; max-width: 1512px; overflow: visible; padding: 0px 20px 0px 20px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-vw3fvz { align-content: flex-end; align-items: flex-end; display: flex; flex: 1 0 0px; flex-direction: row; flex-wrap: nowrap; height: min-content; justify-content: space-between; max-width: 400px; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 1px; }`,
+        `.framer-hCxt7 .framer-cu3h8o { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: flex-start; max-width: 400px; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
+        `.framer-hCxt7 .framer-1bsb0z6, .framer-hCxt7 .framer-b8xgbx { --framer-paragraph-spacing: 0px; --framer-text-wrap-override: balance; flex: none; height: auto; max-width: 300px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-1osa5hx { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 1px; }`,
+        `.framer-hCxt7 .framer-g62rai { --framer-paragraph-spacing: 24px; cursor: pointer; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-hCxt7.framer-oqv3qe-container { bottom: 0px; flex: none; left: 0px; position: fixed; right: 0px; top: 0px; z-index: 10; }`,
+        `.framer-hCxt7 .framer-1ac5roo { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 17px; height: min-content; justify-content: flex-start; max-width: 50%; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
+        `.framer-hCxt7 .framer-5n2jh3 { --framer-paragraph-spacing: 0px; --framer-text-wrap-override: balance; flex: none; height: auto; opacity: 0.8; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-y4wols { align-content: center; align-items: center; background-color: #f7efeb; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 40px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-1lubsh6 { align-content: flex-start; align-items: flex-start; background-color: var(--token-8d5fd6c4-a6b8-403d-a7ef-8db5e361a320, #f7efeb); border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; border-top-left-radius: 12px; border-top-right-radius: 12px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 182px; height: min-content; justify-content: center; max-width: 1512px; overflow: var(--overflow-clip-fallback, clip); padding: 80px; position: relative; width: 100%; will-change: var(--framer-will-change-override, transform); }`,
+        `.framer-hCxt7 .framer-7is5ts { --border-bottom-width: 1px; --border-color: #f7efeb; --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; bottom: 0px; flex: none; gap: 0px; left: 0px; overflow: var(--overflow-clip-fallback, clip); position: absolute; right: 0px; top: 0px; will-change: var(--framer-will-change-filter-override, filter); z-index: 1; }`,
+        `.framer-hCxt7 .framer-ovu6is { background: linear-gradient(180deg, rgba(18, 31, 47, 0) 0%, rgba(18, 31, 47, 0.5) 100%); bottom: 0px; flex: none; height: 50%; left: 0px; overflow: var(--overflow-clip-fallback, clip); position: absolute; right: 0px; z-index: 2; }`,
+        `.framer-hCxt7 .framer-1c82ej2 { bottom: -1px; flex: none; height: 223px; position: absolute; right: -1px; width: 222px; z-index: 2; }`,
+        `.framer-hCxt7 .framer-a15pxd { flex: none; height: 199px; left: -1px; position: absolute; top: -1px; width: 197px; z-index: 2; }`,
+        `.framer-hCxt7 .framer-1ptxatr { background-color: rgba(0, 0, 0, 0.45); bottom: 0px; flex: none; left: 0px; overflow: var(--overflow-clip-fallback, clip); position: absolute; right: 0px; top: 0px; z-index: 1; }`,
+        `.framer-hCxt7 .framer-x4wa3x { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; z-index: 1; }`,
+        `.framer-hCxt7 .framer-1r93pf9, .framer-hCxt7 .framer-24ko51 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-bgrn3d { --framer-paragraph-spacing: 0px; --framer-text-wrap-override: balance; flex: none; height: auto; max-width: 600px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-1omn75m { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; height: min-content; justify-content: space-between; max-width: 1571px; overflow: visible; padding: 0px 40px 0px 40px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-1k427h4 { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: flex-start; max-width: 400px; overflow: visible; padding: 0px; position: sticky; top: 120px; width: 1px; z-index: 1; }`,
+        `.framer-hCxt7 .framer-12o51e2 { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: center; max-width: 62%; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 1px; }`,
+        `.framer-hCxt7 .framer-wrskot { align-content: center; align-items: center; background-color: var(--token-8d5fd6c4-a6b8-403d-a7ef-8db5e361a320, #f7efeb); border-bottom-left-radius: 16px; border-bottom-right-radius: 16px; border-top-left-radius: 16px; border-top-right-radius: 16px; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 32px; height: min-content; justify-content: flex-start; overflow: visible; padding: 32px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-19ejugx { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-1r11ty0-container, .framer-hCxt7 .framer-1usqrue-container, .framer-hCxt7 .framer-1jax9zr-container, .framer-hCxt7 .framer-1ygyasi-container { flex: none; height: 8px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-1i8ety0 { align-content: flex-start; align-items: flex-start; background-color: var(--token-8d5fd6c4-a6b8-403d-a7ef-8db5e361a320, #f7efeb); border-bottom-left-radius: 16px; border-bottom-right-radius: 16px; border-top-left-radius: 16px; border-top-right-radius: 16px; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 40px 40px; height: min-content; justify-content: flex-start; overflow: visible; padding: 32px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-1w7pqml, .framer-hCxt7 .framer-7419ov, .framer-hCxt7 .framer-1awq4ve { align-content: center; align-items: center; border-bottom-left-radius: 16px; border-bottom-right-radius: 16px; border-top-left-radius: 16px; border-top-right-radius: 16px; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 8px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-1bvmzrb { align-content: center; align-items: center; background-color: #121f2f; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 148px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 100px 0px 100px 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-lfdvbc, .framer-hCxt7 .framer-18c8gnk { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 52px; height: min-content; justify-content: center; max-width: 1512px; overflow: var(--overflow-clip-fallback, clip); padding: 0px 20px 0px 20px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-kypq16 { --framer-paragraph-spacing: 0px; --framer-text-wrap-override: balance; flex: none; height: auto; max-width: 800px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-14ckk46 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: center; max-width: 600px; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-nbm8n4 { align-content: flex-start; align-items: flex-start; background-color: #f7efeb; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; border-top-left-radius: 8px; border-top-right-radius: 8px; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: flex-start; overflow: var(--overflow-clip-fallback, clip); padding: 24px; position: relative; width: 100%; will-change: var(--framer-will-change-override, transform); }`,
+        `.framer-hCxt7 .framer-y2zc53 { --framer-paragraph-spacing: 0px; flex: 1 0 0px; height: auto; max-width: 260px; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-hCxt7 .framer-1ss16i5 { --border-bottom-width: 1px; --border-color: #e2e8f0; --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; background-color: #f7efeb; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; border-top-left-radius: 12px; border-top-right-radius: 12px; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 20px; height: min-content; justify-content: flex-start; overflow: visible; padding: 32px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-1ols9v4 { --border-bottom-width: 8px; --border-color: rgba(0, 0, 0, 0.1); --border-left-width: 8px; --border-right-width: 8px; --border-style: dashed; --border-top-width: 8px; flex: none; height: 1px; overflow: var(--overflow-clip-fallback, clip); position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-1iprmqz { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 20px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-dqntnu, .framer-hCxt7 .framer-3f42lo, .framer-hCxt7 .framer-91muad, .framer-hCxt7 .framer-euxfz4, .framer-hCxt7 .framer-127bta4 { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: flex-start; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-a03rkx { --framer-input-background: #ede7e1; --framer-input-border-radius-bottom-left: 8px; --framer-input-border-radius-bottom-right: 8px; --framer-input-border-radius-top-left: 8px; --framer-input-border-radius-top-right: 8px; --framer-input-focused-border-color: rgba(35, 70, 105, 0.1); --framer-input-focused-border-style: solid; --framer-input-focused-border-width: 1px; --framer-input-font-color: var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, #121f2f); --framer-input-font-family: "Manrope"; --framer-input-font-letter-spacing: 0em; --framer-input-font-line-height: 1.2em; --framer-input-font-size: 16px; --framer-input-font-weight: 500; --framer-input-icon-mask-image: none; --framer-input-padding: 8px 16px 8px 16px; --framer-input-placeholder-color: rgba(18, 31, 47, 0.7); flex: none; height: 56px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-v0ic6p, .framer-hCxt7 .framer-yp2k03, .framer-hCxt7 .framer-peoly { --framer-input-background: #ede7e1; --framer-input-border-radius-bottom-left: 8px; --framer-input-border-radius-bottom-right: 8px; --framer-input-border-radius-top-left: 8px; --framer-input-border-radius-top-right: 8px; --framer-input-focused-border-color: var(--token-bef64308-d0a0-4d4d-b5db-6cc3667256b7, #4e555e); --framer-input-focused-border-style: solid; --framer-input-focused-border-width: 1px; --framer-input-font-color: var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, #121f2f); --framer-input-font-family: "Manrope"; --framer-input-font-letter-spacing: 0em; --framer-input-font-line-height: 1.2em; --framer-input-font-size: 16px; --framer-input-font-weight: 500; --framer-input-icon-mask-image: none; --framer-input-padding: 8px 16px 8px 16px; --framer-input-placeholder-color: rgba(18, 31, 47, 0.7); flex: none; height: 56px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-5ovi60 { --framer-input-background: #ede7e1; --framer-input-border-radius-bottom-left: 8px; --framer-input-border-radius-bottom-right: 8px; --framer-input-border-radius-top-left: 8px; --framer-input-border-radius-top-right: 8px; --framer-input-focused-border-color: var(--token-bef64308-d0a0-4d4d-b5db-6cc3667256b7, #4e555e); --framer-input-focused-border-style: solid; --framer-input-focused-border-width: 1px; --framer-input-font-color: var(--token-64e27b7b-ff4b-4e5f-b5bb-09071b517538, #121f2f); --framer-input-font-family: "Manrope"; --framer-input-font-letter-spacing: 0em; --framer-input-font-line-height: 1.2em; --framer-input-font-size: 16px; --framer-input-font-weight: 500; --framer-input-icon-color: #999999; --framer-input-invalid-text-color: rgba(18, 31, 47, 0.7); --framer-input-padding: 8px 16px 8px 16px; flex: none; height: 56px; position: relative; width: 100%; }`,
+        `.framer-hCxt7 .framer-teubg0 { aspect-ratio: 0.6642335766423357 / 1; bottom: 0px; flex: none; height: auto; left: 0px; position: absolute; width: 182px; z-index: 1; }`,
+        `.framer-hCxt7 .framer-aot4i4 { aspect-ratio: 0.9927007299270073 / 1; flex: none; height: auto; position: absolute; right: -1px; top: 1px; width: 200px; z-index: 1; }`,
+        `.framer-hCxt7 .framer-i2dcwe { align-content: center; align-items: center; background-color: var(--token-1dd90354-3af1-429a-b301-6cca47d3031c, #d7cec6); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 148px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 12px 0px 12px 0px; position: relative; width: 100%; }`,
+        ...xt,
+        ...ct,
+        ...He,
+        ...st,
+        ...jt,
+        ...Ht,
+        ...G,
+        ...Re,
+        ...Ft,
+        ...Ot,
+        ...lr,
+        `.framer-hCxt7[data-border="true"]::after, .framer-hCxt7 [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
+        `@media (min-width: 810px) and (max-width: 1199.98px) { .framer-hCxt7.framer-1ym8dqe { width: 810px; } .framer-hCxt7 .framer-6hqon3 { height: min-content; max-height: unset; min-height: unset; padding: 120px 0px 40px 0px; } .framer-hCxt7 .framer-pmk4ka { height: 82%; } .framer-hCxt7 .framer-ukjsoj { align-content: flex-start; align-items: flex-start; flex-direction: column; gap: 40px; height: min-content; justify-content: flex-start; padding: 0px 20px 0px 20px; } .framer-hCxt7 .framer-1mz348k { flex: none; gap: 140px; height: min-content; justify-content: center; width: 100%; } .framer-hCxt7 .framer-t6pf13 { width: 185px; } .framer-hCxt7 .framer-jsh01g, .framer-hCxt7 .framer-8u8wau-container { width: 100%; } .framer-hCxt7 .framer-ghymyb, .framer-hCxt7 .framer-paeddt { flex-direction: column; padding: 0px 20px 0px 20px; } .framer-hCxt7 .framer-mudt4j { flex: none; position: relative; top: unset; width: 100%; } .framer-hCxt7 .framer-frjbo9 { flex: none; gap: 52px; max-width: unset; width: 100%; } .framer-hCxt7 .framer-lbskrt, .framer-hCxt7 .framer-13e6js9 { gap: 40px; } .framer-hCxt7 .framer-8czqdd { padding: 40px 0px 40px 0px; } .framer-hCxt7 .framer-107ksrh { flex: none; gap: 32px; height: min-content; justify-content: center; width: 100%; } .framer-hCxt7 .framer-kjuqxf-container { flex: none; height: 491px; width: 100%; } .framer-hCxt7.framer-hlz197-container { width: 750px; } .framer-hCxt7 .framer-1dvo1ex, .framer-hCxt7 .framer-1n4dika, .framer-hCxt7 .framer-1omn75m { padding: 0px 20px 0px 20px; } .framer-hCxt7 .framer-oysxor, .framer-hCxt7 .framer-owjd5m { gap: 100px; } .framer-hCxt7 .framer-1cgxr13 { width: 370px; } .framer-hCxt7 .framer-1eec2zf { bottom: -1px; left: 388px; top: -1px; } .framer-hCxt7 .framer-nv9n27 { gap: 40px; justify-content: flex-start; } .framer-hCxt7 .framer-15evf6e { max-width: unset; } .framer-hCxt7 .framer-vw3fvz, .framer-hCxt7 .framer-cu3h8o { max-width: 300px; } .framer-hCxt7 .framer-se7tiv { align-content: flex-start; align-items: flex-start; flex-direction: column; gap: 40px; justify-content: flex-start; } .framer-hCxt7 .framer-1ac5roo { flex: none; width: 100%; } .framer-hCxt7 .framer-y4wols { padding: 40px 20px 40px 20px; } .framer-hCxt7 .framer-1c82ej2 { height: 145px; width: 147px; } .framer-hCxt7 .framer-a15pxd { height: 124px; width: 121px; } .framer-hCxt7 .framer-x4wa3x { gap: 32px; } .framer-hCxt7 .framer-1k427h4 { max-width: 350px; } .framer-hCxt7 .framer-1bvmzrb { padding: 80px 0px 80px 0px; } .framer-hCxt7 .framer-teubg0 { width: 126px; } .framer-hCxt7 .framer-aot4i4 { top: -1px; width: 157px; }}`,
+        `@media (max-width: 809.98px) { .framer-hCxt7.framer-1ym8dqe { width: 390px; } .framer-hCxt7 .framer-6hqon3 { flex-direction: column; height: min-content; max-height: unset; min-height: unset; padding: 110px 0px 40px 0px; } .framer-hCxt7 .framer-pmk4ka { height: 82%; } .framer-hCxt7 .framer-ukjsoj { align-content: flex-start; align-items: flex-start; flex: none; flex-direction: column; gap: 40px; height: min-content; justify-content: flex-start; padding: 0px 16px 0px 16px; width: 100%; } .framer-hCxt7 .framer-1mz348k { flex: none; gap: 90px; height: min-content; justify-content: center; width: 100%; } .framer-hCxt7 .framer-16dnu1o { padding: 10px 0px 10px 0px; } .framer-hCxt7 .framer-t6pf13 { width: 170px; } .framer-hCxt7 .framer-jsh01g { padding: 24px; width: 100%; } .framer-hCxt7 .framer-w6g3p6 { align-content: flex-start; align-items: flex-start; flex-direction: column; gap: 16px; justify-content: flex-start; } .framer-hCxt7 .framer-7xy35 { gap: unset; justify-content: space-between; width: 100%; } .framer-hCxt7 .framer-s6j5d5 { padding: 18px 0px 18px 0px; } .framer-hCxt7 .framer-195ghsg, .framer-hCxt7 .framer-1s0d4a0, .framer-hCxt7 .framer-71mg3e, .framer-hCxt7 .framer-mt2igg { width: 18px; } .framer-hCxt7 .framer-gbvu9e, .framer-hCxt7 .framer-1lwdqrd { padding: 0px 0px 18px 0px; } .framer-hCxt7 .framer-ghymyb, .framer-hCxt7 .framer-paeddt { flex-direction: column; padding: 0px 16px 0px 16px; } .framer-hCxt7 .framer-mudt4j { flex: none; flex-direction: column; height: min-content; position: relative; top: unset; width: 100%; } .framer-hCxt7 .framer-gl12dc { flex: none; height: min-content; order: 1; width: 100%; } .framer-hCxt7 .framer-15o4s45 { flex: none; height: 320px; } .framer-hCxt7 .framer-211nlt { flex: none; height: 320px; order: 0; width: 100%; } .framer-hCxt7 .framer-frjbo9 { flex: none; gap: 52px; max-width: unset; width: 100%; } .framer-hCxt7 .framer-lbskrt, .framer-hCxt7 .framer-oysxor, .framer-hCxt7 .framer-13e6js9 { gap: 40px; } .framer-hCxt7 .framer-8czqdd { padding: 40px 0px 40px 0px; } .framer-hCxt7 .framer-107ksrh { flex: none; gap: 24px; height: min-content; justify-content: center; width: 100%; } .framer-hCxt7 .framer-kjuqxf-container { flex: none; height: auto; width: 100%; } .framer-hCxt7 .framer-1dvo1ex, .framer-hCxt7 .framer-1n4dika { padding: 0px 16px 0px 16px; } .framer-hCxt7 .framer-1cj7yi7, .framer-hCxt7 .framer-lbvi7n { --framer-text-wrap-override: balance; width: 100%; } .framer-hCxt7 .framer-h9nbxq { align-content: flex-start; align-items: flex-start; flex-direction: column; gap: 32px; justify-content: flex-start; } .framer-hCxt7 .framer-1cgxr13, .framer-hCxt7 .framer-bvhbkv-container, .framer-hCxt7 .framer-8u8wau-container, .framer-hCxt7 .framer-2y6580-container { width: 100%; } .framer-hCxt7 .framer-1eec2zf { bottom: unset; height: 182px; left: unset; right: 0px; top: -1px; } .framer-hCxt7 .framer-nv9n27 { flex-direction: column; gap: 40px; justify-content: flex-start; } .framer-hCxt7 .framer-15evf6e { flex: none; max-width: unset; position: relative; top: unset; width: 100%; } .framer-hCxt7 .framer-1ersq0x, .framer-hCxt7 .framer-y2zc53 { flex: none; width: 100%; } .framer-hCxt7 .framer-1askw3f { flex-direction: column; gap: 40px; padding: 0px 16px 0px 16px; } .framer-hCxt7 .framer-vw3fvz { flex: none; max-width: unset; width: 100%; } .framer-hCxt7 .framer-cu3h8o { max-width: unset; } .framer-hCxt7 .framer-1bsb0z6 { max-width: 100%; } .framer-hCxt7 .framer-1osa5hx { flex: none; gap: 16px; width: 100%; } .framer-hCxt7 .framer-g62rai { --framer-paragraph-spacing: 16px; } .framer-hCxt7 .framer-se7tiv { align-content: flex-start; align-items: flex-start; flex-direction: column; gap: 40px; justify-content: flex-start; } .framer-hCxt7 .framer-1ac5roo, .framer-hCxt7 .framer-12o51e2 { flex: none; max-width: 100%; width: 100%; } .framer-hCxt7 .framer-y4wols { padding: 40px 16px 40px 16px; } .framer-hCxt7 .framer-1lubsh6 { padding: 80px 20px 80px 20px; } .framer-hCxt7 .framer-1c82ej2 { height: 98px; width: 92px; } .framer-hCxt7 .framer-a15pxd { height: 81px; width: 79px; } .framer-hCxt7 .framer-x4wa3x { gap: 32px; } .framer-hCxt7 .framer-1uv7ukz { --framer-text-wrap-override: balance; } .framer-hCxt7 .framer-1omn75m { flex-direction: column; gap: 40px; justify-content: flex-start; padding: 0px 16px 0px 16px; } .framer-hCxt7 .framer-1k427h4 { flex: none; max-width: 350px; position: relative; top: unset; width: 100%; } .framer-hCxt7 .framer-wrskot, .framer-hCxt7 .framer-1i8ety0, .framer-hCxt7 .framer-1ss16i5 { padding: 24px; } .framer-hCxt7 .framer-1bvmzrb { padding: 80px 0px 80px 0px; } .framer-hCxt7 .framer-1tbsjbb { align-content: flex-start; align-items: flex-start; flex-direction: column; gap: 24px; justify-content: flex-start; } .framer-hCxt7 .framer-px28eq { white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; } .framer-hCxt7 .framer-teubg0 { width: 65px; } .framer-hCxt7 .framer-aot4i4 { top: -1px; width: 111px; }}`,
+      ]),
+      (ii = ae(ni, ri, `framer-hCxt7`)),
+      (ii.displayName = `Empreendimentos`),
+      (ii.defaultProps = { height: 5908.5, width: 1200 }),
+      oe(
+        ii,
+        [
+          {
+            explicitInter: !0,
+            fonts: [
+              {
+                cssFamilyName: `Manrope`,
+                source: `google`,
+                style: `normal`,
+                uiFamilyName: `Manrope`,
+                url: `https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4aE-_A87jxeN7B.woff2`,
+                weight: `700`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F`,
+                url: `https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2`,
+                weight: `400`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116`,
+                url: `https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2`,
+                weight: `400`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+1F00-1FFF`,
+                url: `https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2`,
+                weight: `400`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0370-03FF`,
+                url: `https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2`,
+                weight: `400`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF`,
+                url: `https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2`,
+                weight: `400`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD`,
+                url: `https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2`,
+                weight: `400`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB`,
+                url: `https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2`,
+                weight: `400`,
+              },
+              {
+                cssFamilyName: `Manrope`,
+                source: `fontshare`,
+                style: `normal`,
+                uiFamilyName: `Manrope`,
+                url: `https://framerusercontent.com/third-party-assets/fontshare/wf/BNWG6MUI4RTC6WEND2VPDH4MHMIVU3XZ/R5YXY5FMVG6PXU36GNEEA24MIPMEPGSM/CIM4KQCLZSMMLWPVH25IDDSTY4ENPHEY.woff2`,
+                weight: `500`,
+              },
+              {
+                cssFamilyName: `Manrope`,
+                source: `fontshare`,
+                style: `normal`,
+                uiFamilyName: `Manrope`,
+                url: `https://framerusercontent.com/third-party-assets/fontshare/wf/NGBUP45ES3F7RD5XGKPEDJ6QEPO4TMOK/EXDVWJ2EDDVVV65UENMX33EDDYBX6OF7/6P4FPMFQH7CCC7RZ4UU4NKSGJ2RLF7V5.woff2`,
+                weight: `700`,
+              },
+              {
+                cssFamilyName: `Manrope`,
+                source: `fontshare`,
+                style: `normal`,
+                uiFamilyName: `Manrope`,
+                url: `https://framerusercontent.com/third-party-assets/fontshare/wf/2TYFCBHUANEXS6QGR5EQDUNAFH6LSWM3/AYNOU3VEA4LRTDNKJQUFNVNUTYSGOUOP/UXO4O7K2G3HI3D2VKD7UXVJVJD26P4BQ.woff2`,
+                weight: `400`,
+              },
+              {
+                cssFamilyName: `Manrope`,
+                source: `fontshare`,
+                style: `normal`,
+                uiFamilyName: `Manrope`,
+                url: `https://framerusercontent.com/third-party-assets/fontshare/wf/6U2SGH566NSNERG6RGEV3DSNEK7DL2RF/JRDYRKMSAW2H35IWEQIPL67HAJQ35MG5/JNU3GNMUBPWW6V6JTED3S27XL5HN7NM5.woff2`,
+                weight: `600`,
+              },
+            ],
+          },
+          ...fr,
+          ...pr,
+          ...hr,
+          ..._r,
+          ...vr,
+          ...yr,
+          ...br,
+          ...xr,
+          ...Sr,
+          ...Cr,
+          ...Dr,
+          ...kr,
+          ...Ar,
+          ...jr,
+          ...P(St),
+          ...P(ut),
+          ...P(Ie),
+          ...P(lt),
+          ...P(Mt),
+          ...P(Ut),
+          ...P(Tt),
+          ...P(Fe),
+          ...P(It),
+          ...P(kt),
+          ...P(cr),
+        ],
+        { supportsExplicitInterCodegen: !0 },
+      ),
+      (ii.loader = {
+        load: (e, t) => {
+          let n = t.locale,
+            r = t.priority;
+          return Te(
+            [
+              () =>
+                ge.get(ei(re(t.pathVariables, `YpTYVyu2F`)), n, r).preload(),
+              () => de(yt, {}, t),
+              () => de(ht, {}, t),
+              () => de(_t, {}, t),
+              () => de(An, {}, t),
+              () => de(pt, {}, t),
+              () => de(Bt, {}, t),
+            ],
+            t,
+          );
+        },
+      }),
+      (ai = {
+        exports: {
+          queryParamNames: {
+            type: `variable`,
+            annotations: { framerContractVersion: `1` },
+          },
+          Props: {
+            type: `tsType`,
+            annotations: { framerContractVersion: `1` },
+          },
+          default: {
+            type: `reactComponent`,
+            name: `FramerYpTYVyu2F`,
+            slots: [],
+            annotations: {
+              framerImmutableVariables: `true`,
+              framerContractVersion: `1`,
+              framerComponentViewportWidth: `true`,
+              framerAcceptsLayoutTemplate: `true`,
+              framerCanvasComponentVariantDetails: `{"propertyName":"variant","data":{"default":{"layout":["fixed","auto"]},"hH0DQFdT_":{"layout":["fixed","auto"]},"LtsrEqi21":{"layout":["fixed","auto"]}}}`,
+              framerLayoutTemplateFlowEffect: `true`,
+              framerResponsiveScreen: `true`,
+              framerColorSyntax: `true`,
+              framerIntrinsicWidth: `1200`,
+              framerScrollSections: `{"To5bNRrVp":{"pattern":":To5bNRrVp","name":"sobre"},"CxicquXrG":{"pattern":":CxicquXrG","name":"galeria"},"Bd6G2lzQE":{"pattern":":Bd6G2lzQE","name":"masterplan"},"HwZ0M4miZ":{"pattern":":HwZ0M4miZ","name":"plantas"},"ahEz4WvSq":{"pattern":":ahEz4WvSq","name":"decorado"},"d8jnbzJaY":{"pattern":":d8jnbzJaY","name":"cronograma"}}`,
+              framerAutoSizeImages: `true`,
+              framerDisplayContentsDiv: `false`,
+              framerVectorSets: `["JIScivAkNLgXrcOUxHXD"]`,
+              framerIntrinsicHeight: `5908.5`,
+            },
+          },
+          __FramerMetadata__: { type: `variable` },
+        },
+      }));
+  }))();
+}
+oi();
+export { ai as __FramerMetadata__, ii as default, Pr as queryParamNames };

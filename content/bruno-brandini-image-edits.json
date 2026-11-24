@@ -1,0 +1,22 @@
+{
+  "mode": "Built-in image editing",
+  "prompt_set": {
+    "facade": "Outpaint supplied facade into 3:2 landscape; preserve full house, garden, materials and perspective; add natural surroundings with a safe margin.",
+    "living": "Outpaint supplied living room into 16:9; preserve furniture, original textures and lighting.",
+    "garden": "Outpaint supplied facade into 2:3 portrait; keep architecture and plants; extend only sky and foreground.",
+    "dining": "Outpaint supplied dining room into 2:3 portrait; preserve all original furniture; extend floor, ceiling and room edges.",
+    "facade-mobile": "Outpaint supplied horizontal facade into 2:3; retain entire facade across the middle, with natural sky and foreground.",
+    "panorama": "Outpaint supplied facade into 3:1; keep full original centered with extensive sky, garden and road around it.",
+    "dining-wide": "Outpaint supplied portrait dining photo into 4:3; preserve complete original at center and extend room at edges.",
+    "garden-wide": "Outpaint supplied portrait facade into 4:3; preserve complete original at center and extend natural surroundings.",
+    "case-previews": "Extend the architecture photograph into the green sidebars inside the screen; preserve UI, device, perspective and layout; no crop or zoom.",
+    "project-gallery": "Outpaint the supplied project photos 06, 10, 21, 23 and 24 to almost-square frames, preserving the full original at center and natural materials, perspective and light."
+  },
+  "constraints": [
+    "No cropping of original subjects requested.",
+    "Do not redesign architecture; preserve perspective, light and natural textures.",
+    "No blur, stretching, blank borders or extra logos."
+  ],
+  "notice": "AI-expanded regions are synthesized; device previews are illustrative mockups.",
+  "team": "The 19 human/studio photographs are original Archevo files, unchanged."
+}

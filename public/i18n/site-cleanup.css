@@ -1,0 +1,27 @@
+/* Oculta a interface promocional, inclusive quando recriada pelo runtime. */
+#__framer-badge-container,
+.__framer-badge,
+#__framer-editorbar-container,
+p:has(> a:is([href="https://www.framer.com"], [href="https://www.framer.com/"])),
+a:is([href="https://www.framer.com"], [href="https://www.framer.com/"], [href^="https://astralab.framer.website/"]) {
+  display: none !important;
+}
+
+/* Componentes promocionais do template e selos inseridos em tempo de execucao. */
+[id*="framer-badge" i],
+[class~="__framer-badge"],
+a[aria-label*="made in framer" i],
+a[title*="made in framer" i],
+a[title*="with framer" i],
+[data-framer-name="Made in Framer" i],
+iframe[title*="Framer badge" i],
+a:is([href^="https://framer.link/"], [href*="framer.com/marketplace/"], [href*="framer.com/remix/"]),
+[data-framer-name="Remove Me (Remix Button)"],
+.framer-1swg9it-container:has(> a[href^="https://framer.link/"]) {
+  display: none !important;
+}
+
+/* O crédito do estudo usa o nome da DuoThink, sem o monograma do autor anterior. */
+html[data-architecture="housemood"] [data-framer-name="creator"] [data-framer-name="Logo y"] {
+  display: none !important;
+}

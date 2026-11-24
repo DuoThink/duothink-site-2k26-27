@@ -1,0 +1,41 @@
+/* Keep the original contact design while allowing the progressive form to grow. */
+#main .contact-page.contact-page__content { height: auto; min-height: 100svh; width: 100%; }
+#main .contact-page__content-2 { max-width: 1200px; }
+#main .contact-page { --contact-selection-border: #a855f733; --contact-selection-background: #820ad114; --contact-selection-text: var(--color-accent, #a855f7); --contact-error: #ff4545; }
+#main .contact-page__form { max-width: 100%; }
+#main .contact-page__content-4 { gap: 40px; }
+.contact-form-heading { display: grid; gap: 10px; width: 100%; }
+.contact-form-heading h2 { margin: 0; font: 500 18px/1.4 'Inter', sans-serif; color: var(--color-heading, #e5e5e5); }
+.contact-form-heading p { margin: 0; font: 400 13px/1.6 'Inter', sans-serif; color: var(--color-muted, #737373); }
+.contact-next-steps { display: grid; gap: 26px; list-style: none; margin: 0; padding: 0; width: 100%; }
+.contact-next-steps li { display: flex; gap: 18px; align-items: flex-start; }
+.contact-next-steps__number { flex: none; display: grid; place-items: center; width: 48px; height: 48px; border: 1px solid var(--contact-selection-border); border-radius: 12px; background: var(--contact-selection-background); color: var(--contact-selection-text); font: 500 16px/1 'Inter', sans-serif; }
+.contact-next-steps li > div { display: grid; gap: 8px; min-width: 0; }
+.contact-next-steps h2 { margin: 0; font: 500 16px/1.4 'Inter', sans-serif; color: var(--color-heading, #e5e5e5); }
+.contact-next-steps p { margin: 0; font: 400 14px/1.6 'Inter', sans-serif; color: var(--color-muted, #737373); }
+/* The original wrapper already draws the focus border. Avoid a second outline on its control. */
+#main .contact-page__decoration .form-control:focus-visible,
+#main .contact-page__content-7 .form-control:focus-visible { outline: none; }
+#main .briefing-choice-field { min-width: 0; margin: 0; padding: 0; border: 0; display: block; }
+.briefing-choice-field legend { padding: 0; margin-bottom: 10px; }
+.briefing-choices { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.briefing-choice { position: relative; cursor: pointer; min-width: 0; }
+.briefing-choice:last-child:nth-child(odd) { grid-column: 1 / -1; }
+.briefing-choice input { position: absolute; width: 1px; height: 1px; opacity: 0; }
+.briefing-choice span { box-sizing: border-box; display: flex; align-items: center; justify-content: center; min-height: 48px; height: 100%; padding: 12px 10px; border: 1px solid #ffffff14; border-radius: 12px; corner-shape: round; background: var(--color-surface-raised, #141414); color: var(--color-heading, #e5e5e5); font: 500 16px/1.4 'Inter', sans-serif; text-align: center; transition: border-color .3s, color .3s, background-color .3s; }
+.briefing-choice input[name="service"] + span { font-size: 14px; font-weight: 500; }
+.briefing-choice input:checked + span,
+.briefing-choice input:focus-visible + span { border-color: var(--contact-selection-border); color: var(--contact-selection-text); background: var(--contact-selection-background); }
+.field-error { margin: 0; font: 400 13px/1.5 'Inter', sans-serif; color: var(--contact-error); }
+.briefing-choice-field .field-error { margin-top: 8px; }
+#main .contact-page__decoration:has(.form-control[aria-invalid='true'])::after { border: 1px solid var(--contact-error); }
+.briefing-choice input[aria-invalid='true'] + span { border-color: var(--contact-error); }
+.contact-page__form .form-status:empty { display: none; }
+.briefing-success { display: grid; gap: 18px; width: 100%; }
+.briefing-success h2 { font: 500 26px/1.2 'Switzer', sans-serif; letter-spacing: -.04em; color: var(--color-heading, #e5e5e5); }
+.briefing-success p { font: 14px/1.6 'Inter', sans-serif; color: var(--color-muted, #737373); }
+@media (max-width: 1199.98px) { #main .contact-page__content-2 { max-width: 100%; } }
+@media (max-width: 809.98px) {
+  #main .contact-page .contact-page__content-5 { width: 100%; }
+  #main .contact-page .form-control { --design-input-font-size: 16px; }
+}

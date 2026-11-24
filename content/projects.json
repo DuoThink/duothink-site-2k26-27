@@ -1,0 +1,273 @@
+[
+  {
+    "slug": "bruno-brandini",
+    "name": "Bruno Brandini",
+    "assetVersion": 27,
+    "category": "Arquitetura contemporânea",
+    "headline": "Arquitetura que aproxima espaços, natureza e pessoas.",
+    "description": "Arquitetura residencial e interiores que aproximam espaços, natureza e pessoas.",
+    "overview": [
+      "O site Bruno Brandini apresenta projetos de arquitetura e interiores em uma composição que valoriza os espaços, os materiais e a integração com a natureza.",
+      "Fachadas, ambientes e detalhes compõem um portfólio visual com navegação direta entre projetos, serviços e apresentação do estúdio. O verde escuro, o branco e os cinzas acompanham as fotografias e reforçam a identidade de Bruno Brandini."
+    ],
+    "identity": "Manrope e Playfair Display. Nome Bruno Brandini em texto, verde #2A342B, branco e cinzas, com fotografia de arquitetura e interiores como elemento central.",
+    "palette": [
+      [
+        "Verde da marca",
+        "#2A342B"
+      ],
+      [
+        "Cinza",
+        "#717680"
+      ],
+      [
+        "Cinza claro",
+        "#E5E6E8"
+      ],
+      [
+        "Branco",
+        "#FFFFFF"
+      ]
+    ]
+  },
+  {
+    "slug": "calibre",
+    "name": "Calibre",
+    "category": "Design de interiores",
+    "headline": "Interiores com propósito, apresentados com clareza.",
+    "description": "Um portfólio de interiores residenciais e comerciais que conecta atmosfera, função e intenção de projeto.",
+    "overview": [
+      "O Calibre usa uma abertura escura, fotografias de interiores e chamadas em amarelo para organizar o primeiro contato com o estúdio. O contraste permite que materiais, mobiliário e luz recebam atenção sem disputar espaço com a informação.",
+      "Serviços e projetos compõem um percurso direto até o contato. O estudo apresenta a reforma e o design de interiores a partir das necessidades do espaço e da forma como ele será vivido."
+    ],
+    "identity": "Inter Variable e Geist Mono. Composição sóbria, blocos geométricos e chamadas em amarelo que destacam os próximos passos da navegação.",
+    "palette": [
+      [
+        "Carvão",
+        "#0A0B12"
+      ],
+      [
+        "Grafite",
+        "#2B2B2B"
+      ],
+      [
+        "Amarelo",
+        "#FFBE0B"
+      ],
+      [
+        "Branco",
+        "#FFFFFF"
+      ]
+    ]
+  },
+  {
+    "slug": "cavora",
+    "name": "Cavora",
+    "category": "Interiores sob medida",
+    "headline": "Texturas que aproximam o projeto de quem vai habitá-lo.",
+    "description": "Uma vitrine de interiores que combina acolhimento, materiais naturais e atenção aos detalhes.",
+    "overview": [
+      "O Cavora apresenta interiores por meio de luz quente, texturas naturais e tipografia com personalidade. A combinação de uma base sem serifa com títulos serifados cria uma linguagem acolhedora, coerente com a proposta de ambientes feitos sob medida.",
+      "O visitante percorre projetos e serviços antes de iniciar uma consulta. A proposta comercial é mostrar como escolhas de materiais, proporções e mobiliário podem responder à rotina e à identidade de cada cliente."
+    ],
+    "identity": "DM Sans e Libre Caslon Text. Paleta terrosa, títulos serifados e fotografia de materiais que reforçam a sensação de proximidade e cuidado.",
+    "palette": [
+      [
+        "Marrom mineral",
+        "#3F392D"
+      ],
+      [
+        "Taupe",
+        "#60524A"
+      ],
+      [
+        "Carvão",
+        "#111418"
+      ],
+      [
+        "Branco suave",
+        "#F3F3F3"
+      ]
+    ]
+  },
+  {
+    "slug": "forma",
+    "name": "Forma",
+    "category": "Arquitetura e interiores",
+    "headline": "Simplicidade que valoriza a experiência do espaço.",
+    "description": "Um portfólio orientado por simplicidade, função e uma leitura cuidadosa da arquitetura de interiores.",
+    "overview": [
+      "O Forma trabalha com fotografia em escala ampla e uma assinatura tipográfica marcante. A interface reduz o ruído visual para destacar a relação entre estrutura, superfícies e uso cotidiano.",
+      "A apresentação conecta projetos selecionados, serviços e processo de trabalho. O estudo oferece um caminho claro para compreender o repertório do estúdio e começar uma conversa sobre necessidades, contexto e possibilidades do espaço."
+    ],
+    "identity": "Mona Sans. Tipografia ampla, contraste entre carvão e cinza claro e composições que deixam a materialidade dos interiores conduzir a leitura.",
+    "palette": [
+      [
+        "Carvão",
+        "#0F0F0F"
+      ],
+      [
+        "Grafite",
+        "#2A2A2A"
+      ],
+      [
+        "Cinza",
+        "#B5B5B5"
+      ],
+      [
+        "Cinza claro",
+        "#F2F2F2"
+      ]
+    ]
+  },
+  {
+    "slug": "grid",
+    "name": "Grid",
+    "category": "Arquitetura, planejamento e obra",
+    "headline": "Uma linguagem precisa para conectar ideia e construção.",
+    "description": "Arquitetura, planejamento e construção apresentados em uma estrutura visual direta e contemporânea.",
+    "overview": [
+      "O Grid parte da geometria arquitetônica para construir sua linguagem digital. Títulos de grande escala, fotografia de fachadas e pontos de ação em laranja reforçam a ligação entre projeto, planejamento e execução.",
+      "A estrutura organiza serviços e obras para que o visitante entenda o alcance da atuação do estúdio. A proposta é transformar o interesse inicial em um briefing sobre programa, escala e etapas da construção."
+    ],
+    "identity": "Golos Text. Títulos amplos, linhas de organização discretas e laranja nos pontos de ação, com contraste sobre imagens de arquitetura.",
+    "palette": [
+      [
+        "Preto estrutural",
+        "#0C0E12"
+      ],
+      [
+        "Laranja",
+        "#FF7816"
+      ],
+      [
+        "Laranja vivo",
+        "#FF4719"
+      ],
+      [
+        "Branco",
+        "#FFFFFF"
+      ]
+    ]
+  },
+  {
+    "slug": "housemood",
+    "name": "Housemood",
+    "category": "Interiores e experiência de morar",
+    "headline": "A identidade da casa começa na forma de viver.",
+    "description": "Uma apresentação de interiores que aproxima atmosfera, conforto e personalidade em cada ambiente.",
+    "overview": [
+      "O Housemood usa interiores claros, tons de areia e detalhes amarelos para comunicar uma visão acolhedora do morar. A assinatura visual acompanha a fotografia e transforma a abertura em uma apresentação da atmosfera do estúdio.",
+      "Projetos, processo e equipe organizam a continuidade da visita. O estudo convida o cliente a relacionar referências visuais com hábitos, necessidades e expectativas para a casa."
+    ],
+    "identity": "Inter. Composição clara, tipografia de grande escala e acentos em amarelo sobre uma base neutra que acompanha os materiais dos ambientes.",
+    "palette": [
+      [
+        "Preto",
+        "#000000"
+      ],
+      [
+        "Areia",
+        "#F1DFC2"
+      ],
+      [
+        "Cinza decorativo",
+        "#D6DBDC"
+      ],
+      [
+        "Amarelo",
+        "#FFD900"
+      ]
+    ]
+  },
+  {
+    "slug": "intera",
+    "name": "Intera",
+    "category": "Design de interiores",
+    "headline": "Conforto e materialidade em uma apresentação imersiva.",
+    "description": "Um portfólio de interiores que valoriza luz natural, textura e a continuidade entre dentro e fora.",
+    "overview": [
+      "O Intera abre com uma imagem ampla, luz natural e uma assinatura tipográfica limpa. O contraste entre superfícies quentes e áreas de respiro apresenta o trabalho do estúdio pela experiência do ambiente.",
+      "O percurso liga projetos, serviços e contato sem perder a leitura visual dos espaços. A proposta comercial é apresentar soluções de interiores a partir do estilo de vida do cliente, com atenção ao conforto e ao acabamento."
+    ],
+    "identity": "Clash Display. Tipografia limpa, tons minerais e chamadas em laranja, com fotografia em grande escala para destacar a relação entre luz e matéria.",
+    "palette": [
+      [
+        "Grafite",
+        "#1F1F1F"
+      ],
+      [
+        "Laranja",
+        "#DE6800"
+      ],
+      [
+        "Branco mineral",
+        "#F0EFE6"
+      ],
+      [
+        "Areia clara",
+        "#EBE9DF"
+      ]
+    ]
+  },
+  {
+    "slug": "korda",
+    "name": "Korda",
+    "category": "Arquitetura de interiores",
+    "headline": "Proporção, textura e uma estética que atravessa o tempo.",
+    "description": "Um portfólio de interiores que destaca a relação entre materiais, objetos e a vida que ocupa o espaço.",
+    "overview": [
+      "O Korda apresenta o estúdio com fotografia de interiores, uma assinatura de grande escala e uma paleta neutra. A linguagem valoriza textura e proporção para dar unidade a projetos de diferentes programas.",
+      "O portfólio aproxima referências residenciais e comerciais, oferecendo contexto para cada intervenção. O estudo ajuda o visitante a reconhecer afinidade com o repertório do escritório antes de conversar sobre seu próprio espaço."
+    ],
+    "identity": "Inter. Assinatura tipográfica ampla, paleta neutra e fotografia editorial que valoriza superfícies, mobiliário e contrastes de luz.",
+    "palette": [
+      [
+        "Preto",
+        "#000000"
+      ],
+      [
+        "Cinza quente",
+        "#605F5F"
+      ],
+      [
+        "Cinza",
+        "#999999"
+      ],
+      [
+        "Branco suave",
+        "#F4F4F4"
+      ]
+    ]
+  },
+  {
+    "slug": "totnt",
+    "name": "TOTNT",
+    "category": "Desenvolvimento imobiliário",
+    "headline": "Arquitetura e território como argumento de valor.",
+    "description": "Uma vitrine de empreendimentos que relaciona arquitetura, localização e experiência de morar ou investir.",
+    "overview": [
+      "A TOTNT apresenta seus empreendimentos com imagens de arquitetura, uma base em azul profundo e superfícies claras. A organização por localização conecta cada projeto ao contexto urbano e às possibilidades de uso.",
+      "A navegação conduz do interesse pela cidade ao conhecimento do empreendimento e ao contato comercial. Neste estudo, a apresentação valoriza a arquitetura e o território para apoiar uma conversa mais informada sobre cada projeto."
+    ],
+    "identity": "Manrope. Azul profundo, neutros quentes e fotografia de empreendimentos em grande escala, com hierarquia clara entre cidade, projeto e contato.",
+    "palette": [
+      [
+        "Azul profundo",
+        "#121F2F"
+      ],
+      [
+        "Branco quente",
+        "#F7F1ED"
+      ],
+      [
+        "Areia mineral",
+        "#D7CEC6"
+      ],
+      [
+        "Branco",
+        "#FFFFFF"
+      ]
+    ]
+  }
+]
